@@ -1,0 +1,37 @@
+{
+  "research_background": [
+    {
+      "context": "Tsinghua University · Master's research · 2021–2024",
+      "title": "Reinforcement learning for edge caching",
+      "description": "Studied collaborative video caching under temporal and spatial data drift, combining reinforcement learning, knowledge distillation, and training-data reweighting.",
+      "advisors": "Advisors: Wenwu Zhu and Zhi Wang"
+    },
+    {
+      "context": "UESTC · Undergraduate research · 2019–2021",
+      "title": "Network games and multi-agent scheduling",
+      "description": "Worked on game-theoretic models of cloud services and security, and on decentralized deep reinforcement learning for vehicle–road collaborative scheduling.",
+      "advisors": "Advisors: Tao Zhou and Yanru Zhang"
+    }
+  ],
+  "honors": [
+    {
+      "year": "2021",
+      "title": "The Most Outstanding Student Award",
+      "detail": "UESTC · One of 10 recipients among 4,942 graduating students."
+    },
+    {
+      "year": "2021",
+      "title": "Provincial Excellent Graduate",
+      "detail": "Education Department of Sichuan Province, China."
+    },
+    {
+      "year": "2019",
+      "title": "First Prize, Interdisciplinary Contest In Modeling",
+      "detail": "ICM · COMAP."
+    }
+  ],
+  "service": [
+    "Reviewer · ICML 2026",
+    "Reviewer · NeurIPS 2026"
+  ]
+}

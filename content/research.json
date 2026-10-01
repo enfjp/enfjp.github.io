@@ -7,7 +7,7 @@
     "authors": "",
     "year": 2026,
     "venue": "NeurIPS 2026",
-    "distinction": "Accepted",
+    "distinction": "Poster",
     "publication_status": "Accepted",
     "tags": [
       "Graph neural networks",
@@ -25,7 +25,7 @@
     "conference": "",
     "code": "",
     "bibtex": "",
-    "version_note": "Accepted at NeurIPS 2026. The linked 2025 preprint uses the earlier title “Robust GNN Watermarking via Implicit Perception of Topological Invariants.” The final conference manuscript and citation will be added separately."
+    "version_note": "NeurIPS 2026 · Poster. The linked 2025 preprint uses the earlier title “Robust GNN Watermarking via Implicit Perception of Topological Invariants.” A public version of the conference manuscript and its citation will be added separately."
   },
   {
     "slug": "noise-conditioning",

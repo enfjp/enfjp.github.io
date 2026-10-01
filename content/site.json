@@ -16,20 +16,33 @@
   "description": "Jipeng Li — research on learned representations, generative models, and reliable decisions; photographs of landscapes, wildlife, and life on the road.",
   "research_intro": "I study what learned representations tell us about model behavior, and whether they preserve the information needed for reliable decisions.",
   "bio": [
-    "I am a Ph.D. student at the University of California, Irvine, working with Yanning Shen. My research interests include learned representations, generative models, and reliable decision-making.",
-    "Before joining UCI, I completed my M.S. at the University of California, Davis.",
-    "Outside research, I photograph landscapes, wildlife, and the places I pass through. This website brings those two parts of my life together."
+    "I am a Ph.D. student in Electrical and Computer Engineering at the University of California, Irvine, advised by Yanning Shen. My research interests include graph learning, generative models, and reliable decision-making.",
+    "My recent work studies when graph diffusion models can infer noise levels without explicit conditioning, and how graph invariants can support ownership verification for graph neural networks.",
+    "Before joining UCI, I completed graduate studies at UC Davis and Tsinghua University, following my undergraduate education at the University of Electronic Science and Technology of China (UESTC).",
+    "Outside research, I photograph landscapes, wildlife, and the places I pass through."
   ],
   "education": [
     {
       "school": "University of California, Irvine",
-      "degree": "Ph.D. student",
-      "period": "2026 — present"
+      "degree": "Ph.D. student in Electrical and Computer Engineering",
+      "period": "2026 — present",
+      "note": "Advisor: Yanning Shen"
     },
     {
       "school": "University of California, Davis",
-      "degree": "M.S.",
-      "period": "2025"
+      "degree": "M.S. in Electrical and Computer Engineering",
+      "period": "2024 — 2025"
+    },
+    {
+      "school": "Tsinghua University",
+      "degree": "M.S. in Electronic and Information Engineering",
+      "period": "2021 — 2024",
+      "note": "Advisors: Wenwu Zhu and Zhi Wang"
+    },
+    {
+      "school": "University of Electronic Science and Technology of China",
+      "degree": "B.E. in Data Science and Big Data Technology",
+      "period": "2017 — 2021"
     }
   ],
   "linkedin": "https://www.linkedin.com/in/jipeng416/"
