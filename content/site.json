@@ -9,7 +9,7 @@
   "site_url": "https://enfjp.github.io",
   "preview": true,
   "updated": "2026-10-01",
-  "email": "",
+  "email": "ji.l@uci.edu",
   "scholar": "",
   "github": "https://github.com/enfjp",
   "cv": "",
@@ -21,7 +21,16 @@
     "Outside research, I photograph landscapes, wildlife, and the places I pass through. This website brings those two parts of my life together."
   ],
   "education": [
-    {"school": "University of California, Irvine", "degree": "Ph.D. student", "period": "2026 — present"},
-    {"school": "University of California, Davis", "degree": "M.S.", "period": "2025"}
-  ]
+    {
+      "school": "University of California, Irvine",
+      "degree": "Ph.D. student",
+      "period": "2026 — present"
+    },
+    {
+      "school": "University of California, Davis",
+      "degree": "M.S.",
+      "period": "2025"
+    }
+  ],
+  "linkedin": "https://www.linkedin.com/in/jipeng416/"
 }

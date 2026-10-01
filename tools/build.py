@@ -54,12 +54,12 @@ def label(text, classes=''):
 
 def external_links(include_cv=True):
     items = []
-    for key, text in [('email', 'Email'), ('scholar', 'Scholar'), ('github', 'GitHub'), ('cv', 'CV')]:
+    for key, text in [('email', 'Email'), ('scholar', 'Scholar'), ('github', 'GitHub'), ('linkedin', 'LinkedIn'), ('cv', 'CV')]:
         value = SITE.get(key)
         if not value or (key == 'cv' and not include_cv):
             continue
         url = 'mailto:' + value if key == 'email' else value
-        items.append(link(url, f'{text} {arrow()}', external=key in ('github', 'scholar')))
+        items.append(link(url, f'{esc(value) if key == "email" else text} {arrow()}', external=key in ('github', 'scholar', 'linkedin')))
     return ''.join(items)
 
 
@@ -88,14 +88,14 @@ def wrapper(path, title, description, content_fn, active='', dark=False, schema=
     canonical = SITE['site_url'].rstrip('/') + '/' + canonical_path
     structured = schema or {'@context': 'https://schema.org', '@type': 'WebPage', 'name': title, 'url': canonical, 'description': description}
     if path == 'index.html':
-        structured = {'@context': 'https://schema.org', '@type': 'ProfilePage', 'url': canonical, 'mainEntity': {'@type': 'Person', 'name': SITE['name'], 'description': SITE['description'], 'sameAs': [v for v in (SITE.get('github'), SITE.get('scholar')) if v]}}
+        structured = {'@context': 'https://schema.org', '@type': 'ProfilePage', 'url': canonical, 'mainEntity': {'@type': 'Person', 'name': SITE['name'], 'description': SITE['description'], 'sameAs': [v for v in (SITE.get('github'), SITE.get('scholar'), SITE.get('linkedin')) if v]}}
     if path == '404.html':
         canonical_tag = ''
         robots = 'noindex, nofollow'
     else:
         canonical_tag = f'<link rel="canonical" href="{esc(canonical)}">'
         robots = 'noindex, nofollow' if SITE['preview'] else 'index, follow'
-    ribbon = '<div class="wrap"><p class="preview-ribbon"><span class="preview-dot" aria-hidden="true"></span>DESIGN PREVIEW · PHOTOGRAPHS &amp; CONTACT DETAILS TO BE ADDED</p></div>' if SITE['preview'] else ''
+    ribbon = '<div class="wrap"><p class="preview-ribbon"><span class="preview-dot" aria-hidden="true"></span>DESIGN PREVIEW · PHOTOGRAPHY COLLECTIONS IN PROGRESS</p></div>' if SITE['preview'] else ''
     code = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="{robots}">
@@ -103,6 +103,7 @@ def wrapper(path, title, description, content_fn, active='', dark=False, schema=
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:site_name" content="Jipeng Li">
 <meta name="twitter:card" content="summary"><link rel="icon" type="image/svg+xml" href="{esc(rel('assets/favicon.svg'))}"><link rel="stylesheet" href="{esc(rel('assets/style.css'))}">
 <script type="application/ld+json">{json.dumps(structured, ensure_ascii=False).replace('<', '\\u003c')}</script>
+<link rel="stylesheet" href="{esc(rel('assets/research.css'))}">
 <script src="{esc(rel('assets/site.js'))}" defer></script></head>
 <body id="top" class="{'dark' if dark else 'light'}"><a class="skip-link" href="#main">Skip to content</a>{navigation(active)}{ribbon}
 <main id="main">{content}</main>{footer()}</body></html>'''
@@ -140,30 +141,67 @@ def cards():
     return '<div class="collection-grid">' + ''.join(result) + '</div>'
 
 
-def work_row(work, index=1):
-    project = 'research/' + work['slug'] + '/index.html'
-    paper_links = link(work['paper'], 'Paper ' + arrow(), external=True)
+def venue_text(work):
+    return work['venue'] + (' · ' + work['distinction'] if work.get('distinction') else '')
+
+
+def venue_badges(work):
+    badges = f'<span class="badge">{esc(work["venue"])}</span>'
+    if work.get('distinction'):
+        style = ' badge-highlight' if work['distinction'] == 'Spotlight' else ''
+        badges += f'<span class="badge{style}">{esc(work["distinction"])}</span>'
+    return '<div class="venue-badges">' + badges + '</div>'
+
+
+def paper_links(work, include_record=False, citation_target=None):
+    items = []
+    if work.get('paper'):
+        items.append(link(work['paper'], esc(work.get('paper_label', 'Paper')) + ' ' + arrow(), external=True))
+    if include_record:
+        for key, title in [('proceedings', 'Proceedings'), ('conference', 'Conference page')]:
+            if work.get(key):
+                items.append(link(work[key], title + ' ' + arrow(), external=True))
     if work.get('code'):
-        paper_links += link(work['code'], 'Code ' + arrow(), external=True)
-    return f'''<article class="work-row"><span class="work-number">{index:02}</span><div class="work-main"><h3>{link(project, esc(work['short_title']), css='')}</h3><p>{esc(work['summary'])}</p><div class="text-links">{paper_links}{link(project + '#citation','BibTeX ' + arrow('↘'))}</div></div><div class="work-meta"><span class="badge">{esc(work['venue'])}</span>{link(project,'Read project ' + arrow('→'))}</div></article>'''
+        items.append(link(work['code'], 'Code ' + arrow(), external=True))
+    if work.get('bibtex') and citation_target:
+        items.append(link(citation_target, 'BibTeX ' + arrow('↘')))
+    return ''.join(items)
+
+
+def work_row(work, index=1):
+    project_path = 'research/' + work['slug'] + '/index.html'
+    links = paper_links(work, citation_target=project_path + '#citation')
+    return f'''<article class="work-row"><span class="work-number">{index:02}</span><div class="work-main"><h3>{link(project_path, esc(work['short_title']), css='')}</h3><p>{esc(work['summary'])}</p><div class="text-links">{links}</div></div><div class="work-meta">{venue_badges(work)}{link(project_path,'Read project ' + arrow('→'))}</div></article>'''
 
 
 def home():
     return f'''<div class="wrap"><section class="hero" aria-labelledby="home-title"><div class="hero-top">{label('RESEARCHER / PHOTOGRAPHER')}{label('PERSONAL INDEX — 2026', 'edition')}</div><h1 id="home-title">Jipeng Li<span class="period">.</span></h1><div class="hero-lower"><p class="hero-subtitle">Thinking in models.<br><span class="serif">Looking beyond them.</span></p><div class="intro-block"><p>{esc(SITE['research_intro'])}</p><div class="text-links">{link('research/index.html','Explore research ' + arrow('→'))}{link('photography/index.html','View photographs ' + arrow('→'))}</div></div></div><div class="hero-bottom">{label(SITE['role'])}{label(SITE['location'])}<a href="#selected-research" aria-label="Scroll to selected research">↓</a></div></section>
-    <section class="section rule" id="selected-research"><div class="section-heading"><div>{label('01 / INQUIRY')}<h2>Selected research</h2></div>{link('research/index.html','Research index ' + arrow('→'))}</div>{''.join(work_row(w, i+1) for i,w in enumerate(RESEARCH[:3]))}<p class="section-note">A selection of published work. Full paper details, links, and citations are available on the research page.</p></section></div>
+    <section class="section rule" id="selected-research"><div class="section-heading"><div>{label('01 / INQUIRY')}<h2>Selected research</h2></div>{link('research/index.html','Research index ' + arrow('→'))}</div>{''.join(work_row(w, i+1) for i,w in enumerate(RESEARCH[:3]))}<p class="section-note">Selected accepted and published work. Paper versions and available citations are listed on the research page.</p></section></div>
     <section class="photo-teaser" id="photography"><div class="wrap"><div class="section-heading"><div>{label('02 / OBSERVATION')}<h2>A life outside<br>the frame.</h2></div>{link('photography/index.html','Enter gallery ' + arrow('→'))}</div>{cards()}<div class="photo-teaser-bottom"><p>Landscapes, wildlife, and places along the way.</p><p>{'Layout preview. All image spaces await original photographs.' if SITE['preview'] else 'Photographs by Jipeng Li.'}</p></div></div></section>
     <div class="wrap"><section class="section about-strip"><div>{label('03 / THE PERSON', 'muted')}<h2 style="margin-top:20px">Research is one<br>part of the story.</h2></div><div><p>I am a Ph.D. student at UC Irvine. Away from my desk, I spend time with a camera — looking at the world from a different distance.</p><div class="text-links">{link('about/index.html','A little about me ' + arrow('→'))}{external_links(False)}</div></div></section></div>'''
 
 
 def research():
     rows = ''.join(work_row(w,i+1) for i,w in enumerate(RESEARCH))
-    publications = ''.join(f'''<article class="publication-line">{label(w['year'], 'muted')}<div><h3>{esc(w['title'])}</h3><p>{esc(w['authors'])} · {esc(w['venue'])}</p><div class="text-links">{link(w['paper'],'Paper '+arrow(),external=True)}{link(w['proceedings'],'Proceedings '+arrow(),external=True)}{link('research/'+w['slug']+'/index.html#citation','BibTeX '+arrow('↘'))}</div></div></article>''' for w in RESEARCH)
-    return f'''<div class="wrap"><section class="page-hero">{label('01 / RESEARCH')}<h1>What information<br><span class="serif">is enough?</span></h1><p class="deck">{esc(SITE['research_intro'])}</p></section><section class="section rule" style="padding-top:42px"><div class="section-heading"><div>{label('PUBLISHED WORK')}<h2>Selected projects</h2></div><a class="text-link" href="#publications">Publications {arrow('↓')}</a></div>{rows}</section><section class="section rule"><div class="section-heading"><div>{label('CURRENT INTERESTS')}<h2>Questions I work on</h2></div></div><div class="focus-grid"><div>{label('01', 'muted')}<h3>Learned representations</h3><p>What information does a representation retain, and is that information useful for the decisions made from it?</p></div><div>{label('02', 'muted')}<h3>Generative models</h3><p>Which inputs and components do generative models need, and which assumptions can be tested rather than taken for granted?</p></div><div>{label('03', 'muted')}<h3>Model behavior</h3><p>What can controlled changes tell us about how a model reaches an answer, and when does an observed effect transfer?</p></div></div></section><section class="section rule" id="publications"><div class="section-heading"><div>{label('BIBLIOGRAPHIC RECORD')}<h2>Publications</h2></div></div>{publications}</section></div>'''
+    publications = ''
+    for w in RESEARCH:
+        author_line = esc(w['authors']) + ' · ' if w.get('authors') else ''
+        links = paper_links(w, include_record=True, citation_target='research/' + w['slug'] + '/index.html#citation')
+        publications += f'''<article class="publication-line">{label(w['year'], 'muted')}<div><h3>{link('research/' + w['slug'] + '/index.html', esc(w['title']), css='')}</h3><p>{author_line}{esc(venue_text(w))}</p><div class="text-links">{links}</div></div></article>'''
+    return f'''<div class="wrap"><section class="page-hero">{label('01 / RESEARCH')}<h1>What information<br><span class="serif">is enough?</span></h1><p class="deck">{esc(SITE['research_intro'])}</p></section><section class="section rule" style="padding-top:42px"><div class="section-heading"><div>{label('ACCEPTED & PUBLISHED WORK')}<h2>Selected projects</h2></div><a class="text-link" href="#publications">Publications {arrow('↓')}</a></div>{rows}</section><section class="section rule"><div class="section-heading"><div>{label('CURRENT INTERESTS')}<h2>Questions I work on</h2></div></div><div class="focus-grid"><div>{label('01', 'muted')}<h3>Learned representations</h3><p>What information does a representation retain, and is that information useful for the decisions made from it?</p></div><div>{label('02', 'muted')}<h3>Generative models</h3><p>Which inputs and components do generative models need, and which assumptions can be tested rather than taken for granted?</p></div><div>{label('03', 'muted')}<h3>Model behavior</h3><p>What can controlled changes tell us about how a model reaches an answer, and when does an observed effect transfer?</p></div></div></section><section class="section rule" id="publications"><div class="section-heading"><div>{label('BIBLIOGRAPHIC RECORD')}<h2>Publications</h2></div></div>{publications}</section></div>'''
 
 
 def project(work):
     sections = ''.join(f'<section class="article-section" id="{key}"><h2>{text}</h2><p>{esc(work[key])}</p></section>' for key,text in [('problem','The question'),('approach','The approach'),('finding','What we found')])
-    return f'''<div class="wrap"><div class="back-link">{link('research/index.html','← Research index',css='')}</div><header class="article-hero">{label(work['venue'] + ' / ' + ' · '.join(work['tags']))}<h1>{esc(work['title'])}</h1><p class="authors">{esc(work['authors'])}</p><div class="text-links">{link(work['paper'],'Read the paper '+arrow(),external=True)}{link(work['proceedings'],'Conference proceedings '+arrow(),external=True)}{link('#citation','BibTeX '+arrow('↓'))}</div></header><div class="article-layout rule"><aside class="article-aside" aria-label="On this page">{label('ON THIS PAGE')}{link('#problem','01 — The question',css='')}{link('#approach','02 — The approach',css='')}{link('#finding','03 — What we found',css='')}{link('#citation','04 — Citation',css='')}</aside><div class="article-content"><div class="research-question">{label('IN ONE QUESTION')}<p>{esc(work['question'])}</p></div>{sections}<section class="article-section" id="citation"><h2>Cite this work</h2><div class="bibtex-wrap"><div class="bibtex-top">{label('BIBTEX')}<button class="copy-button" type="button" data-copy-bibtex="bibtex">Copy citation</button></div><pre id="bibtex">{esc(work['bibtex'])}</pre><p class="copy-status" data-copy-status role="status" aria-live="polite"></p></div></section></div></div></div>'''
+    authors = f'<p class="authors">{esc(work["authors"])}</p>' if work.get('authors') else ''
+    note = f'<p class="version-note">{esc(work["version_note"])}</p>' if work.get('version_note') else ''
+    links = paper_links(work, include_record=True, citation_target='#citation')
+    citation = ''
+    citation_nav = ''
+    if work.get('bibtex'):
+        citation_nav = link('#citation', '04 — Citation', css='')
+        citation = f'''<section class="article-section" id="citation"><h2>Cite this work</h2><div class="bibtex-wrap"><div class="bibtex-top">{label('BIBTEX')}<button class="copy-button" type="button" data-copy-bibtex="bibtex">Copy citation</button></div><pre id="bibtex">{esc(work['bibtex'])}</pre><p class="copy-status" data-copy-status role="status" aria-live="polite"></p></div></section>'''
+    return f'''<div class="wrap"><div class="back-link">{link('research/index.html','← Research index',css='')}</div><header class="article-hero">{label(venue_text(work) + ' / ' + ' · '.join(work['tags']))}<h1>{esc(work['title'])}</h1>{authors}<div class="article-tags">{venue_badges(work)}</div><div class="text-links">{links}</div>{note}</header><div class="article-layout rule"><aside class="article-aside" aria-label="On this page">{label('ON THIS PAGE')}{link('#problem','01 — The question',css='')}{link('#approach','02 — The approach',css='')}{link('#finding','03 — What we found',css='')}{citation_nav}</aside><div class="article-content"><div class="research-question">{label('IN ONE QUESTION')}<p>{esc(work['question'])}</p></div>{sections}{citation}</div></div></div>'''
 
 
 def photo_grid(items):
@@ -214,7 +252,7 @@ def privacy():
 def validate():
     if urlsplit(SITE['site_url']).scheme != 'https' or not urlsplit(SITE['site_url']).netloc:
         raise ValueError('site_url must be a complete HTTPS URL.')
-    for field in ('github','scholar'):
+    for field in ('github','scholar','linkedin'):
         if SITE.get(field) and urlsplit(SITE[field]).scheme != 'https':
             raise ValueError(f'{field} must be an HTTPS URL.')
     if SITE.get('email') and not re.fullmatch(r'[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+',SITE['email']):
@@ -228,7 +266,7 @@ def validate():
             raise ValueError('Unsafe research slug.')
         if w['slug'] in seen: raise ValueError('Duplicate research slug.')
         seen.add(w['slug'])
-        for key in ('paper','proceedings','code'):
+        for key in ('paper','proceedings','conference','code'):
             if w.get(key) and urlsplit(w[key]).scheme != 'https':
                 raise ValueError(f'Invalid {key} URL.')
     seen.clear()
@@ -278,7 +316,13 @@ def main():
     wrapper('index.html', 'Jipeng Li — Research & Photography', SITE['description'], home)
     wrapper('research/index.html','Research — Jipeng Li',SITE['research_intro'],research,'research')
     for w in RESEARCH:
-        schema={'@context':'https://schema.org','@type':'ScholarlyArticle','headline':w['title'],'author':[{'@type':'Person','name':n.strip()} for n in w['authors'].split(',')],'datePublished':str(w['year']),'url':w['proceedings'],'isPartOf':{'@type':'CreativeWork','name':w['venue']}}
+        schema={'@context':'https://schema.org','@type':'ScholarlyArticle','headline':w['title'],'url':SITE['site_url'].rstrip('/')+'/research/'+w['slug']+'/','isPartOf':{'@type':'CreativeWork','name':w['venue']},'creativeWorkStatus':w.get('publication_status','Published')}
+        if w.get('authors'):
+            schema['author']=[{'@type':'Person','name':n.strip()} for n in w['authors'].split(',') if n.strip()]
+        if w.get('publication_status','Published') == 'Published':
+            schema['datePublished']=str(w['year'])
+        if w.get('distinction') == 'Spotlight':
+            schema['description']='NeurIPS 2025 Spotlight. '+w['summary']
         wrapper(f'research/{w["slug"]}/index.html', w['short_title']+' — Jipeng Li',w['summary'],lambda w=w:project(w),'research',schema=schema)
     wrapper('photography/index.html','Photography — Jipeng Li',PHOTO['intro'],photography,'photography',True)
     for i,c in enumerate(PHOTO['collections']):

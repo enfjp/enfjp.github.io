@@ -1,5 +1,33 @@
 [
   {
+    "slug": "invariant-watermarking",
+    "title": "Robust and Hard-to-Remove GNN Watermarking via Topological Invariant Perception",
+    "short_title": "Watermarking through graph invariants",
+    "subtitle": "InvGNN-WM: ownership verification through learned graph structure.",
+    "authors": "",
+    "year": 2026,
+    "venue": "NeurIPS 2026",
+    "distinction": "Accepted",
+    "publication_status": "Accepted",
+    "tags": [
+      "Graph neural networks",
+      "Model watermarking",
+      "Theory"
+    ],
+    "question": "Can a model watermark be tied to the graph structure a neural network learns, rather than an external backdoor trigger?",
+    "summary": "InvGNN-WM ties ownership verification to a graph neural network’s prediction of a topological invariant. We study task preservation, robustness to model edits, and the conditions under which exact watermark removal is computationally hard.",
+    "problem": "Many graph neural network watermarks rely on out-of-distribution backdoor triggers that can weaken after model edits. We ask whether the ownership signal can instead be coupled to learned graph structure while preserving the primary task.",
+    "approach": "InvGNN-WM jointly trains the task model and a lightweight scalar head that predicts normalized algebraic connectivity on owner-private carrier graphs. A threshold decoder converts the predictions into watermark bits; a calibrated acceptance threshold is used for black-box ownership verification.",
+    "finding": "The experiments examine node and graph classification under pruning, fine-tuning, and post-training quantization. Plain knowledge distillation weakens the watermark; adding the watermark loss is an owner-side recovery procedure that requires the private carriers and key. The theoretical guarantees depend on the stated assumptions: output drift below the carrier margin preserves decoded bits, and the NP-completeness result concerns exact removal within a specified separable, coordinate-wise monotone decoder class.",
+    "paper": "https://arxiv.org/abs/2510.25934",
+    "paper_label": "Earlier preprint",
+    "proceedings": "",
+    "conference": "",
+    "code": "",
+    "bibtex": "",
+    "version_note": "Accepted at NeurIPS 2026. The linked 2025 preprint uses the earlier title “Robust GNN Watermarking via Implicit Perception of Topological Invariants.” The final conference manuscript and citation will be added separately."
+  },
+  {
     "slug": "noise-conditioning",
     "title": "Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models",
     "short_title": "Is noise conditioning necessary?",
@@ -7,7 +35,11 @@
     "authors": "Jipeng Li, Yanning Shen",
     "year": 2025,
     "venue": "NeurIPS 2025",
-    "tags": ["Graph diffusion", "Generative models", "Theory"],
+    "tags": [
+      "Graph diffusion",
+      "Generative models",
+      "Theory"
+    ],
     "question": "Can a denoiser infer the noise level from a corrupted graph, rather than receiving a separate noise-level input?",
     "summary": "We study when corrupted graph structures contain enough information to make explicit noise-level conditioning unnecessary, combining a theoretical analysis with experiments on graph diffusion models.",
     "problem": "Graph diffusion models typically receive an explicit noise-level input. The paper asks when a corrupted graph already contains information about the noise level, and when a denoiser can use that information without a separate conditioning signal.",
@@ -16,6 +48,9 @@
     "paper": "https://arxiv.org/abs/2505.22935",
     "proceedings": "https://papers.neurips.cc/paper_files/paper/2025/hash/3b00db522fbd628390f41a010d0eaf1f-Abstract-Conference.html",
     "code": "",
-    "bibtex": "@inproceedings{li2025noise,\n  title = {Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models},\n  author = {Li, Jipeng and Shen, Yanning},\n  booktitle = {Advances in Neural Information Processing Systems},\n  volume = {38},\n  year = {2025},\n  url = {https://papers.neurips.cc/paper_files/paper/2025/hash/3b00db522fbd628390f41a010d0eaf1f-Abstract-Conference.html}\n}"
+    "bibtex": "@inproceedings{li2025noise,\n  title = {Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models},\n  author = {Li, Jipeng and Shen, Yanning},\n  booktitle = {Advances in Neural Information Processing Systems},\n  volume = {38},\n  year = {2025},\n  url = {https://papers.neurips.cc/paper_files/paper/2025/hash/3b00db522fbd628390f41a010d0eaf1f-Abstract-Conference.html}\n}",
+    "distinction": "Spotlight",
+    "publication_status": "Published",
+    "conference": "https://neurips.cc/virtual/2025/poster/117150"
   }
 ]
