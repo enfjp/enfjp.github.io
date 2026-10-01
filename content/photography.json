@@ -1,0 +1,9 @@
+{
+  "title": "Ways of seeing.",
+  "intro": "Landscapes, wildlife, and life along the road.",
+  "collections": [
+    {"slug": "wild", "number": "01", "name": "Wild", "subtitle": "Wildlife & quiet encounters", "description": "A collection for wildlife photographs and the stories behind them.", "cover": "", "photos": []},
+    {"slug": "land", "number": "02", "name": "Land", "subtitle": "Mountains, desert & coast", "description": "A collection for landscapes, changing light, and open space.", "cover": "", "photos": []},
+    {"slug": "on-the-road", "number": "03", "name": "On the road", "subtitle": "Places between destinations", "description": "A collection for photographs made along the way.", "cover": "", "photos": []}
+  ]
+}

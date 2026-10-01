@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "noise-conditioning",
+    "title": "Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models",
+    "short_title": "Is noise conditioning necessary?",
+    "subtitle": "Graph diffusion without an explicit noise-level input.",
+    "authors": "Jipeng Li, Yanning Shen",
+    "year": 2025,
+    "venue": "NeurIPS 2025",
+    "tags": ["Graph diffusion", "Generative models", "Theory"],
+    "question": "Can a denoiser infer the noise level from a corrupted graph, rather than receiving a separate noise-level input?",
+    "summary": "We study when corrupted graph structures contain enough information to make explicit noise-level conditioning unnecessary, combining a theoretical analysis with experiments on graph diffusion models.",
+    "problem": "Graph diffusion models typically receive an explicit noise-level input. The paper asks when a corrupted graph already contains information about the noise level, and when a denoiser can use that information without a separate conditioning signal.",
+    "approach": "The analysis starts with Bernoulli edge-flip corruption and extends to settings with coupled structure and attribute noise. Experiments compare conditioned and unconditioned models in GDSS and DiGress on synthetic and real-world graph datasets.",
+    "finding": "Under the evaluated settings, unconditioned graph diffusion models achieve comparable or better generation performance with fewer parameters and lower computation time. The claim is specific to the analyzed assumptions and experimental settings, not a claim that every diffusion model can discard noise conditioning.",
+    "paper": "https://arxiv.org/abs/2505.22935",
+    "proceedings": "https://papers.neurips.cc/paper_files/paper/2025/hash/3b00db522fbd628390f41a010d0eaf1f-Abstract-Conference.html",
+    "code": "",
+    "bibtex": "@inproceedings{li2025noise,\n  title = {Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models},\n  author = {Li, Jipeng and Shen, Yanning},\n  booktitle = {Advances in Neural Information Processing Systems},\n  volume = {38},\n  year = {2025},\n  url = {https://papers.neurips.cc/paper_files/paper/2025/hash/3b00db522fbd628390f41a010d0eaf1f-Abstract-Conference.html}\n}"
+  }
+]

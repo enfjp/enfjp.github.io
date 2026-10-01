@@ -1,0 +1,27 @@
+{
+  "name": "Jipeng Li",
+  "preferred_name": "冀鹏",
+  "role": "Ph.D. student · UC Irvine",
+  "affiliation": "University of California, Irvine",
+  "department": "Electrical Engineering and Computer Science",
+  "advisor": "Yanning Shen",
+  "location": "Irvine, California",
+  "site_url": "https://enfjp.github.io",
+  "preview": true,
+  "updated": "2026-10-01",
+  "email": "",
+  "scholar": "",
+  "github": "https://github.com/enfjp",
+  "cv": "",
+  "description": "Jipeng Li — research on learned representations, generative models, and reliable decisions; photographs of landscapes, wildlife, and life on the road.",
+  "research_intro": "I study what learned representations tell us about model behavior, and whether they preserve the information needed for reliable decisions.",
+  "bio": [
+    "I am a Ph.D. student at the University of California, Irvine, working with Yanning Shen. My research interests include learned representations, generative models, and reliable decision-making.",
+    "Before joining UCI, I completed my M.S. at the University of California, Davis.",
+    "Outside research, I photograph landscapes, wildlife, and the places I pass through. This website brings those two parts of my life together."
+  ],
+  "education": [
+    {"school": "University of California, Irvine", "degree": "Ph.D. student", "period": "2026 — present"},
+    {"school": "University of California, Davis", "degree": "M.S.", "period": "2025"}
+  ]
+}
