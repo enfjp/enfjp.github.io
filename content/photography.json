@@ -6,10 +6,8 @@
     "looking-up",
     "a-heart-in-the-water",
     "resting-together",
-    "through-the-window",
     "evening-cliffs",
     "a-quiet-gesture",
-    "the-last-light",
     "mineral-patterns",
     "a-pause-in-the-grass"
   ],
@@ -278,71 +276,10 @@
       "slug": "on-the-road",
       "number": "03",
       "name": "On the road",
-      "subtitle": "People, places & passing light",
-      "description": "People, places, and passing light.",
-      "cover": "assets/photos/selected/the-last-light-1400.webp",
-      "photos": [
-        {
-          "id": "through-the-window",
-          "title": "Through the window",
-          "alt": "Snow-covered mountains appear through tall windows and are reflected in a table inside.",
-          "src": "assets/photos/selected/through-the-window-1400.webp",
-          "full": "assets/photos/selected/through-the-window-2048.webp",
-          "width": 1400,
-          "height": 792,
-          "variants": [
-            {
-              "src": "assets/photos/selected/through-the-window-800.webp",
-              "width": 800,
-              "size_bytes": 71346
-            },
-            {
-              "src": "assets/photos/selected/through-the-window-1400.webp",
-              "width": 1400,
-              "size_bytes": 168302
-            },
-            {
-              "src": "assets/photos/selected/through-the-window-2048.webp",
-              "width": 2048,
-              "size_bytes": 316138
-            }
-          ],
-          "display": "landscape",
-          "location": "Grand Teton National Park",
-          "location_id": "grand-teton",
-          "published": true
-        },
-        {
-          "id": "the-last-light",
-          "title": "The last light",
-          "alt": "People and a flying bird are silhouetted between trees above a sunlit street.",
-          "src": "assets/photos/selected/the-last-light-1400.webp",
-          "full": "assets/photos/selected/the-last-light-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/selected/the-last-light-800.webp",
-              "width": 480,
-              "size_bytes": 94274
-            },
-            {
-              "src": "assets/photos/selected/the-last-light-1400.webp",
-              "width": 839,
-              "size_bytes": 286698
-            },
-            {
-              "src": "assets/photos/selected/the-last-light-2048.webp",
-              "width": 1228,
-              "size_bytes": 755572
-            }
-          ],
-          "display": "portrait",
-          "location": "Carmel-by-the-Sea",
-          "location_id": "carmel-by-the-sea",
-          "published": true
-        }
-      ]
+      "subtitle": "Places, roads & passing light",
+      "description": "Places, roads, architecture, and passing light.",
+      "cover": "assets/photos/batch-01/blue-hour-1400.webp",
+      "photos": []
     }
   ],
   "schema_version": 2,
@@ -366,6 +303,58 @@
     {
       "id": "carmel-by-the-sea",
       "name": "Carmel-by-the-Sea"
+    },
+    {
+      "id": "morro-bay",
+      "name": "Morro Bay"
+    },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree National Park"
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia National Park"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai"
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing"
+    },
+    {
+      "id": "anjihai-grand-canyon",
+      "name": "Anjihai Grand Canyon"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles"
+    },
+    {
+      "id": "chengbu",
+      "name": "Chengbu"
+    },
+    {
+      "id": "folsom-lake",
+      "name": "Folsom Lake"
+    },
+    {
+      "id": "dushanzi-grand-canyon",
+      "name": "Dushanzi Grand Canyon"
+    },
+    {
+      "id": "yichang",
+      "name": "Yichang"
+    },
+    {
+      "id": "chenzhou",
+      "name": "Chenzhou"
+    },
+    {
+      "id": "sayram-lake",
+      "name": "Sayram Lake"
     }
   ]
 }
