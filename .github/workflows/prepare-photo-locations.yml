@@ -1,0 +1,32 @@
+name: Prepare photography locations
+on:
+  push:
+    branches: [photography-locations]
+    paths: ['content/photography.json', 'tools/publish_gallery.py', 'tools/check_photo_locations.py', 'assets/gallery.css', 'assets/gallery.js', '.github/workflows/prepare-photo-locations.yml']
+permissions:
+  contents: write
+concurrency:
+  group: photography-locations
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: photography-locations
+      - name: Update gallery only and preserve other authored pages
+        run: |
+          python3 tools/publish_gallery.py
+          python3 tools/check_site.py
+          python3 tools/check_photo_locations.py
+          node --check assets/gallery.js
+      - name: Save verified gallery pages to the preparation branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Build gallery with confirmed photograph locations'
+          git push origin HEAD:photography-locations
