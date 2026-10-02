@@ -1,0 +1,62 @@
+name: Publish photo library
+on:
+  push:
+    branches: [main, gallery-owner-tools]
+    paths:
+      - 'content/photography.json'
+      - 'assets/photos/**'
+      - 'assets/gallery.*'
+      - 'admin/**'
+      - 'tools/publish_gallery.py'
+      - 'tools/test_gallery.py'
+      - 'tools/migrate_photo_catalog.py'
+      - '.github/workflows/manage-gallery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: photo-library-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/gallery-owner-tools'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Render and validate the photo library
+        run: |
+          python3 tools/migrate_photo_catalog.py
+          python3 tools/publish_gallery.py
+          python3 tools/test_gallery.py
+          node --check admin/admin.js
+          node --check admin/model.js
+      - name: Commit checked public pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs content/photography.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build owner-managed photo library'
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+      - name: Request the existing Pages build
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          url = 'https://api.github.com/repos/' + os.environ['GITHUB_REPOSITORY'] + '/pages/builds'
+          request = urllib.request.Request(url, data=b'{}', method='POST', headers={
+              'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'Content-Type': 'application/json',
+              'X-GitHub-Api-Version': '2022-11-28',
+          })
+          with urllib.request.urlopen(request, timeout=60) as response:
+              print('Pages build requested:', response.status)
+          PY
