@@ -5,6 +5,7 @@
   if (!photos.length || !dialog) return;
   const image = document.getElementById('sg-viewer-image');
   const title = document.getElementById('sg-viewer-title');
+  const location = document.getElementById('sg-viewer-location');
   const categoryName = document.getElementById('sg-viewer-category');
   const previous = document.getElementById('sg-previous');
   const next = document.getElementById('sg-next');
@@ -25,6 +26,10 @@
     image.alt = figure.querySelector('img').alt;
     image.src = source.href;
     title.textContent = figure.dataset.title;
+    if (location) {
+      location.textContent = figure.dataset.location || '';
+      location.hidden = !location.textContent;
+    }
     categoryName.textContent = figure.dataset.categoryName;
     previous.hidden = next.hidden = visible.length < 2;
     // Adjacent full-size files load only after the visitor opens a photograph.

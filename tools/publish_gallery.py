@@ -44,12 +44,16 @@ def image(photo: dict, page: str, eager: bool = False, wide: bool = False) -> st
 
 def figure(photo: dict, coll: dict, page: str, first: bool = False, selected: bool = True) -> str:
     shape = photo.get('display','landscape') if selected else ('portrait' if photo['height']>photo['width'] else 'landscape')
+    location = photo.get('location', '')
+    location_line = f'<span class="sg-location">{esc(location)}</span>' if location else ''
     return (f'<figure class="sg-work {esc(shape)}" data-sg-work data-category="{esc(coll["slug"])}" '
-            f'data-title="{esc(photo["title"])}" data-category-name="{esc(coll["name"])}">'
+            f'data-title="{esc(photo["title"])}" data-category-name="{esc(coll["name"])}" '
+            f'data-location="{esc(location)}">'
             f'<a class="sg-photo-link" href="{esc(relative(photo["full"],page))}" '
             f'aria-label="Open photograph: {esc(photo["title"])}">'
             f'{image(photo,page,first,shape=="wide")}</a><figcaption>'
-            f'<span class="sg-caption-title">{esc(photo["title"])}</span>'
+            f'<span class="sg-caption-main"><span class="sg-caption-title">{esc(photo["title"])}</span>'
+            f'{location_line}</span>'
             f'<span class="sg-category">{esc(coll["name"])}</span></figcaption></figure>')
 
 
@@ -60,7 +64,7 @@ def viewer() -> str:
 <div class="sg-stage"><button class="sg-step sg-prev" id="sg-previous" type="button" aria-label="Previous photograph">←</button>
 <img id="sg-viewer-image" alt=""><p class="sg-error" role="alert">The photograph could not be loaded. Close the viewer and try again.</p>
 <button class="sg-step sg-next" id="sg-next" type="button" aria-label="Next photograph">→</button></div>
-<div class="sg-viewer-caption"><p id="sg-viewer-title" aria-live="polite"></p><small>← → Browse · Esc Close</small></div></div></dialog>'''
+<div class="sg-viewer-caption"><div class="sg-viewer-details" aria-live="polite"><p id="sg-viewer-title"></p><p id="sg-viewer-location" hidden></p></div><small>← → Browse · Esc Close</small></div></div></dialog>'''
 
 
 def page_shell(template: str, page: str, site: dict, title: str, description: str, body: str) -> str:
@@ -153,6 +157,8 @@ def main() -> None:
     for p in photos:
         if not p.get('title') or not p.get('alt'):
             raise ValueError('Every photo requires a descriptive title and alt text.')
+        if 'location' in p and not isinstance(p['location'], str):
+            raise ValueError('Photo locations must be text.')
         paths.extend([p['src'],p['full']]+[v['src'] for v in p['variants']])
     for raw in set(paths):
         file=(ROOT/raw).resolve()
