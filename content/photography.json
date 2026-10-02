@@ -139,6 +139,66 @@
           "location": "Yellowstone National Park",
           "location_id": "yellowstone",
           "published": true
+        },
+        {
+          "id": "afloat",
+          "title": "Afloat",
+          "alt": "A sea otter floats on calm blue water with its paws raised near its chest.",
+          "src": "assets/photos/batch-01/afloat-1400.webp",
+          "full": "assets/photos/batch-01/afloat-2048.webp",
+          "width": 1400,
+          "height": 1222,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/afloat-800.webp",
+              "width": 800,
+              "size_bytes": 106070
+            },
+            {
+              "src": "assets/photos/batch-01/afloat-1400.webp",
+              "width": 1400,
+              "size_bytes": 329760
+            },
+            {
+              "src": "assets/photos/batch-01/afloat-2048.webp",
+              "width": 2048,
+              "size_bytes": 692054
+            }
+          ],
+          "display": "landscape",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "desert-watch",
+          "title": "Desert watch",
+          "alt": "A small desert mammal looks over a pale granite edge against a softly blurred background.",
+          "src": "assets/photos/batch-01/desert-watch-1400.webp",
+          "full": "assets/photos/batch-01/desert-watch-2048.webp",
+          "width": 1400,
+          "height": 945,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/desert-watch-800.webp",
+              "width": 800,
+              "size_bytes": 89950
+            },
+            {
+              "src": "assets/photos/batch-01/desert-watch-1400.webp",
+              "width": 1400,
+              "size_bytes": 204000
+            },
+            {
+              "src": "assets/photos/batch-01/desert-watch-2048.webp",
+              "width": 2048,
+              "size_bytes": 443222
+            }
+          ],
+          "display": "landscape",
+          "location": "Joshua Tree National Park",
+          "location_id": "joshua-tree",
+          "published": true
         }
       ]
     },
@@ -269,6 +329,36 @@
           "location": "Yellowstone National Park",
           "location_id": "yellowstone",
           "published": true
+        },
+        {
+          "id": "cholla-light",
+          "title": "Cholla light",
+          "alt": "Backlit cholla cactus pads glow against a dark desert background.",
+          "src": "assets/photos/batch-01/cholla-light-1400.webp",
+          "full": "assets/photos/batch-01/cholla-light-2048.webp",
+          "width": 1400,
+          "height": 934,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/cholla-light-800.webp",
+              "width": 800,
+              "size_bytes": 97338
+            },
+            {
+              "src": "assets/photos/batch-01/cholla-light-1400.webp",
+              "width": 1400,
+              "size_bytes": 236046
+            },
+            {
+              "src": "assets/photos/batch-01/cholla-light-2048.webp",
+              "width": 2048,
+              "size_bytes": 475170
+            }
+          ],
+          "display": "landscape",
+          "location": "Joshua Tree National Park",
+          "location_id": "joshua-tree",
+          "published": true
         }
       ]
     },
@@ -279,7 +369,68 @@
       "subtitle": "Places, roads & passing light",
       "description": "Places, roads, architecture, and passing light.",
       "cover": "assets/photos/batch-01/blue-hour-1400.webp",
-      "photos": []
+      "photos": [
+        {
+          "id": "desert-curve",
+          "title": "Desert curve",
+          "alt": "A dark road curves through pale desert terrain dotted with Joshua trees.",
+          "src": "assets/photos/batch-01/desert-curve-1400.webp",
+          "full": "assets/photos/batch-01/desert-curve-2048.webp",
+          "width": 1400,
+          "height": 883,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/desert-curve-800.webp",
+              "width": 800,
+              "size_bytes": 216528
+            },
+            {
+              "src": "assets/photos/batch-01/desert-curve-1400.webp",
+              "width": 1400,
+              "size_bytes": 635392
+            },
+            {
+              "src": "assets/photos/batch-01/desert-curve-2048.webp",
+              "width": 2048,
+              "size_bytes": 1300732
+            }
+          ],
+          "display": "landscape",
+          "location": "Joshua Tree National Park",
+          "location_id": "joshua-tree",
+          "published": true
+        },
+        {
+          "id": "after-the-turn",
+          "title": "After the turn",
+          "alt": "A narrow road winds through a sequoia forest beneath a fallen trunk.",
+          "src": "assets/photos/batch-01/after-the-turn-1400.webp",
+          "full": "assets/photos/batch-01/after-the-turn-2048.webp",
+          "width": 967,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/after-the-turn-800.webp",
+              "width": 552,
+              "size_bytes": 217618
+            },
+            {
+              "src": "assets/photos/batch-01/after-the-turn-1400.webp",
+              "width": 967,
+              "size_bytes": 637602
+            },
+            {
+              "src": "assets/photos/batch-01/after-the-turn-2048.webp",
+              "width": 1414,
+              "size_bytes": 1298886
+            }
+          ],
+          "display": "portrait",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true
+        }
+      ]
     }
   ],
   "schema_version": 2,
