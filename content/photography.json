@@ -270,7 +270,7 @@
           "display": "landscape",
           "location": "Yellowstone National Park",
           "location_id": "yellowstone",
-          "published": true
+          "published": false
         }
       ]
     },
