@@ -359,6 +359,36 @@
           "location": "Joshua Tree National Park",
           "location_id": "joshua-tree",
           "published": true
+        },
+        {
+          "id": "fire-marks",
+          "title": "Fire marks",
+          "alt": "A close view of a dark sequoia trunk reveals warm exposed wood and fire scars.",
+          "src": "assets/photos/batch-01/fire-marks-1400.webp",
+          "full": "assets/photos/batch-01/fire-marks-2048.webp",
+          "width": 931,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/fire-marks-800.webp",
+              "width": 532,
+              "size_bytes": 95538
+            },
+            {
+              "src": "assets/photos/batch-01/fire-marks-1400.webp",
+              "width": 931,
+              "size_bytes": 216744
+            },
+            {
+              "src": "assets/photos/batch-01/fire-marks-2048.webp",
+              "width": 1362,
+              "size_bytes": 392548
+            }
+          ],
+          "display": "portrait",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true
         }
       ]
     },
@@ -428,6 +458,126 @@
           "display": "portrait",
           "location": "Sequoia National Park",
           "location_id": "sequoia",
+          "published": true
+        },
+        {
+          "id": "vertical-city",
+          "title": "Vertical city",
+          "alt": "Shanghai skyscrapers overlap in a compressed architectural view.",
+          "src": "assets/photos/batch-01/vertical-city-1400.webp",
+          "full": "assets/photos/batch-01/vertical-city-2048.webp",
+          "width": 865,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/vertical-city-800.webp",
+              "width": 494,
+              "size_bytes": 85376
+            },
+            {
+              "src": "assets/photos/batch-01/vertical-city-1400.webp",
+              "width": 865,
+              "size_bytes": 254986
+            },
+            {
+              "src": "assets/photos/batch-01/vertical-city-2048.webp",
+              "width": 1265,
+              "size_bytes": 540486
+            }
+          ],
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true
+        },
+        {
+          "id": "blue-hour",
+          "title": "Blue hour",
+          "alt": "The Oriental Pearl Tower is framed by blue glass high-rises at dusk.",
+          "src": "assets/photos/batch-01/blue-hour-1400.webp",
+          "full": "assets/photos/batch-01/blue-hour-2048.webp",
+          "width": 1168,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/blue-hour-800.webp",
+              "width": 667,
+              "size_bytes": 160410
+            },
+            {
+              "src": "assets/photos/batch-01/blue-hour-1400.webp",
+              "width": 1168,
+              "size_bytes": 428502
+            },
+            {
+              "src": "assets/photos/batch-01/blue-hour-2048.webp",
+              "width": 1708,
+              "size_bytes": 924608
+            }
+          ],
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true
+        },
+        {
+          "id": "intervals",
+          "title": "Intervals",
+          "alt": "Repeating street lamps align against a striped modern facade.",
+          "src": "assets/photos/batch-01/intervals-1400.webp",
+          "full": "assets/photos/batch-01/intervals-2048.webp",
+          "width": 919,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/intervals-800.webp",
+              "width": 525,
+              "size_bytes": 39358
+            },
+            {
+              "src": "assets/photos/batch-01/intervals-1400.webp",
+              "width": 919,
+              "size_bytes": 82092
+            },
+            {
+              "src": "assets/photos/batch-01/intervals-2048.webp",
+              "width": 1345,
+              "size_bytes": 148940
+            }
+          ],
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true
+        },
+        {
+          "id": "spring-time",
+          "title": "Spring time",
+          "alt": "A clock is framed by pink magnolia blossoms and geometric architecture.",
+          "src": "assets/photos/batch-01/spring-time-1400.webp",
+          "full": "assets/photos/batch-01/spring-time-2048.webp",
+          "width": 1036,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/spring-time-800.webp",
+              "width": 592,
+              "size_bytes": 122674
+            },
+            {
+              "src": "assets/photos/batch-01/spring-time-1400.webp",
+              "width": 1036,
+              "size_bytes": 237542
+            },
+            {
+              "src": "assets/photos/batch-01/spring-time-2048.webp",
+              "width": 1515,
+              "size_bytes": 407234
+            }
+          ],
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
           "published": true
         }
       ]
