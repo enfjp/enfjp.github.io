@@ -1,0 +1,30 @@
+name: Prepare selected photography
+on:
+  push:
+    branches: [photography-selected-ten]
+    paths: ['assets/photos/selected/*.webp']
+permissions:
+  contents: write
+concurrency:
+  group: selected-photography
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: photography-selected-ten
+      - name: Build and check approved photographs
+        run: |
+          python3 tools/build.py
+          python3 tools/check_site.py
+      - name: Save generated pages to the preparation branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Build selected photography pages'
+          git push origin HEAD:photography-selected-ten
