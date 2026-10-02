@@ -389,6 +389,96 @@
           "location": "Sequoia National Park",
           "location_id": "sequoia",
           "published": true
+        },
+        {
+          "id": "canyon-light",
+          "title": "Canyon light",
+          "alt": "Low sunlight catches snow-capped mountains above deep green canyon walls.",
+          "src": "assets/photos/batch-01/canyon-light-1400.webp",
+          "full": "assets/photos/batch-01/canyon-light-2048.webp",
+          "width": 1108,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/canyon-light-800.webp",
+              "width": 633,
+              "size_bytes": 118180
+            },
+            {
+              "src": "assets/photos/batch-01/canyon-light-1400.webp",
+              "width": 1108,
+              "size_bytes": 323964
+            },
+            {
+              "src": "assets/photos/batch-01/canyon-light-2048.webp",
+              "width": 1621,
+              "size_bytes": 692976
+            }
+          ],
+          "display": "portrait",
+          "location": "Anjihai Grand Canyon",
+          "location_id": "anjihai-grand-canyon",
+          "published": true
+        },
+        {
+          "id": "afterglow",
+          "title": "Afterglow",
+          "alt": "Snow-capped peaks rise beneath a pink and blue evening sky.",
+          "src": "assets/photos/batch-01/afterglow-1400.webp",
+          "full": "assets/photos/batch-01/afterglow-2048.webp",
+          "width": 1400,
+          "height": 934,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/afterglow-800.webp",
+              "width": 800,
+              "size_bytes": 61138
+            },
+            {
+              "src": "assets/photos/batch-01/afterglow-1400.webp",
+              "width": 1400,
+              "size_bytes": 148418
+            },
+            {
+              "src": "assets/photos/batch-01/afterglow-2048.webp",
+              "width": 2048,
+              "size_bytes": 318968
+            }
+          ],
+          "display": "landscape",
+          "location": "Anjihai Grand Canyon",
+          "location_id": "anjihai-grand-canyon",
+          "published": true
+        },
+        {
+          "id": "last-ridge",
+          "title": "Last ridge",
+          "alt": "A long mountain ridge glows gold beneath a deep blue sky.",
+          "src": "assets/photos/batch-01/last-ridge-1400.webp",
+          "full": "assets/photos/batch-01/last-ridge-2048.webp",
+          "width": 1400,
+          "height": 885,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/last-ridge-800.webp",
+              "width": 800,
+              "size_bytes": 84068
+            },
+            {
+              "src": "assets/photos/batch-01/last-ridge-1400.webp",
+              "width": 1400,
+              "size_bytes": 209730
+            },
+            {
+              "src": "assets/photos/batch-01/last-ridge-2048.webp",
+              "width": 2048,
+              "size_bytes": 456416
+            }
+          ],
+          "display": "landscape",
+          "location": "Anjihai Grand Canyon",
+          "location_id": "anjihai-grand-canyon",
+          "published": true
         }
       ]
     },
@@ -578,6 +668,66 @@
           "display": "portrait",
           "location": "Shanghai",
           "location_id": "shanghai",
+          "published": true
+        },
+        {
+          "id": "threshold",
+          "title": "Threshold",
+          "alt": "An ivy-framed arched opening reveals illuminated bookshelves beyond.",
+          "src": "assets/photos/batch-01/threshold-1400.webp",
+          "full": "assets/photos/batch-01/threshold-2048.webp",
+          "width": 1062,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/threshold-800.webp",
+              "width": 607,
+              "size_bytes": 105452
+            },
+            {
+              "src": "assets/photos/batch-01/threshold-1400.webp",
+              "width": 1062,
+              "size_bytes": 250210
+            },
+            {
+              "src": "assets/photos/batch-01/threshold-2048.webp",
+              "width": 1554,
+              "size_bytes": 479974
+            }
+          ],
+          "display": "portrait",
+          "location": "Beijing",
+          "location_id": "beijing",
+          "published": true
+        },
+        {
+          "id": "after-hours",
+          "title": "After hours",
+          "alt": "A symmetrical arched brick-and-glass building glows warmly at night.",
+          "src": "assets/photos/batch-01/after-hours-1400.webp",
+          "full": "assets/photos/batch-01/after-hours-2048.webp",
+          "width": 927,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/after-hours-800.webp",
+              "width": 530,
+              "size_bytes": 93576
+            },
+            {
+              "src": "assets/photos/batch-01/after-hours-1400.webp",
+              "width": 927,
+              "size_bytes": 228794
+            },
+            {
+              "src": "assets/photos/batch-01/after-hours-2048.webp",
+              "width": 1356,
+              "size_bytes": 471006
+            }
+          ],
+          "display": "portrait",
+          "location": "Beijing",
+          "location_id": "beijing",
           "published": true
         }
       ]
