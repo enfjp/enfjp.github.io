@@ -1,0 +1,38 @@
+name: Import curated photo batch
+
+on:
+  push:
+    branches: [photo-batch-01]
+    paths:
+      - incoming/photo-batch-01-upload.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: photo-batch-01
+      - name: Expand web images
+        run: |
+          mkdir -p assets/photos
+          unzip -o incoming/photo-batch-01-upload.zip -d assets/photos
+          test "$(find assets/photos/batch-01 -type f -name '*.webp' | wc -l)" -eq 75
+      - name: Build gallery
+        run: |
+          python3 tools/build.py
+          python3 tools/check_site.py
+      - name: Commit generated gallery
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/photos/batch-01 docs content/photography.json
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "Build curated photo batch 01"
+            git push origin HEAD:photo-batch-01
+          fi
