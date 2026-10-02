@@ -9,7 +9,9 @@
     "evening-cliffs",
     "a-quiet-gesture",
     "mineral-patterns",
-    "a-pause-in-the-grass"
+    "a-pause-in-the-grass",
+    "afterglow",
+    "folded-earth"
   ],
   "collections": [
     {
@@ -599,6 +601,96 @@
           "location": "Yichang",
           "location_id": "yichang",
           "published": true
+        },
+        {
+          "id": "blue-distance",
+          "title": "Blue distance",
+          "alt": "Misty blue mountain layers descend toward a calm lake.",
+          "src": "assets/photos/batch-01/blue-distance-1400.webp",
+          "full": "assets/photos/batch-01/blue-distance-2048.webp",
+          "width": 1400,
+          "height": 1021,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/blue-distance-800.webp",
+              "width": 800,
+              "size_bytes": 13564
+            },
+            {
+              "src": "assets/photos/batch-01/blue-distance-1400.webp",
+              "width": 1400,
+              "size_bytes": 33088
+            },
+            {
+              "src": "assets/photos/batch-01/blue-distance-2048.webp",
+              "width": 2048,
+              "size_bytes": 93866
+            }
+          ],
+          "display": "landscape",
+          "location": "Chenzhou",
+          "location_id": "chenzhou",
+          "published": true
+        },
+        {
+          "id": "storm-edge",
+          "title": "Storm edge",
+          "alt": "Dark mountains and pale green slopes sit beneath low clouds beside a lake.",
+          "src": "assets/photos/batch-01/storm-edge-1400.webp",
+          "full": "assets/photos/batch-01/storm-edge-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/storm-edge-800.webp",
+              "width": 800,
+              "size_bytes": 46644
+            },
+            {
+              "src": "assets/photos/batch-01/storm-edge-1400.webp",
+              "width": 1400,
+              "size_bytes": 111314
+            },
+            {
+              "src": "assets/photos/batch-01/storm-edge-2048.webp",
+              "width": 2048,
+              "size_bytes": 208670
+            }
+          ],
+          "display": "wide",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
+          "published": true
+        },
+        {
+          "id": "weather-front",
+          "title": "Weather front",
+          "alt": "A heavy storm cloud hangs low over green fields and distant hills.",
+          "src": "assets/photos/batch-01/weather-front-1400.webp",
+          "full": "assets/photos/batch-01/weather-front-2048.webp",
+          "width": 1400,
+          "height": 718,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/weather-front-800.webp",
+              "width": 800,
+              "size_bytes": 30930
+            },
+            {
+              "src": "assets/photos/batch-01/weather-front-1400.webp",
+              "width": 1400,
+              "size_bytes": 80336
+            },
+            {
+              "src": "assets/photos/batch-01/weather-front-2048.webp",
+              "width": 2048,
+              "size_bytes": 247434
+            }
+          ],
+          "display": "wide",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
+          "published": true
         }
       ]
     },
@@ -878,6 +970,66 @@
           "display": "wide",
           "location": "Los Angeles",
           "location_id": "los-angeles",
+          "published": true
+        },
+        {
+          "id": "still-machinery",
+          "title": "Still machinery",
+          "alt": "Dam towers and a reservoir recede into mist in a monochrome scene.",
+          "src": "assets/photos/batch-01/still-machinery-1400.webp",
+          "full": "assets/photos/batch-01/still-machinery-2048.webp",
+          "width": 1400,
+          "height": 943,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/still-machinery-800.webp",
+              "width": 800,
+              "size_bytes": 48922
+            },
+            {
+              "src": "assets/photos/batch-01/still-machinery-1400.webp",
+              "width": 1400,
+              "size_bytes": 130366
+            },
+            {
+              "src": "assets/photos/batch-01/still-machinery-2048.webp",
+              "width": 2048,
+              "size_bytes": 272902
+            }
+          ],
+          "display": "landscape",
+          "location": "Yichang",
+          "location_id": "yichang",
+          "published": true
+        },
+        {
+          "id": "into-the-light",
+          "title": "Into the light",
+          "alt": "A dark vehicle follows a narrow road toward sunlit green mountains and mist.",
+          "src": "assets/photos/batch-01/into-the-light-1400.webp",
+          "full": "assets/photos/batch-01/into-the-light-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/into-the-light-800.webp",
+              "width": 800,
+              "size_bytes": 56172
+            },
+            {
+              "src": "assets/photos/batch-01/into-the-light-1400.webp",
+              "width": 1400,
+              "size_bytes": 143050
+            },
+            {
+              "src": "assets/photos/batch-01/into-the-light-2048.webp",
+              "width": 2048,
+              "size_bytes": 297264
+            }
+          ],
+          "display": "wide",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
           "published": true
         }
       ]
