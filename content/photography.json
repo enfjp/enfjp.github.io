@@ -479,6 +479,126 @@
           "location": "Anjihai Grand Canyon",
           "location_id": "anjihai-grand-canyon",
           "published": true
+        },
+        {
+          "id": "open-country",
+          "title": "Open country",
+          "alt": "Small grazing animals are scattered across bright green rounded hills beneath white clouds.",
+          "src": "assets/photos/batch-01/open-country-1400.webp",
+          "full": "assets/photos/batch-01/open-country-2048.webp",
+          "width": 1400,
+          "height": 882,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/open-country-800.webp",
+              "width": 800,
+              "size_bytes": 65304
+            },
+            {
+              "src": "assets/photos/batch-01/open-country-1400.webp",
+              "width": 1400,
+              "size_bytes": 170586
+            },
+            {
+              "src": "assets/photos/batch-01/open-country-2048.webp",
+              "width": 2048,
+              "size_bytes": 348440
+            }
+          ],
+          "display": "landscape",
+          "location": "Chengbu",
+          "location_id": "chengbu",
+          "published": true
+        },
+        {
+          "id": "dusk-line",
+          "title": "Dusk line",
+          "alt": "Two small dark structures sit on a flat horizon beneath a purple-pink sky.",
+          "src": "assets/photos/batch-01/dusk-line-1400.webp",
+          "full": "assets/photos/batch-01/dusk-line-2048.webp",
+          "width": 948,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/dusk-line-800.webp",
+              "width": 542,
+              "size_bytes": 6082
+            },
+            {
+              "src": "assets/photos/batch-01/dusk-line-1400.webp",
+              "width": 948,
+              "size_bytes": 14226
+            },
+            {
+              "src": "assets/photos/batch-01/dusk-line-2048.webp",
+              "width": 1387,
+              "size_bytes": 27174
+            }
+          ],
+          "display": "portrait",
+          "location": "Folsom Lake",
+          "location_id": "folsom-lake",
+          "published": true
+        },
+        {
+          "id": "folded-earth",
+          "title": "Folded earth",
+          "alt": "Black-and-white canyon ridges form repeating eroded folds.",
+          "src": "assets/photos/batch-01/folded-earth-1400.webp",
+          "full": "assets/photos/batch-01/folded-earth-2048.webp",
+          "width": 1400,
+          "height": 1012,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/folded-earth-800.webp",
+              "width": 800,
+              "size_bytes": 174956
+            },
+            {
+              "src": "assets/photos/batch-01/folded-earth-1400.webp",
+              "width": 1400,
+              "size_bytes": 520474
+            },
+            {
+              "src": "assets/photos/batch-01/folded-earth-2048.webp",
+              "width": 2048,
+              "size_bytes": 1099566
+            }
+          ],
+          "display": "landscape",
+          "location": "Dushanzi Grand Canyon",
+          "location_id": "dushanzi-grand-canyon",
+          "published": true
+        },
+        {
+          "id": "winter-water",
+          "title": "Winter water",
+          "alt": "Turquoise water curves past leafless trees and a pale shore.",
+          "src": "assets/photos/batch-01/winter-water-1400.webp",
+          "full": "assets/photos/batch-01/winter-water-2048.webp",
+          "width": 1400,
+          "height": 759,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/winter-water-800.webp",
+              "width": 800,
+              "size_bytes": 181404
+            },
+            {
+              "src": "assets/photos/batch-01/winter-water-1400.webp",
+              "width": 1400,
+              "size_bytes": 556386
+            },
+            {
+              "src": "assets/photos/batch-01/winter-water-2048.webp",
+              "width": 2048,
+              "size_bytes": 1225216
+            }
+          ],
+          "display": "wide",
+          "location": "Yichang",
+          "location_id": "yichang",
+          "published": true
         }
       ]
     },
@@ -728,6 +848,36 @@
           "display": "portrait",
           "location": "Beijing",
           "location_id": "beijing",
+          "published": true
+        },
+        {
+          "id": "haze",
+          "title": "Haze",
+          "alt": "Distant Los Angeles hills and palms recede through amber layers of haze.",
+          "src": "assets/photos/batch-01/haze-1400.webp",
+          "full": "assets/photos/batch-01/haze-2048.webp",
+          "width": 1400,
+          "height": 821,
+          "variants": [
+            {
+              "src": "assets/photos/batch-01/haze-800.webp",
+              "width": 800,
+              "size_bytes": 16892
+            },
+            {
+              "src": "assets/photos/batch-01/haze-1400.webp",
+              "width": 1400,
+              "size_bytes": 37708
+            },
+            {
+              "src": "assets/photos/batch-01/haze-2048.webp",
+              "width": 2048,
+              "size_bytes": 90138
+            }
+          ],
+          "display": "wide",
+          "location": "Los Angeles",
+          "location_id": "los-angeles",
           "published": true
         }
       ]
