@@ -1,9 +1,41 @@
 {
   "title": "Ways of seeing.",
   "intro": "Landscapes, wildlife, and life along the road.",
+  "selected": ["valley-in-the-clouds", "looking-up", "a-heart-in-the-water", "resting-together", "through-the-window", "evening-cliffs", "a-quiet-gesture", "the-last-light", "mineral-patterns", "a-pause-in-the-grass"],
   "collections": [
-    {"slug": "wild", "number": "01", "name": "Wild", "subtitle": "Wildlife & quiet encounters", "description": "A collection for wildlife photographs and the stories behind them.", "cover": "", "photos": []},
-    {"slug": "land", "number": "02", "name": "Land", "subtitle": "Mountains, desert & coast", "description": "A collection for landscapes, changing light, and open space.", "cover": "", "photos": []},
-    {"slug": "on-the-road", "number": "03", "name": "On the road", "subtitle": "Places between destinations", "description": "A collection for photographs made along the way.", "cover": "", "photos": []}
+    {
+      "slug": "wild", "number": "01", "name": "Wild",
+      "subtitle": "Wildlife & quiet encounters",
+      "description": "Wildlife and quiet encounters.",
+      "cover": "assets/photos/selected/looking-up-1400.webp",
+      "photos": [
+        {"id":"looking-up","title":"Looking up","alt":"A fox looks upward against a soft green background.","src":"assets/photos/selected/looking-up-1400.webp","full":"assets/photos/selected/looking-up-2048.webp","width":839,"height":1400,"variants":[{"src":"assets/photos/selected/looking-up-800.webp","width":480},{"src":"assets/photos/selected/looking-up-1400.webp","width":839},{"src":"assets/photos/selected/looking-up-2048.webp","width":1228}],"display":"portrait"},
+        {"id":"resting-together","title":"Resting together","alt":"Several resting marine mammals press together, with a face centered between overlapping bodies.","src":"assets/photos/selected/resting-together-1400.webp","full":"assets/photos/selected/resting-together-2048.webp","width":1400,"height":933,"variants":[{"src":"assets/photos/selected/resting-together-800.webp","width":800},{"src":"assets/photos/selected/resting-together-1400.webp","width":1400},{"src":"assets/photos/selected/resting-together-2048.webp","width":2048}],"display":"landscape"},
+        {"id":"a-quiet-gesture","title":"A quiet gesture","alt":"A blue bird lowers its head toward an extended wing while perched on a wooden edge.","src":"assets/photos/selected/a-quiet-gesture-1400.webp","full":"assets/photos/selected/a-quiet-gesture-2048.webp","width":839,"height":1400,"variants":[{"src":"assets/photos/selected/a-quiet-gesture-800.webp","width":480},{"src":"assets/photos/selected/a-quiet-gesture-1400.webp","width":839},{"src":"assets/photos/selected/a-quiet-gesture-2048.webp","width":1228}],"display":"portrait"},
+        {"id":"a-pause-in-the-grass","title":"A pause in the grass","alt":"A bear stands in grass with its body in profile and its head turned toward the camera.","src":"assets/photos/selected/a-pause-in-the-grass-1400.webp","full":"assets/photos/selected/a-pause-in-the-grass-2048.webp","width":1400,"height":875,"variants":[{"src":"assets/photos/selected/a-pause-in-the-grass-800.webp","width":800},{"src":"assets/photos/selected/a-pause-in-the-grass-1400.webp","width":1400},{"src":"assets/photos/selected/a-pause-in-the-grass-2048.webp","width":2048}],"display":"landscape"}
+      ]
+    },
+    {
+      "slug":"land","number":"02","name":"Land",
+      "subtitle":"Light, weather & natural forms",
+      "description":"Light, weather, water, and natural forms.",
+      "cover":"assets/photos/selected/valley-in-the-clouds-1400.webp",
+      "photos":[
+        {"id":"valley-in-the-clouds","title":"Valley in the clouds","alt":"Clouds drift between steep rock walls above a forested valley and a waterfall.","src":"assets/photos/selected/valley-in-the-clouds-1400.webp","full":"assets/photos/selected/valley-in-the-clouds-2048.webp","width":1400,"height":844,"variants":[{"src":"assets/photos/selected/valley-in-the-clouds-800.webp","width":800},{"src":"assets/photos/selected/valley-in-the-clouds-1400.webp","width":1400},{"src":"assets/photos/selected/valley-in-the-clouds-2048.webp","width":2048}],"display":"wide"},
+        {"id":"a-heart-in-the-water","title":"A heart in the water","alt":"A heart-shaped pool lies in an orange surface below a broad blue-green area.","src":"assets/photos/selected/a-heart-in-the-water-1400.webp","full":"assets/photos/selected/a-heart-in-the-water-2048.webp","width":839,"height":1400,"variants":[{"src":"assets/photos/selected/a-heart-in-the-water-800.webp","width":480},{"src":"assets/photos/selected/a-heart-in-the-water-1400.webp","width":839},{"src":"assets/photos/selected/a-heart-in-the-water-2048.webp","width":1228}],"display":"portrait"},
+        {"id":"evening-cliffs","title":"Evening cliffs","alt":"Pink and orange clouds cross the sky above steep cliffs and a dark meadow.","src":"assets/photos/selected/evening-cliffs-1400.webp","full":"assets/photos/selected/evening-cliffs-2048.webp","width":1400,"height":895,"variants":[{"src":"assets/photos/selected/evening-cliffs-800.webp","width":800},{"src":"assets/photos/selected/evening-cliffs-1400.webp","width":1400},{"src":"assets/photos/selected/evening-cliffs-2048.webp","width":2048}],"display":"wide"},
+        {"id":"mineral-patterns","title":"Mineral patterns","alt":"Orange, white, and blue-gray bands curve across a geothermal surface.","src":"assets/photos/selected/mineral-patterns-1400.webp","full":"assets/photos/selected/mineral-patterns-2048.webp","width":1400,"height":875,"variants":[{"src":"assets/photos/selected/mineral-patterns-800.webp","width":800},{"src":"assets/photos/selected/mineral-patterns-1400.webp","width":1400},{"src":"assets/photos/selected/mineral-patterns-2048.webp","width":2048}],"display":"landscape"}
+      ]
+    },
+    {
+      "slug":"on-the-road","number":"03","name":"On the road",
+      "subtitle":"People, places & passing light",
+      "description":"People, places, and passing light.",
+      "cover":"assets/photos/selected/the-last-light-1400.webp",
+      "photos":[
+        {"id":"through-the-window","title":"Through the window","alt":"Snow-covered mountains appear through tall windows and are reflected in a table inside.","src":"assets/photos/selected/through-the-window-1400.webp","full":"assets/photos/selected/through-the-window-2048.webp","width":1400,"height":792,"variants":[{"src":"assets/photos/selected/through-the-window-800.webp","width":800},{"src":"assets/photos/selected/through-the-window-1400.webp","width":1400},{"src":"assets/photos/selected/through-the-window-2048.webp","width":2048}],"display":"landscape"},
+        {"id":"the-last-light","title":"The last light","alt":"People and a flying bird are silhouetted between trees above a sunlit street.","src":"assets/photos/selected/the-last-light-1400.webp","full":"assets/photos/selected/the-last-light-2048.webp","width":839,"height":1400,"variants":[{"src":"assets/photos/selected/the-last-light-800.webp","width":480},{"src":"assets/photos/selected/the-last-light-1400.webp","width":839},{"src":"assets/photos/selected/the-last-light-2048.webp","width":1228}],"display":"portrait"}
+      ]
+    }
   ]
 }
