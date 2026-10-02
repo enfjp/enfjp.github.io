@@ -38,3 +38,7 @@
 .profile-contact .text-links{gap:22px}
 @media(max-width:1000px){.profile-layout{grid-template-columns:200px minmax(0,1fr);gap:40px}}
 @media(max-width:720px){.profile-layout{grid-template-columns:1fr;gap:32px;padding-bottom:52px}.profile-sidebar{position:static}.profile-identity{display:none}.profile-nav{flex-direction:row;flex-wrap:wrap;gap:12px 21px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;margin:0;font-size:12px}.profile-direct{display:none}.profile-intro p{font-size:15px;line-height:1.8}.profile-intro p:first-child{font-size:19px;line-height:1.65}.profile-section{margin-top:34px;padding-top:25px}.profile-section h2{font-size:28px}.profile-publication h3{font-size:19px}.profile-award{gap:12px;grid-template-columns:37px minmax(0,1fr)}.profile-entry h3,.profile-award h3{font-size:16px}}
+/* Advisor destinations and outdoor profile. */
+.profile-advisor-link{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.profile-advisor-link:hover{text-decoration-thickness:2px}
+.profile-outdoors p{font-size:15px;line-height:1.85;color:var(--muted)}

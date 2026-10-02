@@ -18,7 +18,7 @@
   "bio": [
     "I am a Ph.D. student in Electrical and Computer Engineering at the University of California, Irvine, advised by Yanning Shen. My research interests include graph learning, generative models, and reliable decision-making.",
     "My recent work studies when graph diffusion models can infer noise levels without explicit conditioning, and how graph invariants can support ownership verification for graph neural networks.",
-    "Before joining UCI, I completed graduate studies at UC Davis and Tsinghua University, following my undergraduate education at the University of Electronic Science and Technology of China (UESTC).",
+    "Before joining UCI, I completed an M.S. at UC Davis after transitioning from its Ph.D. program, working with Lifeng Lai. I previously earned my master’s degree at Tsinghua University and my bachelor’s degree at the University of Electronic Science and Technology of China (UESTC).",
     "Outside research, I photograph landscapes, wildlife, and the places I pass through."
   ],
   "education": [
@@ -31,7 +31,9 @@
     {
       "school": "University of California, Davis",
       "degree": "M.S. in Electrical and Computer Engineering",
-      "period": "2024 — 2025"
+      "period": "2024 — 2025",
+      "note": "Advisor: Lifeng Lai",
+      "program_note": "Entered the Ph.D. program in 2024; transitioned to the M.S. program and graduated in 2025."
     },
     {
       "school": "Tsinghua University",
@@ -42,7 +44,8 @@
     {
       "school": "University of Electronic Science and Technology of China",
       "degree": "B.E. in Data Science and Big Data Technology",
-      "period": "2017 — 2021"
+      "period": "2017 — 2021",
+      "note": "Undergraduate research advisors: Yanru Zhang and Tao Zhou"
     }
   ],
   "linkedin": "https://www.linkedin.com/in/jipeng416/"

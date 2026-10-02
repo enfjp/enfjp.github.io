@@ -1,6 +1,12 @@
 {
   "research_background": [
     {
+      "context": "UC Davis · Graduate research · 2025",
+      "title": "State-space models for reinforcement learning",
+      "description": "Explored state-space models for model-based reinforcement learning, focusing on sample efficiency and long-term dependencies.",
+      "advisors": "Advisor: Lifeng Lai"
+    },
+    {
       "context": "Tsinghua University · Master's research · 2021–2024",
       "title": "Reinforcement learning for edge caching",
       "description": "Studied collaborative video caching under temporal and spatial data drift, combining reinforcement learning, knowledge distillation, and training-data reweighting.",
@@ -10,7 +16,7 @@
       "context": "UESTC · Undergraduate research · 2019–2021",
       "title": "Network games and multi-agent scheduling",
       "description": "Worked on game-theoretic models of cloud services and security, and on decentralized deep reinforcement learning for vehicle–road collaborative scheduling.",
-      "advisors": "Advisors: Tao Zhou and Yanru Zhang"
+      "advisors": "Advisors: Yanru Zhang and Tao Zhou"
     }
   ],
   "honors": [
@@ -28,11 +34,6 @@
       "year": "2018",
       "title": "National Scholarship",
       "detail": "China · Undergraduate scholarship."
-    },
-    {
-      "year": "2018",
-      "title": "Tang Lixin Scholarship",
-      "detail": "UESTC."
     }
   ],
   "service": [
@@ -40,5 +41,16 @@
     "Reviewer · ICLR 2027",
     "Reviewer · NeurIPS 2026",
     "Reviewer · ICML 2026"
+  ],
+  "advisor_links": {
+    "Yanning Shen": "https://sites.google.com/uci.edu/yanning-shen",
+    "Lifeng Lai": "https://faculty.engineering.ucdavis.edu/lai/",
+    "Wenwu Zhu": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4336.htm",
+    "Zhi Wang": "https://www.sigs.tsinghua.edu.cn/wz_en/main.psp",
+    "Yanru Zhang": "https://faculty.uestc.edu.cn/yanruzhang/en/index.htm",
+    "Tao Zhou": "https://faculty.uestc.edu.cn/zhoutao1/zh_CN/index.htm"
+  },
+  "outdoors": [
+    "I am also a wildlife guide, a hiking and trekking guide, and a licensed hunter. My time outdoors includes wildlife watching, mountain hikes, and photography."
   ]
 }
