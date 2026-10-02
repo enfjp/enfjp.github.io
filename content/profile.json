@@ -15,23 +15,30 @@
   ],
   "honors": [
     {
-      "year": "2021",
-      "title": "The Most Outstanding Student Award",
-      "detail": "UESTC · One of 10 recipients among 4,942 graduating students."
+      "year": "2026",
+      "title": "Gold Reviewer Award",
+      "detail": "ICML 2026 · Recognized for the quality of submitted reviews."
     },
     {
-      "year": "2021",
-      "title": "Provincial Excellent Graduate",
-      "detail": "Education Department of Sichuan Province, China."
+      "year": "2020",
+      "title": "Outstanding Student Award (成电杰出学生)",
+      "detail": "UESTC · 2020 award cycle."
     },
     {
-      "year": "2019",
-      "title": "First Prize, Interdisciplinary Contest In Modeling",
-      "detail": "ICM · COMAP."
+      "year": "2018",
+      "title": "National Scholarship",
+      "detail": "China · Undergraduate scholarship."
+    },
+    {
+      "year": "2018",
+      "title": "Tang Lixin Scholarship",
+      "detail": "UESTC."
     }
   ],
   "service": [
-    "Reviewer · ICML 2026",
-    "Reviewer · NeurIPS 2026"
+    "Program Committee Member · AAAI 2027",
+    "Reviewer · ICLR 2027",
+    "Reviewer · NeurIPS 2026",
+    "Reviewer · ICML 2026"
   ]
 }
