@@ -71,3 +71,7 @@
 .sg-empty{color:var(--muted);padding:28px 0 70px;line-height:1.8}
 .sg-intro h1{overflow-wrap:anywhere}
 @media(max-width:760px){.sg-place-nav{gap:9px 16px;font-size:11px}.sg-pagination{padding-bottom:28px;font-size:12px}}
+
+.sg-pagination.sg-auto-pagination{justify-content:center;min-height:32px;padding:0 0 44px;color:var(--muted);font-size:12px}
+.sg-load-status{margin:0;min-height:1.6em;text-align:center;letter-spacing:.02em}
+@media(max-width:760px){.sg-pagination.sg-auto-pagination{padding-bottom:30px;font-size:11px}}
