@@ -325,7 +325,7 @@
             }
           ],
           "display": "portrait",
-          "location": "White Rocks (白蘑菇)",
+          "location": "White Ghost Hoodoo",
           "location_id": "white-rocks",
           "published": true
         },
@@ -1159,7 +1159,7 @@
             }
           ],
           "display": "portrait",
-          "location": "White Rocks (白蘑菇)",
+          "location": "White Ghost Hoodoo",
           "location_id": "white-rocks",
           "published": true
         },
@@ -3599,7 +3599,7 @@
     },
     {
       "id": "white-rocks",
-      "name": "White Rocks (白蘑菇)"
+      "name": "White Ghost Hoodoo"
     },
     {
       "id": "sayram-lake",
@@ -3674,5 +3674,5 @@
       "name": "Antelope Canyon"
     }
   ],
-  "catalog_sha256": "0de969d7ed44050c14b3939aad7c21e4467afdb101ec8ff1c5f0051ceb72722f"
+  "catalog_sha256": "7e1002d88a6f7c8135c187d7273b0081b72ecce6c580e962105e223ff37d97a9"
 }
