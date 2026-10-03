@@ -38,7 +38,47 @@
     "napa-valley-through-the-old-cab",
     "monterey-bay-marked-flukes",
     "monterey-bay-a-breath-at-sea",
-    "santa-cruz-under-the-cap"
+    "santa-cruz-under-the-cap",
+    "honolulu-on-the-lawn",
+    "lake-tahoe-pinecone-lunch",
+    "honolulu-rainforest-ridges",
+    "honolulu-diamond-head-above-honolulu",
+    "honolulu-diamond-head-and-the-city",
+    "reno-cloud-over-the-basin",
+    "sequoia-cloud-above-the-sierra",
+    "lake-tahoe-autumn-shoreline",
+    "lake-tahoe-tahoe-afterglow",
+    "yosemite-granite-above-the-valley",
+    "yosemite-at-the-edge",
+    "yosemite-half-dome-at-evening",
+    "yosemite-under-the-milky-way",
+    "yosemite-half-dome-after-dark",
+    "yosemite-cliff-at-twilight",
+    "yosemite-fire-over-granite",
+    "arches-national-park-through-the-arch",
+    "arches-national-park-two-arches",
+    "torjan-point-two-figures-above-the-clouds",
+    "lake-crowley-columns-in-shadow",
+    "lake-crowley-between-the-columns",
+    "lake-crowley-the-exposed-colonnade",
+    "antelope-canyon-looking-up-in-the-canyon",
+    "antelope-canyon-flowing-stone",
+    "antelope-canyon-purple-curves",
+    "antelope-canyon-dust-in-the-light",
+    "honolulu-road-to-the-pacific",
+    "honolulu-looking-over-honolulu",
+    "honolulu-last-light-over-the-pacific",
+    "reno-freight-across-the-desert",
+    "sequoia-among-the-giants",
+    "sequoia-steel-and-timber",
+    "sequoia-above-the-foothills",
+    "sequoia-richfield",
+    "stanford-apse-in-color",
+    "stanford-under-the-dome",
+    "stanford-the-central-dome",
+    "stanford-nave-and-organ",
+    "yosemite-road-to-half-dome",
+    "torjan-point-above-the-fog"
   ],
   "collections": [
     {
@@ -720,6 +760,68 @@
           "location": "Monterey Bay",
           "location_id": "monterey-bay",
           "published": true
+        },
+        {
+          "id": "honolulu-on-the-lawn",
+          "title": "On the lawn",
+          "alt": "A common myna walks across grass against a soft green background.",
+          "src": "assets/photos/honolulu/honolulu-on-the-lawn-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-on-the-lawn-2048.webp",
+          "width": 1400,
+          "height": 829,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-on-the-lawn-800.webp",
+              "width": 800,
+              "size_bytes": 46978
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-on-the-lawn-1400.webp",
+              "width": 1400,
+              "size_bytes": 119628
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-on-the-lawn-2048.webp",
+              "width": 2048,
+              "size_bytes": 306120
+            }
+          ],
+          "display": "landscape",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "d30cd4522b527e3a9c32be238fb5771243a32e3e53e8cbfa57883c80a16916f5"
+        },
+        {
+          "id": "lake-tahoe-pinecone-lunch",
+          "title": "Pinecone lunch",
+          "alt": "A squirrel sits on a pine branch while eating from a pine cone.",
+          "src": "assets/photos/lake-tahoe/lake-tahoe-pinecone-lunch-1400.webp",
+          "full": "assets/photos/lake-tahoe/lake-tahoe-pinecone-lunch-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-pinecone-lunch-800.webp",
+              "width": 480,
+              "size_bytes": 117034
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-pinecone-lunch-1400.webp",
+              "width": 840,
+              "size_bytes": 332282
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-pinecone-lunch-2048.webp",
+              "width": 1229,
+              "size_bytes": 727598
+            }
+          ],
+          "display": "portrait",
+          "location": "Lake Tahoe",
+          "location_id": "lake-tahoe",
+          "published": true,
+          "source_sha256": "2686de7dfb72508e2858d64e5fffe18d3c3cf90170c54d1af09a059b423c5d53"
         }
       ]
     },
@@ -1417,6 +1519,750 @@
           "location": "Santa Cruz",
           "location_id": "santa-cruz",
           "published": true
+        },
+        {
+          "id": "honolulu-rainforest-ridges",
+          "title": "Rainforest ridges",
+          "alt": "Dark green tropical ridges rise behind sunlit foreground trees.",
+          "src": "assets/photos/honolulu/honolulu-rainforest-ridges-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-rainforest-ridges-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-rainforest-ridges-800.webp",
+              "width": 480,
+              "size_bytes": 147166
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-rainforest-ridges-1400.webp",
+              "width": 839,
+              "size_bytes": 487598
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-rainforest-ridges-2048.webp",
+              "width": 1228,
+              "size_bytes": 1160436
+            }
+          ],
+          "display": "portrait",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "3ef5cbb23eb728f2957137339246bfd61f0d326ad3d7613ec2be9b12fb581ebf"
+        },
+        {
+          "id": "honolulu-diamond-head-above-honolulu",
+          "title": "Diamond Head above Honolulu",
+          "alt": "Diamond Head rises above Honolulu with the Pacific Ocean beyond.",
+          "src": "assets/photos/honolulu/honolulu-diamond-head-above-honolulu-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-diamond-head-above-honolulu-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-above-honolulu-800.webp",
+              "width": 480,
+              "size_bytes": 137422
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-above-honolulu-1400.webp",
+              "width": 839,
+              "size_bytes": 425426
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-above-honolulu-2048.webp",
+              "width": 1228,
+              "size_bytes": 986816
+            }
+          ],
+          "display": "portrait",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "0f9ebb17856d5d20a3b759859ced99570cdd5e266288054cdda00c7459e0c26c"
+        },
+        {
+          "id": "honolulu-diamond-head-and-the-city",
+          "title": "Diamond Head and the city",
+          "alt": "Diamond Head stretches across the horizon above dense Honolulu neighborhoods.",
+          "src": "assets/photos/honolulu/honolulu-diamond-head-and-the-city-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-diamond-head-and-the-city-2048.webp",
+          "width": 1400,
+          "height": 697,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-and-the-city-800.webp",
+              "width": 800,
+              "size_bytes": 93976
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-and-the-city-1400.webp",
+              "width": 1400,
+              "size_bytes": 308750
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-diamond-head-and-the-city-2048.webp",
+              "width": 2048,
+              "size_bytes": 743178
+            }
+          ],
+          "display": "wide",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "92d348aee6d25b5bd1c2f0c1fcd897834df857f3dc249e83dddbea9e07866f0f"
+        },
+        {
+          "id": "reno-cloud-over-the-basin",
+          "title": "Cloud over the basin",
+          "alt": "A long sculpted cloud hangs over a broad desert basin beneath a deep blue sky.",
+          "src": "assets/photos/reno/reno-cloud-over-the-basin-1400.webp",
+          "full": "assets/photos/reno/reno-cloud-over-the-basin-2048.webp",
+          "width": 1400,
+          "height": 787,
+          "variants": [
+            {
+              "src": "assets/photos/reno/reno-cloud-over-the-basin-800.webp",
+              "width": 800,
+              "size_bytes": 18952
+            },
+            {
+              "src": "assets/photos/reno/reno-cloud-over-the-basin-1400.webp",
+              "width": 1400,
+              "size_bytes": 52734
+            },
+            {
+              "src": "assets/photos/reno/reno-cloud-over-the-basin-2048.webp",
+              "width": 2048,
+              "size_bytes": 138614
+            }
+          ],
+          "display": "wide",
+          "location": "Reno",
+          "location_id": "reno",
+          "published": true,
+          "source_sha256": "aab62780e564c6da98719514060149df0d67e9f19c0eb23b3b3b6555e04f910d"
+        },
+        {
+          "id": "sequoia-cloud-above-the-sierra",
+          "title": "Cloud above the Sierra",
+          "alt": "A glowing orange cloud floats above a jagged Sierra ridge at dusk.",
+          "src": "assets/photos/sequoia/sequoia-cloud-above-the-sierra-1400.webp",
+          "full": "assets/photos/sequoia/sequoia-cloud-above-the-sierra-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/sequoia/sequoia-cloud-above-the-sierra-800.webp",
+              "width": 800,
+              "size_bytes": 31716
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-cloud-above-the-sierra-1400.webp",
+              "width": 1400,
+              "size_bytes": 129960
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-cloud-above-the-sierra-2048.webp",
+              "width": 2048,
+              "size_bytes": 386552
+            }
+          ],
+          "display": "wide",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true,
+          "source_sha256": "7bc7ba426480f091388c7444df98dd60b49323d4ffb61d7ecd40fe88aff99fdd"
+        },
+        {
+          "id": "lake-tahoe-autumn-shoreline",
+          "title": "Autumn shoreline",
+          "alt": "Turquoise Lake Tahoe water meets granite boulders and yellow autumn foliage below pine forest.",
+          "src": "assets/photos/lake-tahoe/lake-tahoe-autumn-shoreline-1400.webp",
+          "full": "assets/photos/lake-tahoe/lake-tahoe-autumn-shoreline-2048.webp",
+          "width": 1400,
+          "height": 749,
+          "variants": [
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-autumn-shoreline-800.webp",
+              "width": 800,
+              "size_bytes": 136572
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-autumn-shoreline-1400.webp",
+              "width": 1400,
+              "size_bytes": 431144
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-autumn-shoreline-2048.webp",
+              "width": 2048,
+              "size_bytes": 1046544
+            }
+          ],
+          "display": "wide",
+          "location": "Lake Tahoe",
+          "location_id": "lake-tahoe",
+          "published": true,
+          "source_sha256": "53bea0a2268a92dfb1908916844f3c7193523586e7d2afc04d1359af1c46d20b"
+        },
+        {
+          "id": "lake-tahoe-tahoe-afterglow",
+          "title": "Tahoe afterglow",
+          "alt": "A snow-dusted Sierra ridge stands beneath pink and blue evening clouds across Lake Tahoe.",
+          "src": "assets/photos/lake-tahoe/lake-tahoe-tahoe-afterglow-1400.webp",
+          "full": "assets/photos/lake-tahoe/lake-tahoe-tahoe-afterglow-2048.webp",
+          "width": 1400,
+          "height": 736,
+          "variants": [
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-tahoe-afterglow-800.webp",
+              "width": 800,
+              "size_bytes": 26262
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-tahoe-afterglow-1400.webp",
+              "width": 1400,
+              "size_bytes": 93948
+            },
+            {
+              "src": "assets/photos/lake-tahoe/lake-tahoe-tahoe-afterglow-2048.webp",
+              "width": 2048,
+              "size_bytes": 312890
+            }
+          ],
+          "display": "wide",
+          "location": "Lake Tahoe",
+          "location_id": "lake-tahoe",
+          "published": true,
+          "source_sha256": "5884e722fe9c73a1ffac09df26f6ab76fc4d73c48d42e2f1537739f630292c32"
+        },
+        {
+          "id": "yosemite-granite-above-the-valley",
+          "title": "Granite above the valley",
+          "alt": "A massive Yosemite granite wall rises above forest, meadow, and a winding river far below.",
+          "src": "assets/photos/yosemite/yosemite-granite-above-the-valley-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-granite-above-the-valley-2048.webp",
+          "width": 974,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-granite-above-the-valley-800.webp",
+              "width": 557,
+              "size_bytes": 127052
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-granite-above-the-valley-1400.webp",
+              "width": 974,
+              "size_bytes": 411720
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-granite-above-the-valley-2048.webp",
+              "width": 1425,
+              "size_bytes": 1003320
+            }
+          ],
+          "display": "portrait",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "a3756807cf35a9f4b53e7b0ece95e676b3b03f33cb17b85e33fa47f86f032fb5"
+        },
+        {
+          "id": "yosemite-at-the-edge",
+          "title": "At the edge",
+          "alt": "A tiny hiker climbs across a high granite outcrop above hazy layered mountain ridges.",
+          "src": "assets/photos/yosemite/yosemite-at-the-edge-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-at-the-edge-2048.webp",
+          "width": 957,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-at-the-edge-800.webp",
+              "width": 547,
+              "size_bytes": 46178
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-at-the-edge-1400.webp",
+              "width": 957,
+              "size_bytes": 151478
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-at-the-edge-2048.webp",
+              "width": 1400,
+              "size_bytes": 362536
+            }
+          ],
+          "display": "portrait",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "e5079052bf243cfaa5c732a5cb927ce8129e172d6b165ee16a7d260c6ec78ad0"
+        },
+        {
+          "id": "yosemite-half-dome-at-evening",
+          "title": "Half Dome at evening",
+          "alt": "Half Dome rises above surrounding Sierra ridges in restrained evening light.",
+          "src": "assets/photos/yosemite/yosemite-half-dome-at-evening-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-half-dome-at-evening-2048.webp",
+          "width": 1400,
+          "height": 864,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-at-evening-800.webp",
+              "width": 800,
+              "size_bytes": 78656
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-at-evening-1400.webp",
+              "width": 1400,
+              "size_bytes": 259780
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-at-evening-2048.webp",
+              "width": 2048,
+              "size_bytes": 629430
+            }
+          ],
+          "display": "landscape",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "d7bba21d6c81495e54ee126aa46c1ac460e0a45262231052d78df0320767f720"
+        },
+        {
+          "id": "yosemite-under-the-milky-way",
+          "title": "Under the Milky Way",
+          "alt": "The Milky Way crosses the night sky above a silhouetted person shining a blue flashlight beam.",
+          "src": "assets/photos/yosemite/yosemite-under-the-milky-way-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-under-the-milky-way-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-under-the-milky-way-800.webp",
+              "width": 800,
+              "size_bytes": 97878
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-under-the-milky-way-1400.webp",
+              "width": 1400,
+              "size_bytes": 388598
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-under-the-milky-way-2048.webp",
+              "width": 2048,
+              "size_bytes": 1026876
+            }
+          ],
+          "display": "landscape",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "900d803182f6754305dc4207ca1c9dfc1a0e1e8e044258dcd74007d15d1818ad"
+        },
+        {
+          "id": "yosemite-half-dome-after-dark",
+          "title": "Half Dome after dark",
+          "alt": "A dense star field and the Milky Way rise above the dark silhouette of Half Dome.",
+          "src": "assets/photos/yosemite/yosemite-half-dome-after-dark-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-half-dome-after-dark-2048.webp",
+          "width": 900,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-after-dark-800.webp",
+              "width": 514,
+              "size_bytes": 117678
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-after-dark-1400.webp",
+              "width": 900,
+              "size_bytes": 453562
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-half-dome-after-dark-2048.webp",
+              "width": 1317,
+              "size_bytes": 1146022
+            }
+          ],
+          "display": "portrait",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "67ea90b24abd4252846d0984dd3eac80739b804320890f4980094d455da83ef2"
+        },
+        {
+          "id": "yosemite-cliff-at-twilight",
+          "title": "Cliff at twilight",
+          "alt": "A towering granite cliff stands beneath pink-purple twilight clouds with a tiny person at its base.",
+          "src": "assets/photos/yosemite/yosemite-cliff-at-twilight-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-cliff-at-twilight-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-cliff-at-twilight-800.webp",
+              "width": 480,
+              "size_bytes": 61950
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-cliff-at-twilight-1400.webp",
+              "width": 839,
+              "size_bytes": 193152
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-cliff-at-twilight-2048.webp",
+              "width": 1228,
+              "size_bytes": 507250
+            }
+          ],
+          "display": "portrait",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "3a81585fef562d1c4943dffe69152d0f6ae8ef917fb0f76c60799fd293a6c177"
+        },
+        {
+          "id": "yosemite-fire-over-granite",
+          "title": "Fire over granite",
+          "alt": "Orange and pink sunset clouds sweep above a large illuminated granite wall.",
+          "src": "assets/photos/yosemite/yosemite-fire-over-granite-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-fire-over-granite-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-fire-over-granite-800.webp",
+              "width": 800,
+              "size_bytes": 49686
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-fire-over-granite-1400.webp",
+              "width": 1400,
+              "size_bytes": 150202
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-fire-over-granite-2048.webp",
+              "width": 2048,
+              "size_bytes": 335724
+            }
+          ],
+          "display": "landscape",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "4647f5689d5ae6b01132bdd739c9dc60a43a2e17c4a7a53252aabb47cbcb5370"
+        },
+        {
+          "id": "arches-national-park-through-the-arch",
+          "title": "Through the arch",
+          "alt": "A red sandstone arch frames snow-covered mountains with a small person standing below.",
+          "src": "assets/photos/arches-national-park/arches-national-park-through-the-arch-1400.webp",
+          "full": "assets/photos/arches-national-park/arches-national-park-through-the-arch-2048.webp",
+          "width": 836,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-through-the-arch-800.webp",
+              "width": 478,
+              "size_bytes": 96130
+            },
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-through-the-arch-1400.webp",
+              "width": 836,
+              "size_bytes": 282972
+            },
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-through-the-arch-2048.webp",
+              "width": 1223,
+              "size_bytes": 645202
+            }
+          ],
+          "display": "portrait",
+          "location": "Arches National Park",
+          "location_id": "arches-national-park",
+          "published": true,
+          "source_sha256": "1f63780b39d747652407af64f1f094b09408cf4ebbe0e5b9705f22637c955c4e"
+        },
+        {
+          "id": "arches-national-park-two-arches",
+          "title": "Two arches",
+          "alt": "Two large red sandstone arches rise beneath textured blue and white clouds.",
+          "src": "assets/photos/arches-national-park/arches-national-park-two-arches-1400.webp",
+          "full": "assets/photos/arches-national-park/arches-national-park-two-arches-2048.webp",
+          "width": 1400,
+          "height": 965,
+          "variants": [
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-two-arches-800.webp",
+              "width": 800,
+              "size_bytes": 140718
+            },
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-two-arches-1400.webp",
+              "width": 1400,
+              "size_bytes": 414136
+            },
+            {
+              "src": "assets/photos/arches-national-park/arches-national-park-two-arches-2048.webp",
+              "width": 2048,
+              "size_bytes": 941650
+            }
+          ],
+          "display": "landscape",
+          "location": "Arches National Park",
+          "location_id": "arches-national-park",
+          "published": true,
+          "source_sha256": "3dbd5dcdfd6d549fd0114206755b95d78cad8401db7578a27827f12375211aae"
+        },
+        {
+          "id": "torjan-point-two-figures-above-the-clouds",
+          "title": "Two figures above the clouds",
+          "alt": "Two small figures sit beside a lone tree on a dry hillside above an expansive cloud layer.",
+          "src": "assets/photos/torjan-point/torjan-point-two-figures-above-the-clouds-1400.webp",
+          "full": "assets/photos/torjan-point/torjan-point-two-figures-above-the-clouds-2048.webp",
+          "width": 1400,
+          "height": 920,
+          "variants": [
+            {
+              "src": "assets/photos/torjan-point/torjan-point-two-figures-above-the-clouds-800.webp",
+              "width": 800,
+              "size_bytes": 60970
+            },
+            {
+              "src": "assets/photos/torjan-point/torjan-point-two-figures-above-the-clouds-1400.webp",
+              "width": 1400,
+              "size_bytes": 188708
+            },
+            {
+              "src": "assets/photos/torjan-point/torjan-point-two-figures-above-the-clouds-2048.webp",
+              "width": 2048,
+              "size_bytes": 432372
+            }
+          ],
+          "display": "landscape",
+          "location": "Torjan Point",
+          "location_id": "torjan-point",
+          "published": true,
+          "source_sha256": "9fe868aa916096358605b77d260b8dcb5b1e833be7cecf97bbd39d4cd83d5d78"
+        },
+        {
+          "id": "lake-crowley-columns-in-shadow",
+          "title": "Columns in shadow",
+          "alt": "Repeated pale natural columns cast deep shadows across the exposed formations at Lake Crowley.",
+          "src": "assets/photos/lake-crowley/lake-crowley-columns-in-shadow-1400.webp",
+          "full": "assets/photos/lake-crowley/lake-crowley-columns-in-shadow-2048.webp",
+          "width": 1400,
+          "height": 831,
+          "variants": [
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-columns-in-shadow-800.webp",
+              "width": 800,
+              "size_bytes": 136886
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-columns-in-shadow-1400.webp",
+              "width": 1400,
+              "size_bytes": 451530
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-columns-in-shadow-2048.webp",
+              "width": 2047,
+              "size_bytes": 1137590
+            }
+          ],
+          "display": "landscape",
+          "location": "Lake Crowley",
+          "location_id": "lake-crowley",
+          "published": true,
+          "source_sha256": "3097104a638e0272c4479bb9192d0a2b34565f3f005c531a21298a2bc91718cd"
+        },
+        {
+          "id": "lake-crowley-between-the-columns",
+          "title": "Between the columns",
+          "alt": "Tall pale columns frame the exposed lakebed, distant mountains, and a small person.",
+          "src": "assets/photos/lake-crowley/lake-crowley-between-the-columns-1400.webp",
+          "full": "assets/photos/lake-crowley/lake-crowley-between-the-columns-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-between-the-columns-800.webp",
+              "width": 800,
+              "size_bytes": 116708
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-between-the-columns-1400.webp",
+              "width": 1400,
+              "size_bytes": 335242
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-between-the-columns-2048.webp",
+              "width": 2048,
+              "size_bytes": 700804
+            }
+          ],
+          "display": "landscape",
+          "location": "Lake Crowley",
+          "location_id": "lake-crowley",
+          "published": true,
+          "source_sha256": "2e8787aef7b5b3c052cbde1c85cd696e451540ef0c1f71c28340b94f2b8a582f"
+        },
+        {
+          "id": "lake-crowley-the-exposed-colonnade",
+          "title": "The exposed colonnade",
+          "alt": "A long wall of pale Crowley Lake columns stretches beneath a blue sky and distant mountain.",
+          "src": "assets/photos/lake-crowley/lake-crowley-the-exposed-colonnade-1400.webp",
+          "full": "assets/photos/lake-crowley/lake-crowley-the-exposed-colonnade-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-the-exposed-colonnade-800.webp",
+              "width": 800,
+              "size_bytes": 61372
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-the-exposed-colonnade-1400.webp",
+              "width": 1400,
+              "size_bytes": 180268
+            },
+            {
+              "src": "assets/photos/lake-crowley/lake-crowley-the-exposed-colonnade-2048.webp",
+              "width": 2047,
+              "size_bytes": 410422
+            }
+          ],
+          "display": "wide",
+          "location": "Lake Crowley",
+          "location_id": "lake-crowley",
+          "published": true,
+          "source_sha256": "011101f16bf39711d72b5f6bf40396504801c61b5be174f4cef35a0230f06596"
+        },
+        {
+          "id": "antelope-canyon-looking-up-in-the-canyon",
+          "title": "Looking up in the canyon",
+          "alt": "A person looks upward between tall flowing red sandstone walls inside Antelope Canyon.",
+          "src": "assets/photos/antelope-canyon/antelope-canyon-looking-up-in-the-canyon-1400.webp",
+          "full": "assets/photos/antelope-canyon/antelope-canyon-looking-up-in-the-canyon-2048.webp",
+          "width": 1400,
+          "height": 1112,
+          "variants": [
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-looking-up-in-the-canyon-800.webp",
+              "width": 800,
+              "size_bytes": 75200
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-looking-up-in-the-canyon-1400.webp",
+              "width": 1400,
+              "size_bytes": 238678
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-looking-up-in-the-canyon-2048.webp",
+              "width": 2048,
+              "size_bytes": 611762
+            }
+          ],
+          "display": "landscape",
+          "location": "Antelope Canyon",
+          "location_id": "antelope-canyon",
+          "published": true,
+          "source_sha256": "7739407d1b9b9b79362de7bd2f683944bb18f38af691809b202262a6c9fcd8ee"
+        },
+        {
+          "id": "antelope-canyon-flowing-stone",
+          "title": "Flowing stone",
+          "alt": "Warm orange sandstone curves around a bright opening in a narrow slot canyon.",
+          "src": "assets/photos/antelope-canyon/antelope-canyon-flowing-stone-1400.webp",
+          "full": "assets/photos/antelope-canyon/antelope-canyon-flowing-stone-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-flowing-stone-800.webp",
+              "width": 480,
+              "size_bytes": 85398
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-flowing-stone-1400.webp",
+              "width": 839,
+              "size_bytes": 254836
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-flowing-stone-2048.webp",
+              "width": 1228,
+              "size_bytes": 604882
+            }
+          ],
+          "display": "portrait",
+          "location": "Antelope Canyon",
+          "location_id": "antelope-canyon",
+          "published": true,
+          "source_sha256": "2cae3d311815fa75dbb072fa30df8c82ec0763f41b30636d686b39d464ea51a2"
+        },
+        {
+          "id": "antelope-canyon-purple-curves",
+          "title": "Purple curves",
+          "alt": "Purple-red sandstone walls sweep around a glowing orange opening in Antelope Canyon.",
+          "src": "assets/photos/antelope-canyon/antelope-canyon-purple-curves-1400.webp",
+          "full": "assets/photos/antelope-canyon/antelope-canyon-purple-curves-2048.webp",
+          "width": 1400,
+          "height": 955,
+          "variants": [
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-purple-curves-800.webp",
+              "width": 800,
+              "size_bytes": 80886
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-purple-curves-1400.webp",
+              "width": 1400,
+              "size_bytes": 245404
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-purple-curves-2048.webp",
+              "width": 2048,
+              "size_bytes": 638352
+            }
+          ],
+          "display": "landscape",
+          "location": "Antelope Canyon",
+          "location_id": "antelope-canyon",
+          "published": true,
+          "source_sha256": "53d04cc5db6e5ea506d2870fee597e29cac7c7db73bf02303fe1a6068a225566"
+        },
+        {
+          "id": "antelope-canyon-dust-in-the-light",
+          "title": "Dust in the light",
+          "alt": "Sunlit airborne sand glows between dark red canyon walls.",
+          "src": "assets/photos/antelope-canyon/antelope-canyon-dust-in-the-light-1400.webp",
+          "full": "assets/photos/antelope-canyon/antelope-canyon-dust-in-the-light-2048.webp",
+          "width": 1400,
+          "height": 1021,
+          "variants": [
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-dust-in-the-light-800.webp",
+              "width": 800,
+              "size_bytes": 48894
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-dust-in-the-light-1400.webp",
+              "width": 1400,
+              "size_bytes": 155826
+            },
+            {
+              "src": "assets/photos/antelope-canyon/antelope-canyon-dust-in-the-light-2048.webp",
+              "width": 2048,
+              "size_bytes": 510018
+            }
+          ],
+          "display": "landscape",
+          "location": "Antelope Canyon",
+          "location_id": "antelope-canyon",
+          "published": true,
+          "source_sha256": "b3b40ac1690cf8db899fd6b8c441cb339a9b23a9da15ef1097838021c81b70ab"
         }
       ]
     },
@@ -2267,6 +3113,440 @@
           "location": "Pulgas Water Temple",
           "location_id": "pulgas-water-temple",
           "published": true
+        },
+        {
+          "id": "honolulu-road-to-the-pacific",
+          "title": "Road to the Pacific",
+          "alt": "A long city street runs through Honolulu toward high-rises and the Pacific Ocean.",
+          "src": "assets/photos/honolulu/honolulu-road-to-the-pacific-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-road-to-the-pacific-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-road-to-the-pacific-800.webp",
+              "width": 480,
+              "size_bytes": 142066
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-road-to-the-pacific-1400.webp",
+              "width": 839,
+              "size_bytes": 432316
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-road-to-the-pacific-2048.webp",
+              "width": 1228,
+              "size_bytes": 915036
+            }
+          ],
+          "display": "portrait",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "bad7666b9818c4b18d994bf966d0f67056a8bd3cfa6390ad30d9c780d6bbba30"
+        },
+        {
+          "id": "honolulu-looking-over-honolulu",
+          "title": "Looking over Honolulu",
+          "alt": "Two people sit on a hillside overlooking Honolulu and Diamond Head in warm evening light.",
+          "src": "assets/photos/honolulu/honolulu-looking-over-honolulu-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-looking-over-honolulu-2048.webp",
+          "width": 1400,
+          "height": 912,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-looking-over-honolulu-800.webp",
+              "width": 800,
+              "size_bytes": 37832
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-looking-over-honolulu-1400.webp",
+              "width": 1400,
+              "size_bytes": 92066
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-looking-over-honolulu-2048.webp",
+              "width": 2048,
+              "size_bytes": 187892
+            }
+          ],
+          "display": "landscape",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "aa36f305eeee59221d8ea7064709ccd7addd3ee6db9548d89583cbe5bd13b5cf"
+        },
+        {
+          "id": "honolulu-last-light-over-the-pacific",
+          "title": "Last light over the Pacific",
+          "alt": "A small aircraft and a ship cross the Pacific beneath glowing sunset clouds.",
+          "src": "assets/photos/honolulu/honolulu-last-light-over-the-pacific-1400.webp",
+          "full": "assets/photos/honolulu/honolulu-last-light-over-the-pacific-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/honolulu/honolulu-last-light-over-the-pacific-800.webp",
+              "width": 480,
+              "size_bytes": 20256
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-last-light-over-the-pacific-1400.webp",
+              "width": 839,
+              "size_bytes": 79630
+            },
+            {
+              "src": "assets/photos/honolulu/honolulu-last-light-over-the-pacific-2048.webp",
+              "width": 1228,
+              "size_bytes": 229700
+            }
+          ],
+          "display": "portrait",
+          "location": "Honolulu",
+          "location_id": "honolulu",
+          "published": true,
+          "source_sha256": "f37113f871ca6f57b5d7588404f12943fc49a9183c63e244d1fd73de766c831d"
+        },
+        {
+          "id": "reno-freight-across-the-desert",
+          "title": "Freight across the desert",
+          "alt": "A yellow Union Pacific locomotive crosses a pale desert basin backed by mountains.",
+          "src": "assets/photos/reno/reno-freight-across-the-desert-1400.webp",
+          "full": "assets/photos/reno/reno-freight-across-the-desert-2048.webp",
+          "width": 1400,
+          "height": 788,
+          "variants": [
+            {
+              "src": "assets/photos/reno/reno-freight-across-the-desert-800.webp",
+              "width": 800,
+              "size_bytes": 86720
+            },
+            {
+              "src": "assets/photos/reno/reno-freight-across-the-desert-1400.webp",
+              "width": 1400,
+              "size_bytes": 237978
+            },
+            {
+              "src": "assets/photos/reno/reno-freight-across-the-desert-2048.webp",
+              "width": 2048,
+              "size_bytes": 511504
+            }
+          ],
+          "display": "wide",
+          "location": "Reno",
+          "location_id": "reno",
+          "published": true,
+          "source_sha256": "5506b272cb6da8694a661bf66810b30335f086b47a3d219d5e806a989f05ac83"
+        },
+        {
+          "id": "sequoia-among-the-giants",
+          "title": "Among the giants",
+          "alt": "A Volvo XC90 sits on a forest road beneath towering giant sequoias.",
+          "src": "assets/photos/sequoia/sequoia-among-the-giants-1400.webp",
+          "full": "assets/photos/sequoia/sequoia-among-the-giants-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/sequoia/sequoia-among-the-giants-800.webp",
+              "width": 533,
+              "size_bytes": 177944
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-among-the-giants-1400.webp",
+              "width": 933,
+              "size_bytes": 527034
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-among-the-giants-2048.webp",
+              "width": 1365,
+              "size_bytes": 1118896
+            }
+          ],
+          "display": "portrait",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true,
+          "source_sha256": "7589a2a03cda9d9905ac2595affb65e483529d1632a2a57da0d828511995a68a"
+        },
+        {
+          "id": "sequoia-steel-and-timber",
+          "title": "Steel and timber",
+          "alt": "A Cybertruck is parked beside a massive fallen sequoia in a forest clearing.",
+          "src": "assets/photos/sequoia/sequoia-steel-and-timber-1400.webp",
+          "full": "assets/photos/sequoia/sequoia-steel-and-timber-2048.webp",
+          "width": 1400,
+          "height": 1077,
+          "variants": [
+            {
+              "src": "assets/photos/sequoia/sequoia-steel-and-timber-800.webp",
+              "width": 800,
+              "size_bytes": 194998
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-steel-and-timber-1400.webp",
+              "width": 1400,
+              "size_bytes": 601640
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-steel-and-timber-2048.webp",
+              "width": 2047,
+              "size_bytes": 1376426
+            }
+          ],
+          "display": "landscape",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true,
+          "source_sha256": "a93ce46e9a35f98ee1e281c8acb8d4b211d75aa15254870c6615521dc9295d8b"
+        },
+        {
+          "id": "sequoia-above-the-foothills",
+          "title": "Above the foothills",
+          "alt": "A person sits on a rock ledge at blue hour above layered Sierra foothills and distant lights.",
+          "src": "assets/photos/sequoia/sequoia-above-the-foothills-1400.webp",
+          "full": "assets/photos/sequoia/sequoia-above-the-foothills-2048.webp",
+          "width": 1400,
+          "height": 939,
+          "variants": [
+            {
+              "src": "assets/photos/sequoia/sequoia-above-the-foothills-800.webp",
+              "width": 800,
+              "size_bytes": 36846
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-above-the-foothills-1400.webp",
+              "width": 1400,
+              "size_bytes": 157748
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-above-the-foothills-2048.webp",
+              "width": 2048,
+              "size_bytes": 447306
+            }
+          ],
+          "display": "landscape",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true,
+          "source_sha256": "3d4486807358fca1a435a55ed55596d05694e5138c08435e025692492619210d"
+        },
+        {
+          "id": "sequoia-richfield",
+          "title": "Richfield",
+          "alt": "A weathered vintage truck sits beside an abandoned Richfield service station.",
+          "src": "assets/photos/sequoia/sequoia-richfield-1400.webp",
+          "full": "assets/photos/sequoia/sequoia-richfield-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/sequoia/sequoia-richfield-800.webp",
+              "width": 800,
+              "size_bytes": 95644
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-richfield-1400.webp",
+              "width": 1400,
+              "size_bytes": 315698
+            },
+            {
+              "src": "assets/photos/sequoia/sequoia-richfield-2048.webp",
+              "width": 2048,
+              "size_bytes": 775730
+            }
+          ],
+          "display": "wide",
+          "location": "Sequoia National Park",
+          "location_id": "sequoia",
+          "published": true,
+          "source_sha256": "5252833a67c2eb142a1b2e921a578661ad2373c952f2ff20240718eee7718134"
+        },
+        {
+          "id": "stanford-apse-in-color",
+          "title": "Apse in color",
+          "alt": "Stained-glass windows and mosaics fill the apse of Stanford Memorial Church.",
+          "src": "assets/photos/stanford/stanford-apse-in-color-1400.webp",
+          "full": "assets/photos/stanford/stanford-apse-in-color-2048.webp",
+          "width": 1400,
+          "height": 949,
+          "variants": [
+            {
+              "src": "assets/photos/stanford/stanford-apse-in-color-800.webp",
+              "width": 800,
+              "size_bytes": 163198
+            },
+            {
+              "src": "assets/photos/stanford/stanford-apse-in-color-1400.webp",
+              "width": 1400,
+              "size_bytes": 522308
+            },
+            {
+              "src": "assets/photos/stanford/stanford-apse-in-color-2048.webp",
+              "width": 2048,
+              "size_bytes": 1204406
+            }
+          ],
+          "display": "landscape",
+          "location": "Stanford University",
+          "location_id": "stanford",
+          "published": true,
+          "source_sha256": "bcc48cc1ee041eade50e78652ceed42c90fc94555eb7802fefd73c8a4c9170bc"
+        },
+        {
+          "id": "stanford-under-the-dome",
+          "title": "Under the dome",
+          "alt": "Arches, mosaics, stained glass, and a circular dome fill the interior of Stanford Memorial Church.",
+          "src": "assets/photos/stanford/stanford-under-the-dome-1400.webp",
+          "full": "assets/photos/stanford/stanford-under-the-dome-2048.webp",
+          "width": 1400,
+          "height": 954,
+          "variants": [
+            {
+              "src": "assets/photos/stanford/stanford-under-the-dome-800.webp",
+              "width": 800,
+              "size_bytes": 140530
+            },
+            {
+              "src": "assets/photos/stanford/stanford-under-the-dome-1400.webp",
+              "width": 1400,
+              "size_bytes": 419016
+            },
+            {
+              "src": "assets/photos/stanford/stanford-under-the-dome-2048.webp",
+              "width": 2048,
+              "size_bytes": 957074
+            }
+          ],
+          "display": "landscape",
+          "location": "Stanford University",
+          "location_id": "stanford",
+          "published": true,
+          "source_sha256": "cf466925f4e895b55d55f5d6b0f982a52806b95cb75a4fc55ea9f6896f627a29"
+        },
+        {
+          "id": "stanford-the-central-dome",
+          "title": "The central dome",
+          "alt": "A circular skylight and four illuminated angel mosaics form a symmetrical ceiling pattern.",
+          "src": "assets/photos/stanford/stanford-the-central-dome-1400.webp",
+          "full": "assets/photos/stanford/stanford-the-central-dome-2048.webp",
+          "width": 1400,
+          "height": 958,
+          "variants": [
+            {
+              "src": "assets/photos/stanford/stanford-the-central-dome-800.webp",
+              "width": 800,
+              "size_bytes": 112192
+            },
+            {
+              "src": "assets/photos/stanford/stanford-the-central-dome-1400.webp",
+              "width": 1400,
+              "size_bytes": 354636
+            },
+            {
+              "src": "assets/photos/stanford/stanford-the-central-dome-2048.webp",
+              "width": 2048,
+              "size_bytes": 863814
+            }
+          ],
+          "display": "landscape",
+          "location": "Stanford University",
+          "location_id": "stanford",
+          "published": true,
+          "source_sha256": "5b0a58881979be76f135d2a9d4217525b5e872c1ead1d2b3692c8d217a053e16"
+        },
+        {
+          "id": "stanford-nave-and-organ",
+          "title": "Nave and organ",
+          "alt": "The nave of Stanford Memorial Church leads toward the organ beneath a warm wooden ceiling.",
+          "src": "assets/photos/stanford/stanford-nave-and-organ-1400.webp",
+          "full": "assets/photos/stanford/stanford-nave-and-organ-2048.webp",
+          "width": 1400,
+          "height": 968,
+          "variants": [
+            {
+              "src": "assets/photos/stanford/stanford-nave-and-organ-800.webp",
+              "width": 800,
+              "size_bytes": 135016
+            },
+            {
+              "src": "assets/photos/stanford/stanford-nave-and-organ-1400.webp",
+              "width": 1400,
+              "size_bytes": 416872
+            },
+            {
+              "src": "assets/photos/stanford/stanford-nave-and-organ-2048.webp",
+              "width": 2048,
+              "size_bytes": 978912
+            }
+          ],
+          "display": "landscape",
+          "location": "Stanford University",
+          "location_id": "stanford",
+          "published": true,
+          "source_sha256": "3b4c6960ef612266443d5b211153fb12ec8fa54f1f1435c1a0995feca1fc478a"
+        },
+        {
+          "id": "yosemite-road-to-half-dome",
+          "title": "Road to Half Dome",
+          "alt": "A Volvo XC90 sits on a curving mountain road with Half Dome filling the background.",
+          "src": "assets/photos/yosemite/yosemite-road-to-half-dome-1400.webp",
+          "full": "assets/photos/yosemite/yosemite-road-to-half-dome-2048.webp",
+          "width": 1400,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yosemite/yosemite-road-to-half-dome-800.webp",
+              "width": 800,
+              "size_bytes": 166372
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-road-to-half-dome-1400.webp",
+              "width": 1400,
+              "size_bytes": 431110
+            },
+            {
+              "src": "assets/photos/yosemite/yosemite-road-to-half-dome-2048.webp",
+              "width": 2048,
+              "size_bytes": 950062
+            }
+          ],
+          "display": "landscape",
+          "location": "Yosemite National Park",
+          "location_id": "yosemite",
+          "published": true,
+          "source_sha256": "dee515139b84610845734efc6f466a96720753844019d70fb9ec51c2e40088af"
+        },
+        {
+          "id": "torjan-point-above-the-fog",
+          "title": "Above the fog",
+          "alt": "A car and a small person stop beside a lone tree on a golden ridge above a sea of fog.",
+          "src": "assets/photos/torjan-point/torjan-point-above-the-fog-1400.webp",
+          "full": "assets/photos/torjan-point/torjan-point-above-the-fog-2048.webp",
+          "width": 1400,
+          "height": 795,
+          "variants": [
+            {
+              "src": "assets/photos/torjan-point/torjan-point-above-the-fog-800.webp",
+              "width": 800,
+              "size_bytes": 50692
+            },
+            {
+              "src": "assets/photos/torjan-point/torjan-point-above-the-fog-1400.webp",
+              "width": 1400,
+              "size_bytes": 162456
+            },
+            {
+              "src": "assets/photos/torjan-point/torjan-point-above-the-fog-2048.webp",
+              "width": 2048,
+              "size_bytes": 373362
+            }
+          ],
+          "display": "wide",
+          "location": "Torjan Point",
+          "location_id": "torjan-point",
+          "published": true,
+          "source_sha256": "fc6316444f819f73999b6e2dbcd723020b283b422def1b6fcf29e48830b7f0c6"
         }
       ]
     }
@@ -2356,6 +3636,42 @@
     {
       "id": "pulgas-water-temple",
       "name": "Pulgas Water Temple"
+    },
+    {
+      "id": "honolulu",
+      "name": "Honolulu"
+    },
+    {
+      "id": "reno",
+      "name": "Reno"
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia National Park"
+    },
+    {
+      "id": "lake-tahoe",
+      "name": "Lake Tahoe"
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University"
+    },
+    {
+      "id": "arches-national-park",
+      "name": "Arches National Park"
+    },
+    {
+      "id": "torjan-point",
+      "name": "Torjan Point"
+    },
+    {
+      "id": "lake-crowley",
+      "name": "Lake Crowley"
+    },
+    {
+      "id": "antelope-canyon",
+      "name": "Antelope Canyon"
     }
   ]
 }
