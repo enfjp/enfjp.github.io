@@ -325,7 +325,7 @@
             }
           ],
           "display": "portrait",
-          "location": "White Rocks (白蘑菇)",
+          "location": "White Ghost Hoodoo",
           "location_id": "white-rocks",
           "published": true
         },
@@ -1159,7 +1159,7 @@
             }
           ],
           "display": "portrait",
-          "location": "White Rocks (白蘑菇)",
+          "location": "White Ghost Hoodoo",
           "location_id": "white-rocks",
           "published": true
         },
@@ -3599,7 +3599,7 @@
     },
     {
       "id": "white-rocks",
-      "name": "White Rocks (白蘑菇)"
+      "name": "White Ghost Hoodoo"
     },
     {
       "id": "sayram-lake",
