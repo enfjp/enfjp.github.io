@@ -157,8 +157,14 @@ def browse_path(coll=None, place=None, index=0):
     return base + (f'page/{index + 1}/' if index else '') + 'index.html'
 
 
-def navigation(catalog, page, collection=None, place=None):
-    links = [('Selected', 'photography/index.html', collection is None)]
+def selected_path(index=0):
+    base = 'photography/selected/'
+    return base + (f'page/{index + 1}/' if index else '') + 'index.html'
+
+
+def navigation(catalog, page, collection=None, place=None, selected_view=False):
+    links = [('All', 'photography/index.html', collection is None and not selected_view),
+             ('Selected', selected_path(), selected_view)]
     links += [(c['name'], browse_path(c), bool(collection and c['slug'] == collection['slug'])) for c in catalog['collections']]
     tabs = '<nav class="sg-filters" aria-label="Photo categories">' + ''.join(
         f'<a class="sg-filter" href="{esc(relative(path, page))}"' + (' aria-current="page"' if active else '') + f'>{esc(name)}</a>' for name, path, active in links) + '</nav>'
@@ -171,27 +177,32 @@ def navigation(catalog, page, collection=None, place=None):
     return '<div class="sg-toolbar">' + tabs + '</div>'
 
 
-def gallery_body(catalog, page, entries, collection=None, place=None, index=0, total=1):
-    title = place['name'] if place else (collection['name'] if collection else catalog['title'])
-    intro = (collection['name'] + ' · ' + place['name']) if place else (collection['subtitle'] if collection else catalog['intro'])
+def gallery_body(catalog, page, entries, collection=None, place=None, index=0, total=1, selected_view=False):
+    if selected_view:
+        title = 'Selected photographs'
+        intro = 'A curated selection from the full photo library.'
+    else:
+        title = place['name'] if place else (collection['name'] if collection else catalog['title'])
+        intro = (collection['name'] + ' · ' + place['name']) if place else (collection['subtitle'] if collection else catalog['intro'])
     back = ''
     if place:
         back = f'<a class="sg-back" href="{esc(relative(browse_path(collection), page))}">← {esc(collection["name"])}</a>'
     elif collection:
-        back = f'<a class="sg-back" href="{esc(relative("photography/index.html", page))}">← Selected photographs</a>'
+        back = f'<a class="sg-back" href="{esc(relative("photography/index.html", page))}">← All photographs</a>'
     works = ''.join(figure(p, c, page, i == 0, collection is None) for i, (p, c) in enumerate(entries))
     if not entries:
         works = '<p class="sg-empty">No photographs are published in this collection yet.</p>'
     pager = ''
     if total > 1:
         controls = []
-        if index: controls.append(f'<a rel="prev" href="{esc(relative(browse_path(collection, place, index - 1), page))}">← Previous photographs</a>')
-        if index + 1 < total: controls.append(f'<a rel="next" href="{esc(relative(browse_path(collection, place, index + 1), page))}">More photographs →</a>')
+        page_for = (lambda i: selected_path(i)) if selected_view else (lambda i: browse_path(collection, place, i))
+        if index: controls.append(f'<a rel="prev" href="{esc(relative(page_for(index - 1), page))}">← Previous photographs</a>')
+        if index + 1 < total: controls.append(f'<a rel="next" href="{esc(relative(page_for(index + 1), page))}">More photographs →</a>')
         pager = '<nav class="sg-pagination" aria-label="More photographs">' + ''.join(controls) + '</nav>'
     grid_class = 'sg-grid' if collection is None else 'sg-grid sg-collection-grid'
     ending = f'<div class="sg-ending"><p>Photographs by Jipeng Li.</p><a href="{esc(relative("about/index.html#contact", page))}">Get in touch ↗</a></div>'
     return (f'<div class="sg-wrap"><header class="sg-intro">{back}<p class="sg-eyebrow">Photography</p><h1>{esc(title)}</h1>'
-            f'<p>{esc(intro)}</p></header>{navigation(catalog, page, collection, place)}'
+            f'<p>{esc(intro)}</p></header>{navigation(catalog, page, collection, place, selected_view)}'
             f'<div class="{grid_class}" id="sg-grid">{works}</div>{pager}{ending}</div>{viewer()}')
 
 
@@ -219,14 +230,16 @@ def main():
     template = (OUT / 'photography/index.html').read_text(encoding='utf-8')
     pages = {}
     selected = [lookup[pid] for pid in catalog['selected'] if lookup[pid][0].get('published', True)]
-    def add_group(entries, coll=None, place=None):
+    published = [(p, coll) for coll in catalog['collections'] for p in coll['photos'] if p.get('published', True)]
+    def add_group(entries, coll=None, place=None, selected_view=False):
         total = max(1, (len(entries) + PAGE_SIZE - 1) // PAGE_SIZE)
         for index in range(total):
-            page = browse_path(coll, place, index)
-            title = (place['name'] + ' — ' + coll['name']) if place else (coll['name'] if coll else 'Photography')
+            page = selected_path(index) if selected_view else browse_path(coll, place, index)
+            title = 'Selected photographs' if selected_view else ((place['name'] + ' — ' + coll['name']) if place else (coll['name'] if coll else 'Photography'))
             pages[page] = page_shell(template, page, site, title + ' — Jipeng Li', catalog['intro'],
-                                    gallery_body(catalog, page, entries[index * PAGE_SIZE:(index + 1) * PAGE_SIZE], coll, place, index, total))
-    add_group(selected)
+                                    gallery_body(catalog, page, entries[index * PAGE_SIZE:(index + 1) * PAGE_SIZE], coll, place, index, total, selected_view))
+    add_group(published)
+    add_group(selected, selected_view=True)
     for coll in catalog['collections']:
         entries = [(p, coll) for p in coll['photos'] if p.get('published', True)]
         add_group(entries, coll)

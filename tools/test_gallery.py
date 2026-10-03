@@ -65,16 +65,21 @@ class ModelTests(unittest.TestCase):
     def test_distinct_paths(self):
         fixture=self.fixture();c=fixture['collections'][0];place=fixture['places'][0]
         self.assertEqual(g.browse_path(c,place,1),f'photography/{c["slug"]}/{place["id"]}/page/2/index.html')
+        self.assertEqual(g.selected_path(1),'photography/selected/page/2/index.html')
     def test_generated_membership(self):
         lookup=g.validate_catalog(self.catalog)
         def actual(path):
             return [x['data-title'] for x in Document((g.OUT/path).read_text()).figures]
-        def compare_group(expected,coll=None,place=None):
+        def compare_group(expected,coll=None,place=None,selected_view=False):
             count=max(1,(len(expected)+g.PAGE_SIZE-1)//g.PAGE_SIZE)
             result=[]
-            for i in range(count):result.extend(actual(g.browse_path(coll,place,i)))
+            for i in range(count):
+                path=g.selected_path(i) if selected_view else g.browse_path(coll,place,i)
+                result.extend(actual(path))
             self.assertEqual(result,expected)
-        compare_group([lookup[i][0]['title'] for i in self.catalog['selected'] if lookup[i][0].get('published',True)])
+        published=[p['title'] for c in self.catalog['collections'] for p in c['photos'] if p.get('published',True)]
+        compare_group(published)
+        compare_group([lookup[i][0]['title'] for i in self.catalog['selected'] if lookup[i][0].get('published',True)],selected_view=True)
         for c in self.catalog['collections']:
             expected=[p['title'] for p in c['photos'] if p.get('published',True)]
             compare_group(expected,c)
