@@ -11,7 +11,12 @@
     "a-quiet-gesture",
     "the-last-light",
     "mineral-patterns",
-    "a-pause-in-the-grass"
+    "a-pause-in-the-grass",
+    "morro-at-water-level",
+    "shanghai-lines-and-lamps",
+    "anjihai-braided-water",
+    "moonscape-a-single-spire",
+    "sayram-lake-road"
   ],
   "collections": [
     {
@@ -140,6 +145,126 @@
           "display": "landscape",
           "location": "Yellowstone National Park",
           "location_id": "yellowstone",
+          "published": true
+        },
+        {
+          "id": "morro-at-water-level",
+          "title": "At water level",
+          "alt": "A sea otter floats on its back with its forepaws raised beside its face, reflected in blue-green water.",
+          "src": "assets/photos/morro-bay/morro-at-water-level-1400.webp",
+          "full": "assets/photos/morro-bay/morro-at-water-level-2048.webp",
+          "width": 1400,
+          "height": 1222,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-at-water-level-800.webp",
+              "width": 800,
+              "size_bytes": 89180
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-at-water-level-1400.webp",
+              "width": 1400,
+              "size_bytes": 324254
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-at-water-level-2048.webp",
+              "width": 2048,
+              "size_bytes": 738890
+            }
+          ],
+          "display": "landscape",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-a-long-yawn",
+          "title": "A long yawn",
+          "alt": "A sea otter floats on its back with its mouth open and its hind feet raised above the water.",
+          "src": "assets/photos/morro-bay/morro-a-long-yawn-1400.webp",
+          "full": "assets/photos/morro-bay/morro-a-long-yawn-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-a-long-yawn-800.webp",
+              "width": 800,
+              "size_bytes": 57028
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-a-long-yawn-1400.webp",
+              "width": 1400,
+              "size_bytes": 146946
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-a-long-yawn-2048.webp",
+              "width": 2048,
+              "size_bytes": 300672
+            }
+          ],
+          "display": "wide",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-floating-company",
+          "title": "Floating company",
+          "alt": "A sea otter faces the camera in the foreground while another floats behind it with its mouth open and is out of focus.",
+          "src": "assets/photos/morro-bay/morro-floating-company-1400.webp",
+          "full": "assets/photos/morro-bay/morro-floating-company-2048.webp",
+          "width": 1351,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-floating-company-800.webp",
+              "width": 772,
+              "size_bytes": 109410
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-floating-company-1400.webp",
+              "width": 1351,
+              "size_bytes": 288576
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-floating-company-2048.webp",
+              "width": 1976,
+              "size_bytes": 655344
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "white-rocks-ears-in-the-sun",
+          "title": "Ears in the sun",
+          "alt": "A long-eared rabbit sits in profile on stony desert ground, with sunlight passing through its raised ears.",
+          "src": "assets/photos/white-rocks/white-rocks-ears-in-the-sun-1400.webp",
+          "full": "assets/photos/white-rocks/white-rocks-ears-in-the-sun-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/white-rocks/white-rocks-ears-in-the-sun-800.webp",
+              "width": 480,
+              "size_bytes": 85530
+            },
+            {
+              "src": "assets/photos/white-rocks/white-rocks-ears-in-the-sun-1400.webp",
+              "width": 840,
+              "size_bytes": 224414
+            },
+            {
+              "src": "assets/photos/white-rocks/white-rocks-ears-in-the-sun-2048.webp",
+              "width": 1229,
+              "size_bytes": 461812
+            }
+          ],
+          "display": "portrait",
+          "location": "White Rocks (白蘑菇)",
+          "location_id": "white-rocks",
           "published": true
         }
       ]
@@ -271,6 +396,276 @@
           "location": "Yellowstone National Park",
           "location_id": "yellowstone",
           "published": true
+        },
+        {
+          "id": "anjihai-clouds-above-the-ridge",
+          "title": "Clouds above the ridge",
+          "alt": "Snow-covered mountain peaks catch warm light beneath pink and blue clouds, with dark slopes in the foreground.",
+          "src": "assets/photos/anjihai-grand-canyon/anjihai-clouds-above-the-ridge-1400.webp",
+          "full": "assets/photos/anjihai-grand-canyon/anjihai-clouds-above-the-ridge-2048.webp",
+          "display": "landscape",
+          "location": "Anjihai Grand Canyon",
+          "location_id": "anjihai-grand-canyon",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-clouds-above-the-ridge-800.webp",
+              "width": 800,
+              "size_bytes": 46480
+            },
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-clouds-above-the-ridge-1400.webp",
+              "width": 1400,
+              "size_bytes": 141138
+            },
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-clouds-above-the-ridge-2048.webp",
+              "width": 2048,
+              "size_bytes": 306150
+            }
+          ],
+          "width": 1400,
+          "height": 934
+        },
+        {
+          "id": "anjihai-braided-water",
+          "title": "Braided water",
+          "alt": "Pale branching river channels curve around steep canyon walls, with a bridge in the foreground and distant mountains beneath clouds.",
+          "src": "assets/photos/anjihai-grand-canyon/anjihai-braided-water-1400.webp",
+          "full": "assets/photos/anjihai-grand-canyon/anjihai-braided-water-2048.webp",
+          "display": "portrait",
+          "location": "Anjihai Grand Canyon",
+          "location_id": "anjihai-grand-canyon",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-braided-water-800.webp",
+              "width": 523,
+              "size_bytes": 88746
+            },
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-braided-water-1400.webp",
+              "width": 915,
+              "size_bytes": 290304
+            },
+            {
+              "src": "assets/photos/anjihai-grand-canyon/anjihai-braided-water-2048.webp",
+              "width": 1339,
+              "size_bytes": 642276
+            }
+          ],
+          "width": 915,
+          "height": 1400
+        },
+        {
+          "id": "dushanzi-folded-earth",
+          "title": "Folded earth",
+          "alt": "Closely spaced gray ridges and deep gullies form repeating diagonal patterns across a canyon wall.",
+          "src": "assets/photos/dushanzi-grand-canyon/dushanzi-folded-earth-1400.webp",
+          "full": "assets/photos/dushanzi-grand-canyon/dushanzi-folded-earth-2048.webp",
+          "display": "landscape",
+          "location": "Dushanzi Grand Canyon",
+          "location_id": "dushanzi-grand-canyon",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/dushanzi-grand-canyon/dushanzi-folded-earth-800.webp",
+              "width": 800,
+              "size_bytes": 138442
+            },
+            {
+              "src": "assets/photos/dushanzi-grand-canyon/dushanzi-folded-earth-1400.webp",
+              "width": 1400,
+              "size_bytes": 467688
+            },
+            {
+              "src": "assets/photos/dushanzi-grand-canyon/dushanzi-folded-earth-2048.webp",
+              "width": 2048,
+              "size_bytes": 1095628
+            }
+          ],
+          "width": 1400,
+          "height": 1011
+        },
+        {
+          "id": "moonscape-a-single-spire",
+          "title": "A single spire",
+          "alt": "A black-and-white photograph of a dark stone spire rising from a slope among pale, eroded hills.",
+          "src": "assets/photos/moonscape/moonscape-a-single-spire-1400.webp",
+          "full": "assets/photos/moonscape/moonscape-a-single-spire-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/moonscape/moonscape-a-single-spire-800.webp",
+              "width": 480,
+              "size_bytes": 64206
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-a-single-spire-1400.webp",
+              "width": 840,
+              "size_bytes": 186962
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-a-single-spire-2048.webp",
+              "width": 1229,
+              "size_bytes": 361726
+            }
+          ],
+          "display": "portrait",
+          "location": "Moonscape",
+          "location_id": "moonscape",
+          "published": true
+        },
+        {
+          "id": "moonscape-a-winding-channel",
+          "title": "A winding channel",
+          "alt": "A dark winding channel crosses gray ridges and pale brown ground below a band of steep, eroded cliffs.",
+          "src": "assets/photos/moonscape/moonscape-a-winding-channel-1400.webp",
+          "full": "assets/photos/moonscape/moonscape-a-winding-channel-2048.webp",
+          "width": 1400,
+          "height": 875,
+          "variants": [
+            {
+              "src": "assets/photos/moonscape/moonscape-a-winding-channel-800.webp",
+              "width": 800,
+              "size_bytes": 84432
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-a-winding-channel-1400.webp",
+              "width": 1400,
+              "size_bytes": 295336
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-a-winding-channel-2048.webp",
+              "width": 2048,
+              "size_bytes": 789218
+            }
+          ],
+          "display": "landscape",
+          "location": "Moonscape",
+          "location_id": "moonscape",
+          "published": true
+        },
+        {
+          "id": "moonscape-pale-ridges",
+          "title": "Pale ridges",
+          "alt": "Pale ridges and layered rock faces recede across a nearly white badlands landscape.",
+          "src": "assets/photos/moonscape/moonscape-pale-ridges-1400.webp",
+          "full": "assets/photos/moonscape/moonscape-pale-ridges-2048.webp",
+          "width": 1400,
+          "height": 714,
+          "variants": [
+            {
+              "src": "assets/photos/moonscape/moonscape-pale-ridges-800.webp",
+              "width": 800,
+              "size_bytes": 29672
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-pale-ridges-1400.webp",
+              "width": 1400,
+              "size_bytes": 100254
+            },
+            {
+              "src": "assets/photos/moonscape/moonscape-pale-ridges-2048.webp",
+              "width": 2048,
+              "size_bytes": 259958
+            }
+          ],
+          "display": "wide",
+          "location": "Moonscape",
+          "location_id": "moonscape",
+          "published": true
+        },
+        {
+          "id": "white-rocks-white-columns",
+          "title": "White columns",
+          "alt": "Tall white rock columns with dark brown capstones stand at different heights against a pale rock wall.",
+          "src": "assets/photos/white-rocks/white-rocks-white-columns-1400.webp",
+          "full": "assets/photos/white-rocks/white-rocks-white-columns-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/white-rocks/white-rocks-white-columns-800.webp",
+              "width": 480,
+              "size_bytes": 52636
+            },
+            {
+              "src": "assets/photos/white-rocks/white-rocks-white-columns-1400.webp",
+              "width": 840,
+              "size_bytes": 155150
+            },
+            {
+              "src": "assets/photos/white-rocks/white-rocks-white-columns-2048.webp",
+              "width": 1229,
+              "size_bytes": 356890
+            }
+          ],
+          "display": "portrait",
+          "location": "White Rocks (白蘑菇)",
+          "location_id": "white-rocks",
+          "published": true
+        },
+        {
+          "id": "sayram-blue-across-the-lake",
+          "title": "Blue across the lake",
+          "alt": "Deep blue lake water fills the foreground beneath clouds wrapped around snow-covered mountains.",
+          "src": "assets/photos/sayram-lake/sayram-blue-across-the-lake-1400.webp",
+          "full": "assets/photos/sayram-lake/sayram-blue-across-the-lake-2048.webp",
+          "width": 1400,
+          "height": 751,
+          "variants": [
+            {
+              "src": "assets/photos/sayram-lake/sayram-blue-across-the-lake-800.webp",
+              "width": 800,
+              "size_bytes": 57624
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-blue-across-the-lake-1400.webp",
+              "width": 1400,
+              "size_bytes": 185614
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-blue-across-the-lake-2048.webp",
+              "width": 2048,
+              "size_bytes": 441922
+            }
+          ],
+          "display": "landscape",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
+          "published": true
+        },
+        {
+          "id": "sayram-light-beyond-the-water",
+          "title": "Light beyond the water",
+          "alt": "Sunbeams pass through golden clouds above a dark lake and distant mountain ridges lined with wind turbines.",
+          "src": "assets/photos/sayram-lake/sayram-light-beyond-the-water-1400.webp",
+          "full": "assets/photos/sayram-lake/sayram-light-beyond-the-water-2048.webp",
+          "width": 1400,
+          "height": 694,
+          "variants": [
+            {
+              "src": "assets/photos/sayram-lake/sayram-light-beyond-the-water-800.webp",
+              "width": 800,
+              "size_bytes": 29432
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-light-beyond-the-water-1400.webp",
+              "width": 1400,
+              "size_bytes": 89392
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-light-beyond-the-water-2048.webp",
+              "width": 2048,
+              "size_bytes": 203056
+            }
+          ],
+          "display": "wide",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
+          "published": true
         }
       ]
     },
@@ -341,6 +736,246 @@
           "location": "Carmel-by-the-Sea",
           "location_id": "carmel-by-the-sea",
           "published": true
+        },
+        {
+          "id": "beijing-passage-in-green",
+          "title": "Passage in green",
+          "alt": "An ivy-covered brick passage frames trees and a walkway, with bicycles parked along both sides.",
+          "src": "assets/photos/beijing/beijing-passage-in-green-1400.webp",
+          "full": "assets/photos/beijing/beijing-passage-in-green-2048.webp",
+          "display": "landscape",
+          "location": "Beijing",
+          "location_id": "beijing",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/beijing/beijing-passage-in-green-800.webp",
+              "width": 800,
+              "size_bytes": 216692
+            },
+            {
+              "src": "assets/photos/beijing/beijing-passage-in-green-1400.webp",
+              "width": 1400,
+              "size_bytes": 668392
+            },
+            {
+              "src": "assets/photos/beijing/beijing-passage-in-green-2048.webp",
+              "width": 2048,
+              "size_bytes": 1439306
+            }
+          ],
+          "width": 1400,
+          "height": 1347
+        },
+        {
+          "id": "beijing-windows-after-dark",
+          "title": "Windows after dark",
+          "alt": "Warmly lit windows repeat across a dark brick wall, partly covered by climbing green plants.",
+          "src": "assets/photos/beijing/beijing-windows-after-dark-1400.webp",
+          "full": "assets/photos/beijing/beijing-windows-after-dark-2048.webp",
+          "display": "wide",
+          "location": "Beijing",
+          "location_id": "beijing",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/beijing/beijing-windows-after-dark-800.webp",
+              "width": 800,
+              "size_bytes": 68286
+            },
+            {
+              "src": "assets/photos/beijing/beijing-windows-after-dark-1400.webp",
+              "width": 1400,
+              "size_bytes": 212226
+            },
+            {
+              "src": "assets/photos/beijing/beijing-windows-after-dark-2048.webp",
+              "width": 2048,
+              "size_bytes": 449700
+            }
+          ],
+          "width": 1400,
+          "height": 724
+        },
+        {
+          "id": "shanghai-blossoms-and-glass",
+          "title": "Blossoms and glass",
+          "alt": "White blossoms fill the foreground beneath a pale blue sky, with a softly focused skyscraper behind them.",
+          "src": "assets/photos/shanghai/shanghai-blossoms-and-glass-1400.webp",
+          "full": "assets/photos/shanghai/shanghai-blossoms-and-glass-2048.webp",
+          "display": "landscape",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/shanghai/shanghai-blossoms-and-glass-800.webp",
+              "width": 800,
+              "size_bytes": 57066
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-blossoms-and-glass-1400.webp",
+              "width": 1400,
+              "size_bytes": 138758
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-blossoms-and-glass-2048.webp",
+              "width": 2048,
+              "size_bytes": 269200
+            }
+          ],
+          "width": 1400,
+          "height": 1002
+        },
+        {
+          "id": "shanghai-between-towers",
+          "title": "Between towers",
+          "alt": "A tower with an illuminated sphere stands between closely framed glass buildings in blue and magenta light.",
+          "src": "assets/photos/shanghai/shanghai-between-towers-1400.webp",
+          "full": "assets/photos/shanghai/shanghai-between-towers-2048.webp",
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/shanghai/shanghai-between-towers-800.webp",
+              "width": 667,
+              "size_bytes": 124954
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-between-towers-1400.webp",
+              "width": 1167,
+              "size_bytes": 411060
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-between-towers-2048.webp",
+              "width": 1708,
+              "size_bytes": 913782
+            }
+          ],
+          "width": 1167,
+          "height": 1400
+        },
+        {
+          "id": "shanghai-lines-and-lamps",
+          "title": "Lines and lamps",
+          "alt": "Two curved lamp shades stand at different heights against alternating vertical bands of beige stone and green glass.",
+          "src": "assets/photos/shanghai/shanghai-lines-and-lamps-1400.webp",
+          "full": "assets/photos/shanghai/shanghai-lines-and-lamps-2048.webp",
+          "display": "portrait",
+          "location": "Shanghai",
+          "location_id": "shanghai",
+          "published": true,
+          "variants": [
+            {
+              "src": "assets/photos/shanghai/shanghai-lines-and-lamps-800.webp",
+              "width": 525,
+              "size_bytes": 31176
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-lines-and-lamps-1400.webp",
+              "width": 919,
+              "size_bytes": 73688
+            },
+            {
+              "src": "assets/photos/shanghai/shanghai-lines-and-lamps-2048.webp",
+              "width": 1345,
+              "size_bytes": 146378
+            }
+          ],
+          "width": 919,
+          "height": 1400
+        },
+        {
+          "id": "sayram-lake-road",
+          "title": "Lake road",
+          "alt": "A dark SUV follows a curving lakeside road toward sunlit green hills, conifer-covered slopes, and low clouds.",
+          "src": "assets/photos/sayram-lake/sayram-lake-road-1400.webp",
+          "full": "assets/photos/sayram-lake/sayram-lake-road-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/sayram-lake/sayram-lake-road-800.webp",
+              "width": 800,
+              "size_bytes": 46866
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-lake-road-1400.webp",
+              "width": 1400,
+              "size_bytes": 152292
+            },
+            {
+              "src": "assets/photos/sayram-lake/sayram-lake-road-2048.webp",
+              "width": 2048,
+              "size_bytes": 333284
+            }
+          ],
+          "display": "wide",
+          "location": "Sayram Lake",
+          "location_id": "sayram-lake",
+          "published": true
+        },
+        {
+          "id": "los-angeles-hills-in-gold",
+          "title": "Hills in gold",
+          "alt": "Layers of hills, scattered buildings, trees, and palms recede into golden haze.",
+          "src": "assets/photos/los-angeles/los-angeles-hills-in-gold-1400.webp",
+          "full": "assets/photos/los-angeles/los-angeles-hills-in-gold-2048.webp",
+          "width": 1400,
+          "height": 821,
+          "variants": [
+            {
+              "src": "assets/photos/los-angeles/los-angeles-hills-in-gold-800.webp",
+              "width": 800,
+              "size_bytes": 14604
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-hills-in-gold-1400.webp",
+              "width": 1400,
+              "size_bytes": 39374
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-hills-in-gold-2048.webp",
+              "width": 2048,
+              "size_bytes": 102582
+            }
+          ],
+          "display": "landscape",
+          "location": "Los Angeles",
+          "location_id": "los-angeles",
+          "published": true
+        },
+        {
+          "id": "los-angeles-city-lights",
+          "title": "City lights",
+          "alt": "Illuminated city buildings stand beneath a pink and purple sky crossed by thin, curved clouds.",
+          "src": "assets/photos/los-angeles/los-angeles-city-lights-1400.webp",
+          "full": "assets/photos/los-angeles/los-angeles-city-lights-2048.webp",
+          "width": 1400,
+          "height": 813,
+          "variants": [
+            {
+              "src": "assets/photos/los-angeles/los-angeles-city-lights-800.webp",
+              "width": 800,
+              "size_bytes": 62062
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-city-lights-1400.webp",
+              "width": 1400,
+              "size_bytes": 170256
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-city-lights-2048.webp",
+              "width": 2048,
+              "size_bytes": 352944
+            }
+          ],
+          "display": "landscape",
+          "location": "Los Angeles",
+          "location_id": "los-angeles",
+          "published": true
         }
       ]
     }
@@ -366,7 +1001,43 @@
     {
       "id": "carmel-by-the-sea",
       "name": "Carmel-by-the-Sea"
+    },
+    {
+      "id": "morro-bay",
+      "name": "Morro Bay"
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai"
+    },
+    {
+      "id": "anjihai-grand-canyon",
+      "name": "Anjihai Grand Canyon"
+    },
+    {
+      "id": "dushanzi-grand-canyon",
+      "name": "Dushanzi Grand Canyon"
+    },
+    {
+      "id": "moonscape",
+      "name": "Moonscape"
+    },
+    {
+      "id": "white-rocks",
+      "name": "White Rocks (白蘑菇)"
+    },
+    {
+      "id": "sayram-lake",
+      "name": "Sayram Lake"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles"
     }
   ],
-  "catalog_sha256": "dc7ee08cb5dd8f4bd61150d40f022cd73ee4518b7f972f6aafb092ed07bc623f"
+  "catalog_sha256": "0b41172a2c928e7c46f93aaa0b3648924373bd482b7fd9fe52a787f051040d88"
 }
