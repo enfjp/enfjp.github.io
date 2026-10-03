@@ -2,6 +2,44 @@
   "title": "Ways of seeing.",
   "intro": "Landscapes, wildlife, and life along the road.",
   "selected": [
+    "yellowstone-painted-reflection",
+    "yellowstone-green-thermal-spring",
+    "yellowstone-bison-in-warm-light",
+    "yellowstone-bison-in-the-meadow",
+    "yellowstone-bison-and-steam",
+    "yellowstone-great-blue-heron",
+    "yellowstone-grand-prismatic-edge",
+    "yellowstone-old-faithful-crowd",
+    "yellowstone-bison-by-the-river",
+    "yellowstone-crossing-the-river",
+    "yellowstone-herd-across-the-valley",
+    "yellowstone-blue-spring-edge",
+    "yellowstone-between-water-and-steam",
+    "yellowstone-color-through-steam",
+    "yellowstone-geothermal-color-bands",
+    "yellowstone-mammoth-terraces",
+    "yellowstone-steam-under-clouds",
+    "yellowstone-dog-at-the-rv-window",
+    "yellowstone-elk-and-magpies",
+    "yellowstone-prismatic-vertical",
+    "yellowstone-bison-below-the-steam",
+    "yellowstone-ripples-in-blue",
+    "yellowstone-coyote-pair",
+    "yellowstone-coyote-in-profile",
+    "yellowstone-coyote-in-the-grass",
+    "yellowstone-grizzly-in-sagebrush",
+    "yellowstone-grizzly-in-the-field",
+    "yellowstone-lower-falls",
+    "yellowstone-painted-canyon-wall",
+    "17-miles-storm-over-the-pacific",
+    "17-miles-lone-cypress",
+    "mono-lake-tufa-and-sierra",
+    "mono-lake-single-tufa-reflection",
+    "mono-lake-tufa-panorama",
+    "tomales-bay-california-quail",
+    "tomales-bay-tule-elk-profile",
+    "tomales-bay-two-bull-elk",
+    "tomales-bay-bulls-in-parallel",
     "page-horseshoe-bend",
     "page-crossing-wakes",
     "forest-gump-point-road-to-monument-valley",
@@ -105,45 +143,7 @@
     "napa-valley-through-the-old-cab",
     "monterey-bay-marked-flukes",
     "monterey-bay-a-breath-at-sea",
-    "santa-cruz-under-the-cap",
-    "yellowstone-painted-reflection",
-    "yellowstone-green-thermal-spring",
-    "yellowstone-bison-in-warm-light",
-    "yellowstone-bison-in-the-meadow",
-    "yellowstone-bison-and-steam",
-    "yellowstone-great-blue-heron",
-    "yellowstone-grand-prismatic-edge",
-    "yellowstone-old-faithful-crowd",
-    "yellowstone-bison-by-the-river",
-    "yellowstone-crossing-the-river",
-    "yellowstone-herd-across-the-valley",
-    "yellowstone-blue-spring-edge",
-    "yellowstone-between-water-and-steam",
-    "yellowstone-color-through-steam",
-    "yellowstone-geothermal-color-bands",
-    "yellowstone-mammoth-terraces",
-    "yellowstone-steam-under-clouds",
-    "yellowstone-dog-at-the-rv-window",
-    "yellowstone-elk-and-magpies",
-    "yellowstone-prismatic-vertical",
-    "yellowstone-bison-below-the-steam",
-    "yellowstone-ripples-in-blue",
-    "yellowstone-coyote-pair",
-    "yellowstone-coyote-in-profile",
-    "yellowstone-coyote-in-the-grass",
-    "yellowstone-grizzly-in-sagebrush",
-    "yellowstone-grizzly-in-the-field",
-    "yellowstone-lower-falls",
-    "yellowstone-painted-canyon-wall",
-    "17-miles-storm-over-the-pacific",
-    "17-miles-lone-cypress",
-    "mono-lake-tufa-and-sierra",
-    "mono-lake-single-tufa-reflection",
-    "mono-lake-tufa-panorama",
-    "tomales-bay-california-quail",
-    "tomales-bay-tule-elk-profile",
-    "tomales-bay-two-bull-elk",
-    "tomales-bay-bulls-in-parallel"
+    "santa-cruz-under-the-cap"
   ],
   "collections": [
     {
@@ -154,6 +154,564 @@
       "description": "Wildlife and quiet encounters.",
       "cover": "assets/photos/selected/looking-up-1400.webp",
       "photos": [
+        {
+          "id": "yellowstone-bison-in-warm-light",
+          "title": "Bison in warm light",
+          "alt": "A bison grazes in sagebrush as warm light catches its coat.",
+          "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-2048.webp",
+          "width": 1400,
+          "height": 962,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-800.webp",
+              "width": 800,
+              "size_bytes": 193800
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-1400.webp",
+              "width": 1400,
+              "size_bytes": 559070
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-2048.webp",
+              "width": 2048,
+              "size_bytes": 1132448
+            }
+          ],
+          "display": "landscape",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "9a4d5ae564886d224f726b11078cd4d27c360261157b1dc3dcbd28ecc07cbcbc"
+        },
+        {
+          "id": "yellowstone-bison-in-the-meadow",
+          "title": "Bison in the meadow",
+          "alt": "A bison grazes in a green Yellowstone meadow in warm evening light.",
+          "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-2048.webp",
+          "width": 1400,
+          "height": 960,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-800.webp",
+              "width": 800,
+              "size_bytes": 166176
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-1400.webp",
+              "width": 1400,
+              "size_bytes": 497212
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-2048.webp",
+              "width": 2048,
+              "size_bytes": 1051778
+            }
+          ],
+          "display": "landscape",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "d2626c7980394995c4c3ec7a769a103b2dc84a9054cb9faf0a448f87929337f2"
+        },
+        {
+          "id": "yellowstone-bison-and-steam",
+          "title": "Bison and steam",
+          "alt": "A bison stands in golden grass below a distant plume of geothermal steam.",
+          "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-bison-and-steam-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-800.webp",
+              "width": 533,
+              "size_bytes": 76804
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-1400.webp",
+              "width": 933,
+              "size_bytes": 214850
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-2048.webp",
+              "width": 1365,
+              "size_bytes": 458202
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "ae99e7dcbd076802a4bfe38355af3eb1bd867d132ffa222bd968bc9176c50fdc"
+        },
+        {
+          "id": "yellowstone-great-blue-heron",
+          "title": "Great blue heron",
+          "alt": "A great blue heron fills the frame in profile against a smooth blue-gray background.",
+          "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-great-blue-heron-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-800.webp",
+              "width": 479,
+              "size_bytes": 48550
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-1400.webp",
+              "width": 839,
+              "size_bytes": 148086
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-2048.webp",
+              "width": 1227,
+              "size_bytes": 323526
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "a56afff3f5b7a943b658b58ccbd6b8fbf7fbf2b96def40dc52a772fbe3330f3a"
+        },
+        {
+          "id": "yellowstone-bison-by-the-river",
+          "title": "Bison by the river",
+          "alt": "A bison stands beside bright blue water with fresh green leaves caught around its head.",
+          "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-bison-by-the-river-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-800.webp",
+              "width": 800,
+              "size_bytes": 146974
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-1400.webp",
+              "width": 1400,
+              "size_bytes": 375666
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-2048.webp",
+              "width": 2048,
+              "size_bytes": 766162
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "80c3f990549be04c7417732fb5a348053473448024f74fbba1934031d5e27053"
+        },
+        {
+          "id": "yellowstone-crossing-the-river",
+          "title": "Crossing the river",
+          "alt": "A bison pushes through turquoise river water with leaves caught around its horns.",
+          "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-crossing-the-river-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-800.webp",
+              "width": 800,
+              "size_bytes": 95328
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-1400.webp",
+              "width": 1400,
+              "size_bytes": 296872
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-2048.webp",
+              "width": 2048,
+              "size_bytes": 662350
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "665e82e34fd90757bb1fa879788014765d313ec29f0dd3e2bca27d0f929bf03b"
+        },
+        {
+          "id": "yellowstone-herd-across-the-valley",
+          "title": "Herd across the valley",
+          "alt": "Bison are scattered across a broad green valley around a winding blue river.",
+          "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-2048.webp",
+          "width": 1400,
+          "height": 720,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-800.webp",
+              "width": 800,
+              "size_bytes": 87070
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-1400.webp",
+              "width": 1400,
+              "size_bytes": 296438
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-2048.webp",
+              "width": 2048,
+              "size_bytes": 723902
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "1fb311a09f68e7d0fbcf402a3c595824817bd93fcc7b1b143c1fa6a2154cddfd"
+        },
+        {
+          "id": "yellowstone-elk-and-magpies",
+          "title": "Elk and magpies",
+          "alt": "A resting elk looks upward as one magpie stands on its head and others gather beside it.",
+          "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-elk-and-magpies-2048.webp",
+          "width": 1400,
+          "height": 1321,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-800.webp",
+              "width": 800,
+              "size_bytes": 85734
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-1400.webp",
+              "width": 1400,
+              "size_bytes": 250640
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-2048.webp",
+              "width": 2048,
+              "size_bytes": 528732
+            }
+          ],
+          "display": "landscape",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "a10e08c281d5468f6a331db53cbc8db067656643fc31ce63c5b47c521bafeb71"
+        },
+        {
+          "id": "yellowstone-bison-below-the-steam",
+          "title": "Bison below the steam",
+          "alt": "A lone bison grazes in golden grass below a low band of geothermal steam and forest.",
+          "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-800.webp",
+              "width": 479,
+              "size_bytes": 144082
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-1400.webp",
+              "width": 839,
+              "size_bytes": 460714
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-2048.webp",
+              "width": 1227,
+              "size_bytes": 1018116
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "841ad03173e8518fe6af3c46ae6aec09247bb9337b5cf8216b9e312cd6d3445c"
+        },
+        {
+          "id": "yellowstone-coyote-pair",
+          "title": "Coyote pair",
+          "alt": "Two coyotes stand among pale sagebrush, one looking toward the camera and the other turned away.",
+          "src": "assets/photos/yellowstone/yellowstone-coyote-pair-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-coyote-pair-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-800.webp",
+              "width": 800,
+              "size_bytes": 145114
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-1400.webp",
+              "width": 1400,
+              "size_bytes": 389260
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-2048.webp",
+              "width": 2048,
+              "size_bytes": 769392
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "ec49f543ec5ca321a8e381faf99283a236cceca2a4fc4854812de01077eff225"
+        },
+        {
+          "id": "yellowstone-coyote-in-profile",
+          "title": "Coyote in profile",
+          "alt": "A coyote walks in profile through dense sagebrush and dry grass.",
+          "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-coyote-in-profile-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-800.webp",
+              "width": 800,
+              "size_bytes": 111076
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-1400.webp",
+              "width": 1400,
+              "size_bytes": 318144
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-2048.webp",
+              "width": 2048,
+              "size_bytes": 675980
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "44b3884c08dabc0bb145f38ef156ed34f7d47edb0aadd5a5e61c9aee9b48d589"
+        },
+        {
+          "id": "yellowstone-coyote-in-the-grass",
+          "title": "Coyote in the grass",
+          "alt": "A coyote stands among tall pale grass with soft sagebrush blurred in the foreground.",
+          "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-800.webp",
+              "width": 479,
+              "size_bytes": 57512
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-1400.webp",
+              "width": 839,
+              "size_bytes": 151924
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-2048.webp",
+              "width": 1227,
+              "size_bytes": 333896
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "2d4661c7e13ef04921937e6e9210b45845766099ab5b34fd0ad042e387ab60e1"
+        },
+        {
+          "id": "yellowstone-grizzly-in-sagebrush",
+          "title": "Grizzly in sagebrush",
+          "alt": "A grizzly bear stands alone among layered bands of pale grass and sagebrush.",
+          "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-800.webp",
+              "width": 800,
+              "size_bytes": 70732
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-1400.webp",
+              "width": 1400,
+              "size_bytes": 203754
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-2048.webp",
+              "width": 2048,
+              "size_bytes": 435334
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "26d1458a2237522f5ca51589a3214c581a30a0d6a7e56b75a95c503b82e07d3b"
+        },
+        {
+          "id": "yellowstone-grizzly-in-the-field",
+          "title": "Grizzly in the field",
+          "alt": "A grizzly bear moves through a broad field of pale grass and gray-green sagebrush.",
+          "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-800.webp",
+              "width": 479,
+              "size_bytes": 68704
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-1400.webp",
+              "width": 839,
+              "size_bytes": 185340
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-2048.webp",
+              "width": 1227,
+              "size_bytes": 403458
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "2a2dd6eed4c6498dc0d254607e583ef09322e622196569ebabf67fe5a50581c0"
+        },
+        {
+          "id": "tomales-bay-california-quail",
+          "title": "California quail",
+          "alt": "A California quail stands on a lichen-covered branch against a luminous green woodland background.",
+          "src": "assets/photos/tomales-bay/tomales-bay-california-quail-1400.webp",
+          "full": "assets/photos/tomales-bay/tomales-bay-california-quail-2048.webp",
+          "width": 1400,
+          "height": 837,
+          "variants": [
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-800.webp",
+              "width": 800,
+              "size_bytes": 105340
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-1400.webp",
+              "width": 1400,
+              "size_bytes": 326834
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-2048.webp",
+              "width": 2048,
+              "size_bytes": 800872
+            }
+          ],
+          "display": "wide",
+          "location": "Tomales Bay",
+          "location_id": "tomales-bay",
+          "published": true,
+          "source_sha256": "bd609cb4c432f5bba9c9b15549cee91c3f7acc36a073d86b6f41d3e3db76adba"
+        },
+        {
+          "id": "tomales-bay-tule-elk-profile",
+          "title": "Tule elk profile",
+          "alt": "A tule elk fills the frame in profile with a thin grass stem held at its mouth.",
+          "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-1400.webp",
+          "full": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-2048.webp",
+          "width": 1400,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-800.webp",
+              "width": 800,
+              "size_bytes": 77428
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-1400.webp",
+              "width": 1400,
+              "size_bytes": 216046
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-2048.webp",
+              "width": 2048,
+              "size_bytes": 528882
+            }
+          ],
+          "display": "landscape",
+          "location": "Tomales Bay",
+          "location_id": "tomales-bay",
+          "published": true,
+          "source_sha256": "3e115bdb65d9cacd3dc72588c4496ae9cbff473994bb1ebff815bcd88c35d91a"
+        },
+        {
+          "id": "tomales-bay-two-bull-elk",
+          "title": "Two bull elk",
+          "alt": "Two bull elk stand apart on a coastal meadow with blue water behind them.",
+          "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-1400.webp",
+          "full": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-800.webp",
+              "width": 800,
+              "size_bytes": 32352
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-1400.webp",
+              "width": 1400,
+              "size_bytes": 78696
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-2048.webp",
+              "width": 2048,
+              "size_bytes": 147458
+            }
+          ],
+          "display": "wide",
+          "location": "Tomales Bay",
+          "location_id": "tomales-bay",
+          "published": true,
+          "source_sha256": "5a0ca793e99e16f215129090553e64519cddd113bc2a2b86ec7e551f80cd626a"
+        },
+        {
+          "id": "tomales-bay-bulls-in-parallel",
+          "title": "Bulls in parallel",
+          "alt": "Two bull elk move in parallel through a coastal meadow against a broad blue-water backdrop.",
+          "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-1400.webp",
+          "full": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-800.webp",
+              "width": 800,
+              "size_bytes": 35226
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-1400.webp",
+              "width": 1400,
+              "size_bytes": 86398
+            },
+            {
+              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-2048.webp",
+              "width": 2048,
+              "size_bytes": 175042
+            }
+          ],
+          "display": "wide",
+          "location": "Tomales Bay",
+          "location_id": "tomales-bay",
+          "published": true,
+          "source_sha256": "e089aee948cce941f02364e5e04452ec412345062d41cb461eeeb4da54e70145"
+        },
         {
           "id": "looking-up",
           "title": "Looking up",
@@ -949,564 +1507,6 @@
           "location_id": "hot-creek-geologic-site",
           "published": true,
           "source_sha256": "dd1baf859dbcc1c467b8361bf8b6474f0c4d460c09689258837e12659e19822c"
-        },
-        {
-          "id": "yellowstone-bison-in-warm-light",
-          "title": "Bison in warm light",
-          "alt": "A bison grazes in sagebrush as warm light catches its coat.",
-          "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-2048.webp",
-          "width": 1400,
-          "height": 962,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-800.webp",
-              "width": 800,
-              "size_bytes": 193800
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-1400.webp",
-              "width": 1400,
-              "size_bytes": 559070
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-warm-light-2048.webp",
-              "width": 2048,
-              "size_bytes": 1132448
-            }
-          ],
-          "display": "landscape",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "9a4d5ae564886d224f726b11078cd4d27c360261157b1dc3dcbd28ecc07cbcbc"
-        },
-        {
-          "id": "yellowstone-bison-in-the-meadow",
-          "title": "Bison in the meadow",
-          "alt": "A bison grazes in a green Yellowstone meadow in warm evening light.",
-          "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-2048.webp",
-          "width": 1400,
-          "height": 960,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-800.webp",
-              "width": 800,
-              "size_bytes": 166176
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-1400.webp",
-              "width": 1400,
-              "size_bytes": 497212
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-in-the-meadow-2048.webp",
-              "width": 2048,
-              "size_bytes": 1051778
-            }
-          ],
-          "display": "landscape",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "d2626c7980394995c4c3ec7a769a103b2dc84a9054cb9faf0a448f87929337f2"
-        },
-        {
-          "id": "yellowstone-bison-and-steam",
-          "title": "Bison and steam",
-          "alt": "A bison stands in golden grass below a distant plume of geothermal steam.",
-          "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-bison-and-steam-2048.webp",
-          "width": 933,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-800.webp",
-              "width": 533,
-              "size_bytes": 76804
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-1400.webp",
-              "width": 933,
-              "size_bytes": 214850
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-and-steam-2048.webp",
-              "width": 1365,
-              "size_bytes": 458202
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "ae99e7dcbd076802a4bfe38355af3eb1bd867d132ffa222bd968bc9176c50fdc"
-        },
-        {
-          "id": "yellowstone-great-blue-heron",
-          "title": "Great blue heron",
-          "alt": "A great blue heron fills the frame in profile against a smooth blue-gray background.",
-          "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-great-blue-heron-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-800.webp",
-              "width": 479,
-              "size_bytes": 48550
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-1400.webp",
-              "width": 839,
-              "size_bytes": 148086
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-great-blue-heron-2048.webp",
-              "width": 1227,
-              "size_bytes": 323526
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "a56afff3f5b7a943b658b58ccbd6b8fbf7fbf2b96def40dc52a772fbe3330f3a"
-        },
-        {
-          "id": "yellowstone-bison-by-the-river",
-          "title": "Bison by the river",
-          "alt": "A bison stands beside bright blue water with fresh green leaves caught around its head.",
-          "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-bison-by-the-river-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-800.webp",
-              "width": 800,
-              "size_bytes": 146974
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-1400.webp",
-              "width": 1400,
-              "size_bytes": 375666
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-by-the-river-2048.webp",
-              "width": 2048,
-              "size_bytes": 766162
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "80c3f990549be04c7417732fb5a348053473448024f74fbba1934031d5e27053"
-        },
-        {
-          "id": "yellowstone-crossing-the-river",
-          "title": "Crossing the river",
-          "alt": "A bison pushes through turquoise river water with leaves caught around its horns.",
-          "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-crossing-the-river-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-800.webp",
-              "width": 800,
-              "size_bytes": 95328
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-1400.webp",
-              "width": 1400,
-              "size_bytes": 296872
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-crossing-the-river-2048.webp",
-              "width": 2048,
-              "size_bytes": 662350
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "665e82e34fd90757bb1fa879788014765d313ec29f0dd3e2bca27d0f929bf03b"
-        },
-        {
-          "id": "yellowstone-herd-across-the-valley",
-          "title": "Herd across the valley",
-          "alt": "Bison are scattered across a broad green valley around a winding blue river.",
-          "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-2048.webp",
-          "width": 1400,
-          "height": 720,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-800.webp",
-              "width": 800,
-              "size_bytes": 87070
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-1400.webp",
-              "width": 1400,
-              "size_bytes": 296438
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-herd-across-the-valley-2048.webp",
-              "width": 2048,
-              "size_bytes": 723902
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "1fb311a09f68e7d0fbcf402a3c595824817bd93fcc7b1b143c1fa6a2154cddfd"
-        },
-        {
-          "id": "yellowstone-elk-and-magpies",
-          "title": "Elk and magpies",
-          "alt": "A resting elk looks upward as one magpie stands on its head and others gather beside it.",
-          "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-elk-and-magpies-2048.webp",
-          "width": 1400,
-          "height": 1321,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-800.webp",
-              "width": 800,
-              "size_bytes": 85734
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-1400.webp",
-              "width": 1400,
-              "size_bytes": 250640
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-elk-and-magpies-2048.webp",
-              "width": 2048,
-              "size_bytes": 528732
-            }
-          ],
-          "display": "landscape",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "a10e08c281d5468f6a331db53cbc8db067656643fc31ce63c5b47c521bafeb71"
-        },
-        {
-          "id": "yellowstone-bison-below-the-steam",
-          "title": "Bison below the steam",
-          "alt": "A lone bison grazes in golden grass below a low band of geothermal steam and forest.",
-          "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-800.webp",
-              "width": 479,
-              "size_bytes": 144082
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-1400.webp",
-              "width": 839,
-              "size_bytes": 460714
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-bison-below-the-steam-2048.webp",
-              "width": 1227,
-              "size_bytes": 1018116
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "841ad03173e8518fe6af3c46ae6aec09247bb9337b5cf8216b9e312cd6d3445c"
-        },
-        {
-          "id": "yellowstone-coyote-pair",
-          "title": "Coyote pair",
-          "alt": "Two coyotes stand among pale sagebrush, one looking toward the camera and the other turned away.",
-          "src": "assets/photos/yellowstone/yellowstone-coyote-pair-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-coyote-pair-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-800.webp",
-              "width": 800,
-              "size_bytes": 145114
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-1400.webp",
-              "width": 1400,
-              "size_bytes": 389260
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-pair-2048.webp",
-              "width": 2048,
-              "size_bytes": 769392
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "ec49f543ec5ca321a8e381faf99283a236cceca2a4fc4854812de01077eff225"
-        },
-        {
-          "id": "yellowstone-coyote-in-profile",
-          "title": "Coyote in profile",
-          "alt": "A coyote walks in profile through dense sagebrush and dry grass.",
-          "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-coyote-in-profile-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-800.webp",
-              "width": 800,
-              "size_bytes": 111076
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-1400.webp",
-              "width": 1400,
-              "size_bytes": 318144
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-profile-2048.webp",
-              "width": 2048,
-              "size_bytes": 675980
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "44b3884c08dabc0bb145f38ef156ed34f7d47edb0aadd5a5e61c9aee9b48d589"
-        },
-        {
-          "id": "yellowstone-coyote-in-the-grass",
-          "title": "Coyote in the grass",
-          "alt": "A coyote stands among tall pale grass with soft sagebrush blurred in the foreground.",
-          "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-800.webp",
-              "width": 479,
-              "size_bytes": 57512
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-1400.webp",
-              "width": 839,
-              "size_bytes": 151924
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-coyote-in-the-grass-2048.webp",
-              "width": 1227,
-              "size_bytes": 333896
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "2d4661c7e13ef04921937e6e9210b45845766099ab5b34fd0ad042e387ab60e1"
-        },
-        {
-          "id": "yellowstone-grizzly-in-sagebrush",
-          "title": "Grizzly in sagebrush",
-          "alt": "A grizzly bear stands alone among layered bands of pale grass and sagebrush.",
-          "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-800.webp",
-              "width": 800,
-              "size_bytes": 70732
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-1400.webp",
-              "width": 1400,
-              "size_bytes": 203754
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-sagebrush-2048.webp",
-              "width": 2048,
-              "size_bytes": 435334
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "26d1458a2237522f5ca51589a3214c581a30a0d6a7e56b75a95c503b82e07d3b"
-        },
-        {
-          "id": "yellowstone-grizzly-in-the-field",
-          "title": "Grizzly in the field",
-          "alt": "A grizzly bear moves through a broad field of pale grass and gray-green sagebrush.",
-          "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-800.webp",
-              "width": 479,
-              "size_bytes": 68704
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-1400.webp",
-              "width": 839,
-              "size_bytes": 185340
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grizzly-in-the-field-2048.webp",
-              "width": 1227,
-              "size_bytes": 403458
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "2a2dd6eed4c6498dc0d254607e583ef09322e622196569ebabf67fe5a50581c0"
-        },
-        {
-          "id": "tomales-bay-california-quail",
-          "title": "California quail",
-          "alt": "A California quail stands on a lichen-covered branch against a luminous green woodland background.",
-          "src": "assets/photos/tomales-bay/tomales-bay-california-quail-1400.webp",
-          "full": "assets/photos/tomales-bay/tomales-bay-california-quail-2048.webp",
-          "width": 1400,
-          "height": 837,
-          "variants": [
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-800.webp",
-              "width": 800,
-              "size_bytes": 105340
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-1400.webp",
-              "width": 1400,
-              "size_bytes": 326834
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-california-quail-2048.webp",
-              "width": 2048,
-              "size_bytes": 800872
-            }
-          ],
-          "display": "wide",
-          "location": "Tomales Bay",
-          "location_id": "tomales-bay",
-          "published": true,
-          "source_sha256": "bd609cb4c432f5bba9c9b15549cee91c3f7acc36a073d86b6f41d3e3db76adba"
-        },
-        {
-          "id": "tomales-bay-tule-elk-profile",
-          "title": "Tule elk profile",
-          "alt": "A tule elk fills the frame in profile with a thin grass stem held at its mouth.",
-          "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-1400.webp",
-          "full": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-2048.webp",
-          "width": 1400,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-800.webp",
-              "width": 800,
-              "size_bytes": 77428
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-1400.webp",
-              "width": 1400,
-              "size_bytes": 216046
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-tule-elk-profile-2048.webp",
-              "width": 2048,
-              "size_bytes": 528882
-            }
-          ],
-          "display": "landscape",
-          "location": "Tomales Bay",
-          "location_id": "tomales-bay",
-          "published": true,
-          "source_sha256": "3e115bdb65d9cacd3dc72588c4496ae9cbff473994bb1ebff815bcd88c35d91a"
-        },
-        {
-          "id": "tomales-bay-two-bull-elk",
-          "title": "Two bull elk",
-          "alt": "Two bull elk stand apart on a coastal meadow with blue water behind them.",
-          "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-1400.webp",
-          "full": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-800.webp",
-              "width": 800,
-              "size_bytes": 32352
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-1400.webp",
-              "width": 1400,
-              "size_bytes": 78696
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-two-bull-elk-2048.webp",
-              "width": 2048,
-              "size_bytes": 147458
-            }
-          ],
-          "display": "wide",
-          "location": "Tomales Bay",
-          "location_id": "tomales-bay",
-          "published": true,
-          "source_sha256": "5a0ca793e99e16f215129090553e64519cddd113bc2a2b86ec7e551f80cd626a"
-        },
-        {
-          "id": "tomales-bay-bulls-in-parallel",
-          "title": "Bulls in parallel",
-          "alt": "Two bull elk move in parallel through a coastal meadow against a broad blue-water backdrop.",
-          "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-1400.webp",
-          "full": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-800.webp",
-              "width": 800,
-              "size_bytes": 35226
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-1400.webp",
-              "width": 1400,
-              "size_bytes": 86398
-            },
-            {
-              "src": "assets/photos/tomales-bay/tomales-bay-bulls-in-parallel-2048.webp",
-              "width": 2048,
-              "size_bytes": 175042
-            }
-          ],
-          "display": "wide",
-          "location": "Tomales Bay",
-          "location_id": "tomales-bay",
-          "published": true,
-          "source_sha256": "e089aee948cce941f02364e5e04452ec412345062d41cb461eeeb4da54e70145"
         }
       ]
     },
@@ -1518,6 +1518,595 @@
       "description": "Light, weather, water, and natural forms.",
       "cover": "assets/photos/selected/valley-in-the-clouds-1400.webp",
       "photos": [
+        {
+          "id": "yellowstone-painted-reflection",
+          "title": "Painted reflection",
+          "alt": "Bands of blue, green, yellow, and orange reflect trees and clouds across a geothermal pool.",
+          "src": "assets/photos/yellowstone/yellowstone-painted-reflection-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-painted-reflection-2048.webp",
+          "width": 1400,
+          "height": 909,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-800.webp",
+              "width": 800,
+              "size_bytes": 122516
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-1400.webp",
+              "width": 1400,
+              "size_bytes": 354374
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-2048.webp",
+              "width": 2048,
+              "size_bytes": 775984
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "081aa5c5ba4fa817d57184b190a95cf9a8a1bb51c6d965b02ca5beb6e3b1c9c9"
+        },
+        {
+          "id": "yellowstone-green-thermal-spring",
+          "title": "Green thermal spring",
+          "alt": "A vivid green thermal spring fades into yellow and orange mineral mats.",
+          "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-green-thermal-spring-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-800.webp",
+              "width": 800,
+              "size_bytes": 167482
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-1400.webp",
+              "width": 1400,
+              "size_bytes": 551282
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-2048.webp",
+              "width": 2048,
+              "size_bytes": 1248220
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "82bfd42e06edcebc15f4bc9ba421e5598b7ebc3290d66096f1e02cd93b837253"
+        },
+        {
+          "id": "yellowstone-grand-prismatic-edge",
+          "title": "Grand Prismatic edge",
+          "alt": "Turquoise water meets orange, pink, and white mineral bands along the edge of Grand Prismatic Spring.",
+          "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-2048.webp",
+          "width": 1400,
+          "height": 814,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-800.webp",
+              "width": 800,
+              "size_bytes": 100794
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-1400.webp",
+              "width": 1400,
+              "size_bytes": 320522
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-2048.webp",
+              "width": 2048,
+              "size_bytes": 763856
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "aafd31d4fae6ad23b899e2c410ed0de612117d9a3ea7e08b9bd0868ebec27af4"
+        },
+        {
+          "id": "yellowstone-old-faithful-crowd",
+          "title": "Old Faithful",
+          "alt": "A crowd lines the boardwalk as Old Faithful erupts beneath a blue sky.",
+          "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-2048.webp",
+          "width": 1400,
+          "height": 937,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-800.webp",
+              "width": 800,
+              "size_bytes": 90312
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-1400.webp",
+              "width": 1400,
+              "size_bytes": 350994
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-2048.webp",
+              "width": 2048,
+              "size_bytes": 930534
+            }
+          ],
+          "display": "landscape",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "01c76e1925f210a812301de26eee8d750caa4a0ac33bb8f7f667893cf71ead91"
+        },
+        {
+          "id": "yellowstone-blue-spring-edge",
+          "title": "Blue spring edge",
+          "alt": "Deep blue thermal water meets a pale mineral shoreline with traces of orange.",
+          "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-blue-spring-edge-2048.webp",
+          "width": 1400,
+          "height": 777,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-800.webp",
+              "width": 800,
+              "size_bytes": 74888
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-1400.webp",
+              "width": 1400,
+              "size_bytes": 253554
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-2048.webp",
+              "width": 2048,
+              "size_bytes": 640948
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "ef463eeeb979b88539611ac017d766ac0cb57051782d8d3dde871a999077527c"
+        },
+        {
+          "id": "yellowstone-between-water-and-steam",
+          "title": "Between water and steam",
+          "alt": "A lone visitor crosses a boardwalk between turquoise thermal water, steam, and a dark blue lake.",
+          "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-between-water-and-steam-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-800.webp",
+              "width": 800,
+              "size_bytes": 57730
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-1400.webp",
+              "width": 1400,
+              "size_bytes": 194658
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-2048.webp",
+              "width": 2048,
+              "size_bytes": 491714
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "b6daef6d704b6e21803cabc22ac0fbc33ae6fb421a26e8506d11c7ed229bc3c3"
+        },
+        {
+          "id": "yellowstone-color-through-steam",
+          "title": "Color through steam",
+          "alt": "Orange, yellow, green, and blue geothermal bands fade beneath drifting steam.",
+          "src": "assets/photos/yellowstone/yellowstone-color-through-steam-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-color-through-steam-2048.webp",
+          "width": 1400,
+          "height": 787,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-800.webp",
+              "width": 800,
+              "size_bytes": 43946
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-1400.webp",
+              "width": 1400,
+              "size_bytes": 131104
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-2048.webp",
+              "width": 2048,
+              "size_bytes": 304738
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "87a1d0c03456a2ef840a226ba62b227cc4259bd8e1e16514ea553f447bbe056d"
+        },
+        {
+          "id": "yellowstone-geothermal-color-bands",
+          "title": "Geothermal color bands",
+          "alt": "Horizontal bands of orange, yellow, green, and blue form an abstract geothermal shoreline.",
+          "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-2048.webp",
+          "width": 1400,
+          "height": 915,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-800.webp",
+              "width": 800,
+              "size_bytes": 62032
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-1400.webp",
+              "width": 1400,
+              "size_bytes": 189984
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-2048.webp",
+              "width": 2048,
+              "size_bytes": 424108
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "f1d56c009cc699d0cceeff4e9e6f2602d988512f0dbb78e73e2b746b4f30b536"
+        },
+        {
+          "id": "yellowstone-mammoth-terraces",
+          "title": "Mammoth terraces",
+          "alt": "Layered mineral terraces rise below a gray rock wall as steam drifts from the upper pools.",
+          "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-mammoth-terraces-2048.webp",
+          "width": 1400,
+          "height": 807,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-800.webp",
+              "width": 800,
+              "size_bytes": 161202
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-1400.webp",
+              "width": 1400,
+              "size_bytes": 513126
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-2048.webp",
+              "width": 2048,
+              "size_bytes": 1218886
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "e831487d37ff9e34c88b844890c8e2c8594d234c1d0f0e49d9aaf3c82d334291"
+        },
+        {
+          "id": "yellowstone-steam-under-clouds",
+          "title": "Steam under clouds",
+          "alt": "Dense geothermal steam rises from a pool beneath pine trees and a dramatic cloud-filled sky.",
+          "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-steam-under-clouds-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-800.webp",
+              "width": 800,
+              "size_bytes": 88978
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-1400.webp",
+              "width": 1400,
+              "size_bytes": 282910
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-2048.webp",
+              "width": 2048,
+              "size_bytes": 693844
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "8cb2fba0eb48909b390452a33da8b4ee0cc8e12af9faa9cb0d49c4a6d605afd1"
+        },
+        {
+          "id": "yellowstone-prismatic-vertical",
+          "title": "Prismatic shoreline",
+          "alt": "A vertical view follows turquoise water into yellow, orange, and pink mineral bands.",
+          "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-prismatic-vertical-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-800.webp",
+              "width": 479,
+              "size_bytes": 70928
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-1400.webp",
+              "width": 839,
+              "size_bytes": 228984
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-2048.webp",
+              "width": 1227,
+              "size_bytes": 531936
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "52d40fc71eb1ff13751c4fa2c6c1bfbae61875ea17c55e14fb7d3dd7891fdf60"
+        },
+        {
+          "id": "yellowstone-ripples-in-blue",
+          "title": "Ripples in blue",
+          "alt": "Concentric ripples spread across clear blue thermal water beside a pale mineral edge.",
+          "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-ripples-in-blue-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-800.webp",
+              "width": 479,
+              "size_bytes": 66528
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-1400.webp",
+              "width": 839,
+              "size_bytes": 168570
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-2048.webp",
+              "width": 1227,
+              "size_bytes": 332474
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "b150d3ca4ec6652d11ff8c3ad89e40d0c9766df2e65c78c756ce924121af06b9"
+        },
+        {
+          "id": "yellowstone-lower-falls",
+          "title": "Lower Falls",
+          "alt": "Lower Falls drops into the Grand Canyon of the Yellowstone above the winding river.",
+          "src": "assets/photos/yellowstone/yellowstone-lower-falls-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-lower-falls-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-lower-falls-800.webp",
+              "width": 479,
+              "size_bytes": 153258
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-lower-falls-1400.webp",
+              "width": 839,
+              "size_bytes": 489856
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-lower-falls-2048.webp",
+              "width": 1227,
+              "size_bytes": 1062776
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "70e06b25695b1375fb71ab262faa320939d21ba734df4a785fce9c3f268f32fd"
+        },
+        {
+          "id": "yellowstone-painted-canyon-wall",
+          "title": "Painted canyon wall",
+          "alt": "Pink, orange, cream, and gray canyon slopes are punctuated by scattered dark conifers.",
+          "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-800.webp",
+              "width": 479,
+              "size_bytes": 121100
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-1400.webp",
+              "width": 839,
+              "size_bytes": 382668
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-2048.webp",
+              "width": 1227,
+              "size_bytes": 914100
+            }
+          ],
+          "display": "portrait",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "21ceaff9e0faf012fa6f75933f24cabd194d200b8891e26c8f883909602b35ff"
+        },
+        {
+          "id": "17-miles-storm-over-the-pacific",
+          "title": "Storm over the Pacific",
+          "alt": "Dark coastal clouds hang above a rough blue Pacific and rocky shoreline.",
+          "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-1400.webp",
+          "full": "assets/photos/17-miles/17-miles-storm-over-the-pacific-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-800.webp",
+              "width": 800,
+              "size_bytes": 85512
+            },
+            {
+              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-1400.webp",
+              "width": 1400,
+              "size_bytes": 259416
+            },
+            {
+              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-2048.webp",
+              "width": 2048,
+              "size_bytes": 590156
+            }
+          ],
+          "display": "wide",
+          "location": "17 Miles",
+          "location_id": "17-miles",
+          "published": true,
+          "source_sha256": "5f05449acaabdeda31bb616abbb9314999314e67e21e149391d9c149e7eb8091"
+        },
+        {
+          "id": "17-miles-lone-cypress",
+          "title": "Lone Cypress",
+          "alt": "A windswept cypress stands on a rocky point above a pale, misty Pacific coast.",
+          "src": "assets/photos/17-miles/17-miles-lone-cypress-1400.webp",
+          "full": "assets/photos/17-miles/17-miles-lone-cypress-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/17-miles/17-miles-lone-cypress-800.webp",
+              "width": 533,
+              "size_bytes": 96106
+            },
+            {
+              "src": "assets/photos/17-miles/17-miles-lone-cypress-1400.webp",
+              "width": 933,
+              "size_bytes": 302420
+            },
+            {
+              "src": "assets/photos/17-miles/17-miles-lone-cypress-2048.webp",
+              "width": 1365,
+              "size_bytes": 718914
+            }
+          ],
+          "display": "portrait",
+          "location": "17 Miles",
+          "location_id": "17-miles",
+          "published": true,
+          "source_sha256": "9909ce00ed99bc35d06eace6b37471eaca57f7909a29422c94cee7bbaa87b61f"
+        },
+        {
+          "id": "mono-lake-tufa-and-sierra",
+          "title": "Tufa and Sierra",
+          "alt": "Tufa towers rise from Mono Lake with snow-covered Sierra peaks beyond.",
+          "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-1400.webp",
+          "full": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-2048.webp",
+          "width": 1400,
+          "height": 791,
+          "variants": [
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-800.webp",
+              "width": 800,
+              "size_bytes": 77880
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-1400.webp",
+              "width": 1400,
+              "size_bytes": 262306
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-2048.webp",
+              "width": 2048,
+              "size_bytes": 630250
+            }
+          ],
+          "display": "wide",
+          "location": "Mono Lake",
+          "location_id": "mono-lake",
+          "published": true,
+          "source_sha256": "dd7114994170b4138148257aaba35cb6546542824730c7cf2fd2e36802c105c9"
+        },
+        {
+          "id": "mono-lake-single-tufa-reflection",
+          "title": "Single tufa reflection",
+          "alt": "A solitary tufa formation and its reflection sit in still blue water beneath distant mountains.",
+          "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-1400.webp",
+          "full": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-800.webp",
+              "width": 800,
+              "size_bytes": 15454
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-1400.webp",
+              "width": 1400,
+              "size_bytes": 52202
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-2048.webp",
+              "width": 2048,
+              "size_bytes": 145206
+            }
+          ],
+          "display": "wide",
+          "location": "Mono Lake",
+          "location_id": "mono-lake",
+          "published": true,
+          "source_sha256": "b93f7f9bd56a75d7a270fb2176421d24e8435a7560124e9db3b02a0053b829b9"
+        },
+        {
+          "id": "mono-lake-tufa-panorama",
+          "title": "Tufa panorama",
+          "alt": "A long line of tufa towers reflects across calm Mono Lake beneath a muted blue sky.",
+          "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-1400.webp",
+          "full": "assets/photos/mono-lake/mono-lake-tufa-panorama-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-800.webp",
+              "width": 800,
+              "size_bytes": 24712
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-1400.webp",
+              "width": 1400,
+              "size_bytes": 77914
+            },
+            {
+              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-2048.webp",
+              "width": 2048,
+              "size_bytes": 196200
+            }
+          ],
+          "display": "wide",
+          "location": "Mono Lake",
+          "location_id": "mono-lake",
+          "published": true,
+          "source_sha256": "16f7c52650c4f3a294e1f7d97644fac5c833cd951066362acbd9bf0bfdb9d39f"
+        },
         {
           "id": "valley-in-the-clouds",
           "title": "Valley in the clouds",
@@ -3537,595 +4126,6 @@
           "location_id": "san-francisco",
           "published": true,
           "source_sha256": "14fb09c6daedf1956d2339b2476c8ac1a06265bc60c648e85898727d5f33b873"
-        },
-        {
-          "id": "yellowstone-painted-reflection",
-          "title": "Painted reflection",
-          "alt": "Bands of blue, green, yellow, and orange reflect trees and clouds across a geothermal pool.",
-          "src": "assets/photos/yellowstone/yellowstone-painted-reflection-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-painted-reflection-2048.webp",
-          "width": 1400,
-          "height": 909,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-800.webp",
-              "width": 800,
-              "size_bytes": 122516
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-1400.webp",
-              "width": 1400,
-              "size_bytes": 354374
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-reflection-2048.webp",
-              "width": 2048,
-              "size_bytes": 775984
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "081aa5c5ba4fa817d57184b190a95cf9a8a1bb51c6d965b02ca5beb6e3b1c9c9"
-        },
-        {
-          "id": "yellowstone-green-thermal-spring",
-          "title": "Green thermal spring",
-          "alt": "A vivid green thermal spring fades into yellow and orange mineral mats.",
-          "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-green-thermal-spring-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-800.webp",
-              "width": 800,
-              "size_bytes": 167482
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-1400.webp",
-              "width": 1400,
-              "size_bytes": 551282
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-green-thermal-spring-2048.webp",
-              "width": 2048,
-              "size_bytes": 1248220
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "82bfd42e06edcebc15f4bc9ba421e5598b7ebc3290d66096f1e02cd93b837253"
-        },
-        {
-          "id": "yellowstone-grand-prismatic-edge",
-          "title": "Grand Prismatic edge",
-          "alt": "Turquoise water meets orange, pink, and white mineral bands along the edge of Grand Prismatic Spring.",
-          "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-2048.webp",
-          "width": 1400,
-          "height": 814,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-800.webp",
-              "width": 800,
-              "size_bytes": 100794
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-1400.webp",
-              "width": 1400,
-              "size_bytes": 320522
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-grand-prismatic-edge-2048.webp",
-              "width": 2048,
-              "size_bytes": 763856
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "aafd31d4fae6ad23b899e2c410ed0de612117d9a3ea7e08b9bd0868ebec27af4"
-        },
-        {
-          "id": "yellowstone-old-faithful-crowd",
-          "title": "Old Faithful",
-          "alt": "A crowd lines the boardwalk as Old Faithful erupts beneath a blue sky.",
-          "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-2048.webp",
-          "width": 1400,
-          "height": 937,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-800.webp",
-              "width": 800,
-              "size_bytes": 90312
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-1400.webp",
-              "width": 1400,
-              "size_bytes": 350994
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-old-faithful-crowd-2048.webp",
-              "width": 2048,
-              "size_bytes": 930534
-            }
-          ],
-          "display": "landscape",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "01c76e1925f210a812301de26eee8d750caa4a0ac33bb8f7f667893cf71ead91"
-        },
-        {
-          "id": "yellowstone-blue-spring-edge",
-          "title": "Blue spring edge",
-          "alt": "Deep blue thermal water meets a pale mineral shoreline with traces of orange.",
-          "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-blue-spring-edge-2048.webp",
-          "width": 1400,
-          "height": 777,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-800.webp",
-              "width": 800,
-              "size_bytes": 74888
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-1400.webp",
-              "width": 1400,
-              "size_bytes": 253554
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-blue-spring-edge-2048.webp",
-              "width": 2048,
-              "size_bytes": 640948
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "ef463eeeb979b88539611ac017d766ac0cb57051782d8d3dde871a999077527c"
-        },
-        {
-          "id": "yellowstone-between-water-and-steam",
-          "title": "Between water and steam",
-          "alt": "A lone visitor crosses a boardwalk between turquoise thermal water, steam, and a dark blue lake.",
-          "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-between-water-and-steam-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-800.webp",
-              "width": 800,
-              "size_bytes": 57730
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-1400.webp",
-              "width": 1400,
-              "size_bytes": 194658
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-between-water-and-steam-2048.webp",
-              "width": 2048,
-              "size_bytes": 491714
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "b6daef6d704b6e21803cabc22ac0fbc33ae6fb421a26e8506d11c7ed229bc3c3"
-        },
-        {
-          "id": "yellowstone-color-through-steam",
-          "title": "Color through steam",
-          "alt": "Orange, yellow, green, and blue geothermal bands fade beneath drifting steam.",
-          "src": "assets/photos/yellowstone/yellowstone-color-through-steam-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-color-through-steam-2048.webp",
-          "width": 1400,
-          "height": 787,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-800.webp",
-              "width": 800,
-              "size_bytes": 43946
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-1400.webp",
-              "width": 1400,
-              "size_bytes": 131104
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-color-through-steam-2048.webp",
-              "width": 2048,
-              "size_bytes": 304738
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "87a1d0c03456a2ef840a226ba62b227cc4259bd8e1e16514ea553f447bbe056d"
-        },
-        {
-          "id": "yellowstone-geothermal-color-bands",
-          "title": "Geothermal color bands",
-          "alt": "Horizontal bands of orange, yellow, green, and blue form an abstract geothermal shoreline.",
-          "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-2048.webp",
-          "width": 1400,
-          "height": 915,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-800.webp",
-              "width": 800,
-              "size_bytes": 62032
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-1400.webp",
-              "width": 1400,
-              "size_bytes": 189984
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-geothermal-color-bands-2048.webp",
-              "width": 2048,
-              "size_bytes": 424108
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "f1d56c009cc699d0cceeff4e9e6f2602d988512f0dbb78e73e2b746b4f30b536"
-        },
-        {
-          "id": "yellowstone-mammoth-terraces",
-          "title": "Mammoth terraces",
-          "alt": "Layered mineral terraces rise below a gray rock wall as steam drifts from the upper pools.",
-          "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-mammoth-terraces-2048.webp",
-          "width": 1400,
-          "height": 807,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-800.webp",
-              "width": 800,
-              "size_bytes": 161202
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-1400.webp",
-              "width": 1400,
-              "size_bytes": 513126
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-mammoth-terraces-2048.webp",
-              "width": 2048,
-              "size_bytes": 1218886
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "e831487d37ff9e34c88b844890c8e2c8594d234c1d0f0e49d9aaf3c82d334291"
-        },
-        {
-          "id": "yellowstone-steam-under-clouds",
-          "title": "Steam under clouds",
-          "alt": "Dense geothermal steam rises from a pool beneath pine trees and a dramatic cloud-filled sky.",
-          "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-steam-under-clouds-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-800.webp",
-              "width": 800,
-              "size_bytes": 88978
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-1400.webp",
-              "width": 1400,
-              "size_bytes": 282910
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-steam-under-clouds-2048.webp",
-              "width": 2048,
-              "size_bytes": 693844
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "8cb2fba0eb48909b390452a33da8b4ee0cc8e12af9faa9cb0d49c4a6d605afd1"
-        },
-        {
-          "id": "yellowstone-prismatic-vertical",
-          "title": "Prismatic shoreline",
-          "alt": "A vertical view follows turquoise water into yellow, orange, and pink mineral bands.",
-          "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-prismatic-vertical-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-800.webp",
-              "width": 479,
-              "size_bytes": 70928
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-1400.webp",
-              "width": 839,
-              "size_bytes": 228984
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-prismatic-vertical-2048.webp",
-              "width": 1227,
-              "size_bytes": 531936
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "52d40fc71eb1ff13751c4fa2c6c1bfbae61875ea17c55e14fb7d3dd7891fdf60"
-        },
-        {
-          "id": "yellowstone-ripples-in-blue",
-          "title": "Ripples in blue",
-          "alt": "Concentric ripples spread across clear blue thermal water beside a pale mineral edge.",
-          "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-ripples-in-blue-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-800.webp",
-              "width": 479,
-              "size_bytes": 66528
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-1400.webp",
-              "width": 839,
-              "size_bytes": 168570
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-ripples-in-blue-2048.webp",
-              "width": 1227,
-              "size_bytes": 332474
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "b150d3ca4ec6652d11ff8c3ad89e40d0c9766df2e65c78c756ce924121af06b9"
-        },
-        {
-          "id": "yellowstone-lower-falls",
-          "title": "Lower Falls",
-          "alt": "Lower Falls drops into the Grand Canyon of the Yellowstone above the winding river.",
-          "src": "assets/photos/yellowstone/yellowstone-lower-falls-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-lower-falls-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-lower-falls-800.webp",
-              "width": 479,
-              "size_bytes": 153258
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-lower-falls-1400.webp",
-              "width": 839,
-              "size_bytes": 489856
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-lower-falls-2048.webp",
-              "width": 1227,
-              "size_bytes": 1062776
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "70e06b25695b1375fb71ab262faa320939d21ba734df4a785fce9c3f268f32fd"
-        },
-        {
-          "id": "yellowstone-painted-canyon-wall",
-          "title": "Painted canyon wall",
-          "alt": "Pink, orange, cream, and gray canyon slopes are punctuated by scattered dark conifers.",
-          "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-2048.webp",
-          "width": 839,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-800.webp",
-              "width": 479,
-              "size_bytes": 121100
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-1400.webp",
-              "width": 839,
-              "size_bytes": 382668
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-painted-canyon-wall-2048.webp",
-              "width": 1227,
-              "size_bytes": 914100
-            }
-          ],
-          "display": "portrait",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "21ceaff9e0faf012fa6f75933f24cabd194d200b8891e26c8f883909602b35ff"
-        },
-        {
-          "id": "17-miles-storm-over-the-pacific",
-          "title": "Storm over the Pacific",
-          "alt": "Dark coastal clouds hang above a rough blue Pacific and rocky shoreline.",
-          "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-1400.webp",
-          "full": "assets/photos/17-miles/17-miles-storm-over-the-pacific-2048.webp",
-          "width": 1400,
-          "height": 933,
-          "variants": [
-            {
-              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-800.webp",
-              "width": 800,
-              "size_bytes": 85512
-            },
-            {
-              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-1400.webp",
-              "width": 1400,
-              "size_bytes": 259416
-            },
-            {
-              "src": "assets/photos/17-miles/17-miles-storm-over-the-pacific-2048.webp",
-              "width": 2048,
-              "size_bytes": 590156
-            }
-          ],
-          "display": "wide",
-          "location": "17 Miles",
-          "location_id": "17-miles",
-          "published": true,
-          "source_sha256": "5f05449acaabdeda31bb616abbb9314999314e67e21e149391d9c149e7eb8091"
-        },
-        {
-          "id": "17-miles-lone-cypress",
-          "title": "Lone Cypress",
-          "alt": "A windswept cypress stands on a rocky point above a pale, misty Pacific coast.",
-          "src": "assets/photos/17-miles/17-miles-lone-cypress-1400.webp",
-          "full": "assets/photos/17-miles/17-miles-lone-cypress-2048.webp",
-          "width": 933,
-          "height": 1400,
-          "variants": [
-            {
-              "src": "assets/photos/17-miles/17-miles-lone-cypress-800.webp",
-              "width": 533,
-              "size_bytes": 96106
-            },
-            {
-              "src": "assets/photos/17-miles/17-miles-lone-cypress-1400.webp",
-              "width": 933,
-              "size_bytes": 302420
-            },
-            {
-              "src": "assets/photos/17-miles/17-miles-lone-cypress-2048.webp",
-              "width": 1365,
-              "size_bytes": 718914
-            }
-          ],
-          "display": "portrait",
-          "location": "17 Miles",
-          "location_id": "17-miles",
-          "published": true,
-          "source_sha256": "9909ce00ed99bc35d06eace6b37471eaca57f7909a29422c94cee7bbaa87b61f"
-        },
-        {
-          "id": "mono-lake-tufa-and-sierra",
-          "title": "Tufa and Sierra",
-          "alt": "Tufa towers rise from Mono Lake with snow-covered Sierra peaks beyond.",
-          "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-1400.webp",
-          "full": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-2048.webp",
-          "width": 1400,
-          "height": 791,
-          "variants": [
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-800.webp",
-              "width": 800,
-              "size_bytes": 77880
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-1400.webp",
-              "width": 1400,
-              "size_bytes": 262306
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-and-sierra-2048.webp",
-              "width": 2048,
-              "size_bytes": 630250
-            }
-          ],
-          "display": "wide",
-          "location": "Mono Lake",
-          "location_id": "mono-lake",
-          "published": true,
-          "source_sha256": "dd7114994170b4138148257aaba35cb6546542824730c7cf2fd2e36802c105c9"
-        },
-        {
-          "id": "mono-lake-single-tufa-reflection",
-          "title": "Single tufa reflection",
-          "alt": "A solitary tufa formation and its reflection sit in still blue water beneath distant mountains.",
-          "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-1400.webp",
-          "full": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-800.webp",
-              "width": 800,
-              "size_bytes": 15454
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-1400.webp",
-              "width": 1400,
-              "size_bytes": 52202
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-single-tufa-reflection-2048.webp",
-              "width": 2048,
-              "size_bytes": 145206
-            }
-          ],
-          "display": "wide",
-          "location": "Mono Lake",
-          "location_id": "mono-lake",
-          "published": true,
-          "source_sha256": "b93f7f9bd56a75d7a270fb2176421d24e8435a7560124e9db3b02a0053b829b9"
-        },
-        {
-          "id": "mono-lake-tufa-panorama",
-          "title": "Tufa panorama",
-          "alt": "A long line of tufa towers reflects across calm Mono Lake beneath a muted blue sky.",
-          "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-1400.webp",
-          "full": "assets/photos/mono-lake/mono-lake-tufa-panorama-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-800.webp",
-              "width": 800,
-              "size_bytes": 24712
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-1400.webp",
-              "width": 1400,
-              "size_bytes": 77914
-            },
-            {
-              "src": "assets/photos/mono-lake/mono-lake-tufa-panorama-2048.webp",
-              "width": 2048,
-              "size_bytes": 196200
-            }
-          ],
-          "display": "wide",
-          "location": "Mono Lake",
-          "location_id": "mono-lake",
-          "published": true,
-          "source_sha256": "16f7c52650c4f3a294e1f7d97644fac5c833cd951066362acbd9bf0bfdb9d39f"
         }
       ]
     },
@@ -4137,6 +4137,37 @@
       "description": "People, places, and passing light.",
       "cover": "assets/photos/selected/the-last-light-1400.webp",
       "photos": [
+        {
+          "id": "yellowstone-dog-at-the-rv-window",
+          "title": "At the RV window",
+          "alt": "A dog looks out from the open window of a white RV.",
+          "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-1400.webp",
+          "full": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-800.webp",
+              "width": 800,
+              "size_bytes": 16428
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-1400.webp",
+              "width": 1400,
+              "size_bytes": 46592
+            },
+            {
+              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-2048.webp",
+              "width": 2048,
+              "size_bytes": 110636
+            }
+          ],
+          "display": "wide",
+          "location": "Yellowstone National Park",
+          "location_id": "yellowstone",
+          "published": true,
+          "source_sha256": "af0a06f0d871b24fc7908af204332129e83a19726967b800aecd0b1aec77bdef"
+        },
         {
           "id": "through-the-window",
           "title": "Through the window",
@@ -5596,37 +5627,6 @@
           "location_id": "san-francisco",
           "published": true,
           "source_sha256": "c0783a02fbbf79b39261421aa8054b3a3dfb88cf2c3d5919085ed725c8d68018"
-        },
-        {
-          "id": "yellowstone-dog-at-the-rv-window",
-          "title": "At the RV window",
-          "alt": "A dog looks out from the open window of a white RV.",
-          "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-1400.webp",
-          "full": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-2048.webp",
-          "width": 1400,
-          "height": 600,
-          "variants": [
-            {
-              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-800.webp",
-              "width": 800,
-              "size_bytes": 16428
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-1400.webp",
-              "width": 1400,
-              "size_bytes": 46592
-            },
-            {
-              "src": "assets/photos/yellowstone/yellowstone-dog-at-the-rv-window-2048.webp",
-              "width": 2048,
-              "size_bytes": 110636
-            }
-          ],
-          "display": "wide",
-          "location": "Yellowstone National Park",
-          "location_id": "yellowstone",
-          "published": true,
-          "source_sha256": "af0a06f0d871b24fc7908af204332129e83a19726967b800aecd0b1aec77bdef"
         }
       ]
     }
@@ -5802,5 +5802,5 @@
       "name": "Tomales Bay"
     }
   ],
-  "catalog_sha256": "e26e47851b9e0379ac536701696da15d40bd01cd99165ea176cb762ad6e1f0ca"
+  "catalog_sha256": "e52d0ce609cfaeca170eb54510b32ab22c6a98057cf21a61b0d3edcdb28b826a"
 }
