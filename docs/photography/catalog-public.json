@@ -16,7 +16,29 @@
     "shanghai-lines-and-lamps",
     "anjihai-braided-water",
     "moonscape-a-single-spire",
-    "sayram-lake-road"
+    "sayram-lake-road",
+    "san-diego-late-light-on-the-steps",
+    "san-diego-framed-by-concrete",
+    "san-diego-mid-yawn",
+    "san-diego-through-the-surf",
+    "los-angeles-tower-14-at-blue-hour",
+    "santa-barbara-palm-shadow",
+    "santa-barbara-a-golden-opening",
+    "morro-bay-shake-it-off",
+    "morro-bay-looking-back",
+    "grand-teton-passing-by-the-barn",
+    "grand-teton-across-the-lake",
+    "grand-teton-through-the-willows",
+    "bryce-canyon-through-the-stone",
+    "bryce-canyon-a-long-winter-shadow",
+    "bryce-canyon-blue-shadow",
+    "bryce-canyon-orange-country",
+    "bryce-canyon-last-light-on-the-plateau",
+    "napa-valley-sunset-behind-us",
+    "napa-valley-through-the-old-cab",
+    "monterey-bay-marked-flukes",
+    "monterey-bay-a-breath-at-sea",
+    "santa-cruz-under-the-cap"
   ],
   "collections": [
     {
@@ -265,6 +287,438 @@
           "display": "portrait",
           "location": "White Rocks (白蘑菇)",
           "location_id": "white-rocks",
+          "published": true
+        },
+        {
+          "id": "san-diego-in-profile",
+          "title": "In profile",
+          "alt": "A sea lion raises its head in profile, with sunlight reflecting from its smooth coat against a softly blurred shore.",
+          "src": "assets/photos/san-diego/san-diego-in-profile-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-in-profile-2048.webp",
+          "width": 1400,
+          "height": 1213,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-in-profile-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-in-profile-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-in-profile-2048.webp",
+              "width": 2047
+            }
+          ],
+          "display": "landscape",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-low-over-the-water",
+          "title": "Low over the water",
+          "alt": "A pelican flies low with its wings fully extended above deep blue ocean water.",
+          "src": "assets/photos/san-diego/san-diego-low-over-the-water-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-low-over-the-water-2048.webp",
+          "width": 1400,
+          "height": 824,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-low-over-the-water-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-low-over-the-water-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-low-over-the-water-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-mid-yawn",
+          "title": "Mid-yawn",
+          "alt": "A sea lion stretches upward with its mouth wide open against a softly blurred coastal background.",
+          "src": "assets/photos/san-diego/san-diego-mid-yawn-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-mid-yawn-2048.webp",
+          "width": 1400,
+          "height": 875,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-mid-yawn-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-mid-yawn-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-mid-yawn-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-through-the-surf",
+          "title": "Through the surf",
+          "alt": "A sea lion emerges from churning water in black and white, with wet whiskers and foam surrounding its face.",
+          "src": "assets/photos/san-diego/san-diego-through-the-surf-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-through-the-surf-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-through-the-surf-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-through-the-surf-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-through-the-surf-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "morro-bay-three-at-rest",
+          "title": "Three at rest",
+          "alt": "Three sea otters rest in a vertical sequence, their pale faces and dark wet bodies repeating across the frame.",
+          "src": "assets/photos/morro-bay/morro-bay-three-at-rest-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-three-at-rest-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-three-at-rest-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-three-at-rest-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-three-at-rest-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-raft-of-three",
+          "title": "Raft of three",
+          "alt": "Three sea otters float closely together, their pale faces and dark bodies layered across calm blue water.",
+          "src": "assets/photos/morro-bay/morro-bay-raft-of-three-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-raft-of-three-2048.webp",
+          "width": 1400,
+          "height": 875,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-raft-of-three-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-raft-of-three-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-raft-of-three-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-still-water",
+          "title": "Still water",
+          "alt": "A single sea otter rests upright with eyes gently closed, reflected in calm blue water.",
+          "src": "assets/photos/morro-bay/morro-bay-still-water-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-still-water-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-still-water-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-still-water-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-still-water-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-adrift-in-kelp",
+          "title": "Adrift in kelp",
+          "alt": "A sea otter floats on its back among brown kelp, surrounded by a broad field of rippled blue water.",
+          "src": "assets/photos/morro-bay/morro-bay-adrift-in-kelp-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-adrift-in-kelp-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-adrift-in-kelp-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-adrift-in-kelp-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-adrift-in-kelp-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-held-close",
+          "title": "Held close",
+          "alt": "Two sea otters rest against one another in the water, one pale face turned toward the camera in low light.",
+          "src": "assets/photos/morro-bay/morro-bay-held-close-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-held-close-2048.webp",
+          "width": 1400,
+          "height": 875,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-held-close-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-held-close-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-held-close-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-shake-it-off",
+          "title": "Shake it off",
+          "alt": "A sea otter shakes water from its head and body, sending a burst of droplets through bright backlight.",
+          "src": "assets/photos/morro-bay/morro-bay-shake-it-off-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-shake-it-off-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-shake-it-off-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-shake-it-off-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-shake-it-off-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "morro-bay-looking-back",
+          "title": "Looking back",
+          "alt": "A young sea otter looks directly toward the camera while resting against the dark wet body of another otter.",
+          "src": "assets/photos/morro-bay/morro-bay-looking-back-1400.webp",
+          "full": "assets/photos/morro-bay/morro-bay-looking-back-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/morro-bay/morro-bay-looking-back-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-looking-back-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/morro-bay/morro-bay-looking-back-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Morro Bay",
+          "location_id": "morro-bay",
+          "published": true
+        },
+        {
+          "id": "grand-teton-through-the-willows",
+          "title": "Through the willows",
+          "alt": "A large antlered moose stands in profile among dense pale vegetation, its dark body contrasting with the surrounding branches.",
+          "src": "assets/photos/grand-teton/grand-teton-through-the-willows-1400.webp",
+          "full": "assets/photos/grand-teton/grand-teton-through-the-willows-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/grand-teton/grand-teton-through-the-willows-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-through-the-willows-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-through-the-willows-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "wide",
+          "location": "Grand Teton National Park",
+          "location_id": "grand-teton",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-small-visitor",
+          "title": "Small visitor",
+          "alt": "A small brown bird stands close to the camera against a sparkling, softly blurred ground.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-small-visitor-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-small-visitor-2048.webp",
+          "width": 1090,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-small-visitor-800.webp",
+              "width": 623
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-small-visitor-1400.webp",
+              "width": 1090
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-small-visitor-2048.webp",
+              "width": 1595
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "monterey-bay-into-the-deep",
+          "title": "Into the deep",
+          "alt": "A whale raises its tail above the ocean as streams of water fall from both flukes.",
+          "src": "assets/photos/monterey-bay/monterey-bay-into-the-deep-1400.webp",
+          "full": "assets/photos/monterey-bay/monterey-bay-into-the-deep-2048.webp",
+          "width": 1400,
+          "height": 839,
+          "variants": [
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-into-the-deep-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-into-the-deep-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-into-the-deep-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Monterey Bay",
+          "location_id": "monterey-bay",
+          "published": true
+        },
+        {
+          "id": "monterey-bay-marked-flukes",
+          "title": "Marked flukes",
+          "alt": "The patterned underside of a whale tail rises above dark blue water, edged with droplets and white spray.",
+          "src": "assets/photos/monterey-bay/monterey-bay-marked-flukes-1400.webp",
+          "full": "assets/photos/monterey-bay/monterey-bay-marked-flukes-2048.webp",
+          "width": 1400,
+          "height": 871,
+          "variants": [
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-marked-flukes-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-marked-flukes-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-marked-flukes-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Monterey Bay",
+          "location_id": "monterey-bay",
+          "published": true
+        },
+        {
+          "id": "monterey-bay-a-breath-at-sea",
+          "title": "A breath at sea",
+          "alt": "A large white plume rises above a whale surfacing low in the open ocean beneath a distant horizon.",
+          "src": "assets/photos/monterey-bay/monterey-bay-a-breath-at-sea-1400.webp",
+          "full": "assets/photos/monterey-bay/monterey-bay-a-breath-at-sea-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-a-breath-at-sea-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-a-breath-at-sea-1400.webp",
+              "width": 840
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-a-breath-at-sea-2048.webp",
+              "width": 1229
+            }
+          ],
+          "display": "portrait",
+          "location": "Monterey Bay",
+          "location_id": "monterey-bay",
           "published": true
         }
       ]
@@ -666,6 +1120,303 @@
           "location": "Sayram Lake",
           "location_id": "sayram-lake",
           "published": true
+        },
+        {
+          "id": "grand-teton-scale",
+          "title": "Scale",
+          "alt": "A small cluster of trees stands alone in a broad meadow beneath a massive rocky mountain peak.",
+          "src": "assets/photos/grand-teton/grand-teton-scale-1400.webp",
+          "full": "assets/photos/grand-teton/grand-teton-scale-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/grand-teton/grand-teton-scale-800.webp",
+              "width": 533
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-scale-1400.webp",
+              "width": 933
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-scale-2048.webp",
+              "width": 1365
+            }
+          ],
+          "display": "portrait",
+          "location": "Grand Teton National Park",
+          "location_id": "grand-teton",
+          "published": true
+        },
+        {
+          "id": "grand-teton-across-the-lake",
+          "title": "Across the lake",
+          "alt": "Dark mountain ridges rise above a still lake beneath layered clouds in a black-and-white landscape.",
+          "src": "assets/photos/grand-teton/grand-teton-across-the-lake-1400.webp",
+          "full": "assets/photos/grand-teton/grand-teton-across-the-lake-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/grand-teton/grand-teton-across-the-lake-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-across-the-lake-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-across-the-lake-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "wide",
+          "location": "Grand Teton National Park",
+          "location_id": "grand-teton",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-tower-in-winter",
+          "title": "Tower in winter",
+          "alt": "A tall orange hoodoo rises from a snow-filled canyon, surrounded by layered rock walls and smaller spires.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-tower-in-winter-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-tower-in-winter-2048.webp",
+          "width": 900,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-tower-in-winter-800.webp",
+              "width": 514
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-tower-in-winter-1400.webp",
+              "width": 900
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-tower-in-winter-2048.webp",
+              "width": 1316
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-through-the-stone",
+          "title": "Through the stone",
+          "alt": "Snow-covered hoodoos and canyon walls appear through a naturally framed opening in warm orange rock.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-through-the-stone-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-through-the-stone-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-through-the-stone-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-through-the-stone-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-through-the-stone-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-a-long-winter-shadow",
+          "title": "A long winter shadow",
+          "alt": "A broken tree trunk stands alone on a smooth snow ridge, casting a long shadow toward distant snowy hoodoos.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-a-long-winter-shadow-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-a-long-winter-shadow-2048.webp",
+          "width": 1400,
+          "height": 870,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-a-long-winter-shadow-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-a-long-winter-shadow-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-a-long-winter-shadow-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "wide",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-blue-shadow",
+          "title": "Blue shadow",
+          "alt": "A soft blue shadow curves across an untouched snow drift beneath a narrow band of orange earth.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-blue-shadow-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-blue-shadow-2048.webp",
+          "width": 970,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-blue-shadow-800.webp",
+              "width": 554
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-blue-shadow-1400.webp",
+              "width": 970
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-blue-shadow-2048.webp",
+              "width": 1419
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-after-the-storm",
+          "title": "After the storm",
+          "alt": "A broad snow-covered canyon of orange hoodoos stretches beneath large white clouds and a deep blue winter sky.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-after-the-storm-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-after-the-storm-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-after-the-storm-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-after-the-storm-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-after-the-storm-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-stone-forest",
+          "title": "Stone forest",
+          "alt": "Dense orange hoodoos rise in vertical layers among scattered dark green pine trees.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-stone-forest-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-stone-forest-2048.webp",
+          "width": 939,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-stone-forest-800.webp",
+              "width": 536
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-stone-forest-1400.webp",
+              "width": 939
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-stone-forest-2048.webp",
+              "width": 1373
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-orange-country",
+          "title": "Orange country",
+          "alt": "Rolling orange and pale ridges stretch across the canyon around an isolated hoodoo and scattered pine trees.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-orange-country-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-orange-country-2048.webp",
+          "width": 997,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-orange-country-800.webp",
+              "width": 570
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-orange-country-1400.webp",
+              "width": 997
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-orange-country-2048.webp",
+              "width": 1459
+            }
+          ],
+          "display": "portrait",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "bryce-canyon-last-light-on-the-plateau",
+          "title": "Last light on the plateau",
+          "alt": "Warm evening light falls across a layered red plateau beneath large blue-gray storm clouds.",
+          "src": "assets/photos/bryce-canyon/bryce-canyon-last-light-on-the-plateau-1400.webp",
+          "full": "assets/photos/bryce-canyon/bryce-canyon-last-light-on-the-plateau-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-last-light-on-the-plateau-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-last-light-on-the-plateau-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/bryce-canyon/bryce-canyon-last-light-on-the-plateau-2048.webp",
+              "width": 2047
+            }
+          ],
+          "display": "wide",
+          "location": "Bryce Canyon National Park",
+          "location_id": "bryce-canyon",
+          "published": true
+        },
+        {
+          "id": "santa-cruz-under-the-cap",
+          "title": "Under the cap",
+          "alt": "Warm sunlight passes through the delicate gills of a small mushroom growing from dark tree bark, with other fungi fading into soft focus.",
+          "src": "assets/photos/santa-cruz/santa-cruz-under-the-cap-1400.webp",
+          "full": "assets/photos/santa-cruz/santa-cruz-under-the-cap-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/santa-cruz/santa-cruz-under-the-cap-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/santa-cruz/santa-cruz-under-the-cap-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/santa-cruz/santa-cruz-under-the-cap-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Santa Cruz",
+          "location_id": "santa-cruz",
+          "published": true
         }
       ]
     },
@@ -976,6 +1727,546 @@
           "location": "Los Angeles",
           "location_id": "los-angeles",
           "published": true
+        },
+        {
+          "id": "san-diego-late-light-on-the-steps",
+          "title": "Late light on the steps",
+          "alt": "A seated person looks at a phone on concrete steps crossed by a metal handrail in warm late-afternoon light.",
+          "src": "assets/photos/san-diego/san-diego-late-light-on-the-steps-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-late-light-on-the-steps-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-late-light-on-the-steps-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-late-light-on-the-steps-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-late-light-on-the-steps-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-concrete-rhythms",
+          "title": "Concrete rhythms",
+          "alt": "Repeating concrete overhangs and glass windows form a geometric pattern against a clear blue sky.",
+          "src": "assets/photos/san-diego/san-diego-concrete-rhythms-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-concrete-rhythms-2048.webp",
+          "width": 1400,
+          "height": 949,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-concrete-rhythms-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-concrete-rhythms-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-concrete-rhythms-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-framed-by-concrete",
+          "title": "Framed by concrete",
+          "alt": "A small house perched above a distant building is framed beneath a massive concrete overhang and a nearby tree.",
+          "src": "assets/photos/san-diego/san-diego-framed-by-concrete-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-framed-by-concrete-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-framed-by-concrete-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-framed-by-concrete-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-framed-by-concrete-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "san-diego-pink-walls-still-water",
+          "title": "Pink walls, still water",
+          "alt": "A pale pink building, palms, and an arched green doorway are reflected in a calm pond under bright sunlight.",
+          "src": "assets/photos/san-diego/san-diego-pink-walls-still-water-1400.webp",
+          "full": "assets/photos/san-diego/san-diego-pink-walls-still-water-2048.webp",
+          "width": 1400,
+          "height": 885,
+          "variants": [
+            {
+              "src": "assets/photos/san-diego/san-diego-pink-walls-still-water-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-pink-walls-still-water-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/san-diego/san-diego-pink-walls-still-water-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "San Diego",
+          "location_id": "san-diego",
+          "published": true
+        },
+        {
+          "id": "los-angeles-pier-at-dusk",
+          "title": "Pier at dusk",
+          "alt": "A Ferris wheel rises above a busy pier as people gather on the beach and birds cross a pale evening sky.",
+          "src": "assets/photos/los-angeles/los-angeles-pier-at-dusk-1400.webp",
+          "full": "assets/photos/los-angeles/los-angeles-pier-at-dusk-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/los-angeles/los-angeles-pier-at-dusk-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-pier-at-dusk-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-pier-at-dusk-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "wide",
+          "location": "Los Angeles",
+          "location_id": "los-angeles",
+          "published": true
+        },
+        {
+          "id": "los-angeles-tower-14-at-blue-hour",
+          "title": "Tower 14 at blue hour",
+          "alt": "Lifeguard towers recede along a quiet beach beneath layered hills in cool blue evening light.",
+          "src": "assets/photos/los-angeles/los-angeles-tower-14-at-blue-hour-1400.webp",
+          "full": "assets/photos/los-angeles/los-angeles-tower-14-at-blue-hour-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/los-angeles/los-angeles-tower-14-at-blue-hour-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-tower-14-at-blue-hour-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/los-angeles/los-angeles-tower-14-at-blue-hour-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "wide",
+          "location": "Los Angeles",
+          "location_id": "los-angeles",
+          "published": true
+        },
+        {
+          "id": "santa-barbara-palm-shadow",
+          "title": "Palm shadow",
+          "alt": "A large palm shadow falls across a white stucco wall while dark green fronds enter from the upper right.",
+          "src": "assets/photos/santa-barbara/santa-barbara-palm-shadow-1400.webp",
+          "full": "assets/photos/santa-barbara/santa-barbara-palm-shadow-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-palm-shadow-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-palm-shadow-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-palm-shadow-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Santa Barbara",
+          "location_id": "santa-barbara",
+          "published": true
+        },
+        {
+          "id": "santa-barbara-a-golden-opening",
+          "title": "A golden opening",
+          "alt": "An ornate amber-lit arched interior detail is seen through a softly blurred geometric opening.",
+          "src": "assets/photos/santa-barbara/santa-barbara-a-golden-opening-1400.webp",
+          "full": "assets/photos/santa-barbara/santa-barbara-a-golden-opening-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-a-golden-opening-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-a-golden-opening-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-a-golden-opening-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Santa Barbara",
+          "location_id": "santa-barbara",
+          "published": true
+        },
+        {
+          "id": "santa-barbara-light-beside-the-painting",
+          "title": "Light beside the painting",
+          "alt": "A glowing geometric pendant lamp hangs beside a framed painting dominated by deep blue and warm red tones.",
+          "src": "assets/photos/santa-barbara/santa-barbara-light-beside-the-painting-1400.webp",
+          "full": "assets/photos/santa-barbara/santa-barbara-light-beside-the-painting-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-light-beside-the-painting-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-light-beside-the-painting-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-light-beside-the-painting-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Santa Barbara",
+          "location_id": "santa-barbara",
+          "published": true
+        },
+        {
+          "id": "santa-barbara-mission-towers",
+          "title": "Mission towers",
+          "alt": "Two pale stone bell towers with pink domes rise sharply against a clear deep-blue sky.",
+          "src": "assets/photos/santa-barbara/santa-barbara-mission-towers-1400.webp",
+          "full": "assets/photos/santa-barbara/santa-barbara-mission-towers-2048.webp",
+          "width": 840,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-mission-towers-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-mission-towers-1400.webp",
+              "width": 840
+            },
+            {
+              "src": "assets/photos/santa-barbara/santa-barbara-mission-towers-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Santa Barbara",
+          "location_id": "santa-barbara",
+          "published": true
+        },
+        {
+          "id": "grand-teton-chapel-beneath-the-peaks",
+          "title": "Chapel beneath the peaks",
+          "alt": "A small dark log chapel stands below the rocky Teton Range, with a wooden cross rising against the mountains.",
+          "src": "assets/photos/grand-teton/grand-teton-chapel-beneath-the-peaks-1400.webp",
+          "full": "assets/photos/grand-teton/grand-teton-chapel-beneath-the-peaks-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/grand-teton/grand-teton-chapel-beneath-the-peaks-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-chapel-beneath-the-peaks-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-chapel-beneath-the-peaks-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Grand Teton National Park",
+          "location_id": "grand-teton",
+          "published": true
+        },
+        {
+          "id": "grand-teton-passing-by-the-barn",
+          "title": "Passing by the barn",
+          "alt": "A weathered wooden barn sits beneath the Teton Range while a small couple in light clothing walks beside the fence.",
+          "src": "assets/photos/grand-teton/grand-teton-passing-by-the-barn-1400.webp",
+          "full": "assets/photos/grand-teton/grand-teton-passing-by-the-barn-2048.webp",
+          "width": 1400,
+          "height": 970,
+          "variants": [
+            {
+              "src": "assets/photos/grand-teton/grand-teton-passing-by-the-barn-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-passing-by-the-barn-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/grand-teton/grand-teton-passing-by-the-barn-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Grand Teton National Park",
+          "location_id": "grand-teton",
+          "published": true
+        },
+        {
+          "id": "napa-valley-napa-in-autumn",
+          "title": "Napa in autumn",
+          "alt": "The Napa County emblem is mounted on a pale wall and framed by softly blurred yellow and orange autumn leaves.",
+          "src": "assets/photos/napa-valley/napa-valley-napa-in-autumn-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-napa-in-autumn-2048.webp",
+          "width": 885,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-napa-in-autumn-800.webp",
+              "width": 506
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-napa-in-autumn-1400.webp",
+              "width": 885
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-napa-in-autumn-2048.webp",
+              "width": 1295
+            }
+          ],
+          "display": "portrait",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "napa-valley-toward-the-house",
+          "title": "Toward the house",
+          "alt": "A vineyard road leads toward three walkers and a hillside house, framed by rows of yellow and orange vines.",
+          "src": "assets/photos/napa-valley/napa-valley-toward-the-house-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-toward-the-house-2048.webp",
+          "width": 833,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-toward-the-house-800.webp",
+              "width": 476
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-toward-the-house-1400.webp",
+              "width": 833
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-toward-the-house-2048.webp",
+              "width": 1218
+            }
+          ],
+          "display": "portrait",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "napa-valley-sunset-behind-us",
+          "title": "Sunset behind us",
+          "alt": "A car side mirror reflects an empty highway running toward mountains beneath a warm sunset, while the surrounding landscape falls into cool blue light.",
+          "src": "assets/photos/napa-valley/napa-valley-sunset-behind-us-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-sunset-behind-us-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-sunset-behind-us-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-sunset-behind-us-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-sunset-behind-us-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "napa-valley-through-the-old-cab",
+          "title": "Through the old cab",
+          "alt": "Vineyard rows and a distant house are framed through the weathered windows and steering wheel of an old truck.",
+          "src": "assets/photos/napa-valley/napa-valley-through-the-old-cab-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-through-the-old-cab-2048.webp",
+          "width": 1400,
+          "height": 961,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-through-the-old-cab-800.webp",
+              "width": 800
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-through-the-old-cab-1400.webp",
+              "width": 1400
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-through-the-old-cab-2048.webp",
+              "width": 2048
+            }
+          ],
+          "display": "landscape",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "napa-valley-behind-the-branches",
+          "title": "Behind the branches",
+          "alt": "An ornate stone-and-wood building with a tall central window is partly framed by dark twisting tree branches and autumn foliage.",
+          "src": "assets/photos/napa-valley/napa-valley-behind-the-branches-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-behind-the-branches-2048.webp",
+          "width": 809,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-behind-the-branches-800.webp",
+              "width": 462
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-behind-the-branches-1400.webp",
+              "width": 809
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-behind-the-branches-2048.webp",
+              "width": 1183
+            }
+          ],
+          "display": "portrait",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "napa-valley-glass-and-warm-light",
+          "title": "Glass and warm light",
+          "alt": "A decorative stained-glass panel sits above a dark window reflecting warm interior lights, surrounded by pale stone and blurred autumn foliage.",
+          "src": "assets/photos/napa-valley/napa-valley-glass-and-warm-light-1400.webp",
+          "full": "assets/photos/napa-valley/napa-valley-glass-and-warm-light-2048.webp",
+          "width": 781,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/napa-valley/napa-valley-glass-and-warm-light-800.webp",
+              "width": 446
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-glass-and-warm-light-1400.webp",
+              "width": 781
+            },
+            {
+              "src": "assets/photos/napa-valley/napa-valley-glass-and-warm-light-2048.webp",
+              "width": 1142
+            }
+          ],
+          "display": "portrait",
+          "location": "Napa Valley",
+          "location_id": "napa-valley",
+          "published": true
+        },
+        {
+          "id": "monterey-bay-on-deck",
+          "title": "On deck",
+          "alt": "A crew member gestures from the deck of a white boat beneath a clear blue sky.",
+          "src": "assets/photos/monterey-bay/monterey-bay-on-deck-1400.webp",
+          "full": "assets/photos/monterey-bay/monterey-bay-on-deck-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-on-deck-800.webp",
+              "width": 480
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-on-deck-1400.webp",
+              "width": 839
+            },
+            {
+              "src": "assets/photos/monterey-bay/monterey-bay-on-deck-2048.webp",
+              "width": 1228
+            }
+          ],
+          "display": "portrait",
+          "location": "Monterey Bay",
+          "location_id": "monterey-bay",
+          "published": true
+        },
+        {
+          "id": "pulgas-water-temple-temple-and-reflection",
+          "title": "Temple and reflection",
+          "alt": "The classical Pulgas Water Temple stands between tall cypress trees and is reflected in a long turquoise pool.",
+          "src": "assets/photos/pulgas-water-temple/pulgas-water-temple-temple-and-reflection-1400.webp",
+          "full": "assets/photos/pulgas-water-temple/pulgas-water-temple-temple-and-reflection-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/pulgas-water-temple/pulgas-water-temple-temple-and-reflection-800.webp",
+              "width": 533
+            },
+            {
+              "src": "assets/photos/pulgas-water-temple/pulgas-water-temple-temple-and-reflection-1400.webp",
+              "width": 933
+            },
+            {
+              "src": "assets/photos/pulgas-water-temple/pulgas-water-temple-temple-and-reflection-2048.webp",
+              "width": 1365
+            }
+          ],
+          "display": "portrait",
+          "location": "Pulgas Water Temple",
+          "location_id": "pulgas-water-temple",
+          "published": true
         }
       ]
     }
@@ -1037,7 +2328,35 @@
     {
       "id": "los-angeles",
       "name": "Los Angeles"
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego"
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara"
+    },
+    {
+      "id": "bryce-canyon",
+      "name": "Bryce Canyon National Park"
+    },
+    {
+      "id": "napa-valley",
+      "name": "Napa Valley"
+    },
+    {
+      "id": "monterey-bay",
+      "name": "Monterey Bay"
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz"
+    },
+    {
+      "id": "pulgas-water-temple",
+      "name": "Pulgas Water Temple"
     }
   ],
-  "catalog_sha256": "0b41172a2c928e7c46f93aaa0b3648924373bd482b7fd9fe52a787f051040d88"
+  "catalog_sha256": "5569346aaf7c427d54b74cbd5fcdb715efa1e1513997ed7999f9845b10d31321"
 }
