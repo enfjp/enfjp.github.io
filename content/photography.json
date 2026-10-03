@@ -2,6 +2,33 @@
   "title": "Ways of seeing.",
   "intro": "Landscapes, wildlife, and life along the road.",
   "selected": [
+    "page-horseshoe-bend",
+    "page-crossing-wakes",
+    "forest-gump-point-road-to-monument-valley",
+    "white-pocket-soft-stone-at-dusk",
+    "white-pocket-cattle-on-the-white-rock",
+    "white-pocket-beneath-the-white-dome",
+    "white-pocket-red-band",
+    "white-pocket-mirror-pool",
+    "white-pocket-painted-stone",
+    "white-pocket-crossing-white-pocket",
+    "white-pocket-moonrise-over-white-pocket",
+    "grand-canyon-tail-fan",
+    "bishop-aspens-above-the-lake",
+    "north-lake-autumn-beneath-the-sierra",
+    "north-lake-yellow-shore",
+    "hot-creek-geologic-site-creek-through-the-valley",
+    "hot-creek-geologic-site-tongue-out",
+    "hot-creek-geologic-site-twin-pools",
+    "hot-creek-geologic-site-creek-to-the-sierra",
+    "reyes-point-coast-into-fog",
+    "reyes-point-point-reyes-lighthouse",
+    "san-francisco-ship-at-sunset",
+    "san-francisco-ship-in-fog",
+    "san-francisco-cable-car-uphill",
+    "san-francisco-at-the-organ",
+    "san-francisco-cable-car-to-the-bay",
+    "san-francisco-passing-by",
     "honolulu-on-the-lawn",
     "lake-tahoe-pinecone-lunch",
     "honolulu-rainforest-ridges",
@@ -822,6 +849,68 @@
           "location_id": "lake-tahoe",
           "published": true,
           "source_sha256": "2686de7dfb72508e2858d64e5fffe18d3c3cf90170c54d1af09a059b423c5d53"
+        },
+        {
+          "id": "grand-canyon-tail-fan",
+          "title": "Tail fan",
+          "alt": "A blue-gray bird perches on a branch with its tail fanned.",
+          "src": "assets/photos/grand-canyon/grand-canyon-tail-fan-1400.webp",
+          "full": "assets/photos/grand-canyon/grand-canyon-tail-fan-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/grand-canyon/grand-canyon-tail-fan-800.webp",
+              "width": 480,
+              "size_bytes": 79180
+            },
+            {
+              "src": "assets/photos/grand-canyon/grand-canyon-tail-fan-1400.webp",
+              "width": 839,
+              "size_bytes": 206232
+            },
+            {
+              "src": "assets/photos/grand-canyon/grand-canyon-tail-fan-2048.webp",
+              "width": 1228,
+              "size_bytes": 410638
+            }
+          ],
+          "display": "portrait",
+          "location": "Grand Canyon",
+          "location_id": "grand-canyon",
+          "published": true,
+          "source_sha256": "88301b228996c2639ce0c3856730f895d10aeaee2d6f205d956d45c4647811b8"
+        },
+        {
+          "id": "hot-creek-geologic-site-tongue-out",
+          "title": "Tongue out",
+          "alt": "A patterned snake moves across mineral-stained rock with its tongue visible.",
+          "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-tongue-out-1400.webp",
+          "full": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-tongue-out-2048.webp",
+          "width": 1400,
+          "height": 809,
+          "variants": [
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-tongue-out-800.webp",
+              "width": 800,
+              "size_bytes": 128150
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-tongue-out-1400.webp",
+              "width": 1400,
+              "size_bytes": 309210
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-tongue-out-2048.webp",
+              "width": 2048,
+              "size_bytes": 603776
+            }
+          ],
+          "display": "wide",
+          "location": "Hot Creek Geologic site",
+          "location_id": "hot-creek-geologic-site",
+          "published": true,
+          "source_sha256": "dd1baf859dbcc1c467b8361bf8b6474f0c4d460c09689258837e12659e19822c"
         }
       ]
     },
@@ -2263,6 +2352,595 @@
           "location_id": "antelope-canyon",
           "published": true,
           "source_sha256": "b3b40ac1690cf8db899fd6b8c441cb339a9b23a9da15ef1097838021c81b70ab"
+        },
+        {
+          "id": "page-horseshoe-bend",
+          "title": "Horseshoe Bend",
+          "alt": "Horseshoe Bend and the Colorado River.",
+          "src": "assets/photos/page/page-horseshoe-bend-1400.webp",
+          "full": "assets/photos/page/page-horseshoe-bend-2048.webp",
+          "width": 1400,
+          "height": 984,
+          "variants": [
+            {
+              "src": "assets/photos/page/page-horseshoe-bend-800.webp",
+              "width": 800,
+              "size_bytes": 77456
+            },
+            {
+              "src": "assets/photos/page/page-horseshoe-bend-1400.webp",
+              "width": 1400,
+              "size_bytes": 246736
+            },
+            {
+              "src": "assets/photos/page/page-horseshoe-bend-2048.webp",
+              "width": 2048,
+              "size_bytes": 629058
+            }
+          ],
+          "display": "landscape",
+          "location": "Page",
+          "location_id": "page",
+          "published": true,
+          "source_sha256": "f21742cbadf9823d4a0a1251c051051547ea1ba91f57583ef0700149108bdbbb"
+        },
+        {
+          "id": "white-pocket-soft-stone-at-dusk",
+          "title": "Soft stone at dusk",
+          "alt": "White and red sandstone formations at White Pocket in soft late light.",
+          "src": "assets/photos/white-pocket/white-pocket-soft-stone-at-dusk-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-soft-stone-at-dusk-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-soft-stone-at-dusk-800.webp",
+              "width": 800,
+              "size_bytes": 48342
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-soft-stone-at-dusk-1400.webp",
+              "width": 1400,
+              "size_bytes": 150570
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-soft-stone-at-dusk-2048.webp",
+              "width": 2048,
+              "size_bytes": 359724
+            }
+          ],
+          "display": "wide",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "031216f81adf7ca2038c8a835546e5ee421c04a01c2adf0a045fddab416cf0a9"
+        },
+        {
+          "id": "white-pocket-cattle-on-the-white-rock",
+          "title": "Cattle on the white rock",
+          "alt": "A small cattle group stands beneath broad pale sandstone formations at White Pocket.",
+          "src": "assets/photos/white-pocket/white-pocket-cattle-on-the-white-rock-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-cattle-on-the-white-rock-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-cattle-on-the-white-rock-800.webp",
+              "width": 800,
+              "size_bytes": 64836
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-cattle-on-the-white-rock-1400.webp",
+              "width": 1400,
+              "size_bytes": 195088
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-cattle-on-the-white-rock-2048.webp",
+              "width": 2048,
+              "size_bytes": 456940
+            }
+          ],
+          "display": "wide",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "b82c279ca45b6b1c8e70158c44b261fe9d2bc4f72aca24d355ada1cfba6bca72"
+        },
+        {
+          "id": "white-pocket-beneath-the-white-dome",
+          "title": "Beneath the white dome",
+          "alt": "Dark cattle stand beneath a massive pale sandstone dome at White Pocket.",
+          "src": "assets/photos/white-pocket/white-pocket-beneath-the-white-dome-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-beneath-the-white-dome-2048.webp",
+          "width": 1400,
+          "height": 896,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-beneath-the-white-dome-800.webp",
+              "width": 800,
+              "size_bytes": 95146
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-beneath-the-white-dome-1400.webp",
+              "width": 1400,
+              "size_bytes": 281588
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-beneath-the-white-dome-2048.webp",
+              "width": 2048,
+              "size_bytes": 650954
+            }
+          ],
+          "display": "landscape",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "30ccbe8dfab1cc9da6aed7c38e202828b2fec26939d89d4976c79c47a95d6c25"
+        },
+        {
+          "id": "white-pocket-red-band",
+          "title": "Red band",
+          "alt": "A rounded white sandstone formation is cut by a deep orange-red band.",
+          "src": "assets/photos/white-pocket/white-pocket-red-band-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-red-band-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-red-band-800.webp",
+              "width": 800,
+              "size_bytes": 65672
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-red-band-1400.webp",
+              "width": 1400,
+              "size_bytes": 189924
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-red-band-2048.webp",
+              "width": 2048,
+              "size_bytes": 442316
+            }
+          ],
+          "display": "wide",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "b7ad237c928b9d4cea03cb51ac3b0cbe18b73edcd9bf5db38d0edcdb5fe1e2a1"
+        },
+        {
+          "id": "white-pocket-mirror-pool",
+          "title": "Mirror pool",
+          "alt": "A White Pocket sandstone peak is reflected in a small still pool.",
+          "src": "assets/photos/white-pocket/white-pocket-mirror-pool-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-mirror-pool-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-mirror-pool-800.webp",
+              "width": 480,
+              "size_bytes": 75650
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-mirror-pool-1400.webp",
+              "width": 839,
+              "size_bytes": 249144
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-mirror-pool-2048.webp",
+              "width": 1228,
+              "size_bytes": 611188
+            }
+          ],
+          "display": "portrait",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "59ed4fb5d197fad08d910735586ef454758f42849999b91225419a318c6d3ce1"
+        },
+        {
+          "id": "white-pocket-painted-stone",
+          "title": "Painted stone",
+          "alt": "Sweeping orange and cream sandstone striations fill the frame at White Pocket.",
+          "src": "assets/photos/white-pocket/white-pocket-painted-stone-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-painted-stone-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-painted-stone-800.webp",
+              "width": 800,
+              "size_bytes": 85424
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-painted-stone-1400.webp",
+              "width": 1400,
+              "size_bytes": 276826
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-painted-stone-2048.webp",
+              "width": 2048,
+              "size_bytes": 679568
+            }
+          ],
+          "display": "wide",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "6f6481748a0d597846c559222c08039994c8b3bb0f67a9f6214e2af33fe3be11"
+        },
+        {
+          "id": "white-pocket-crossing-white-pocket",
+          "title": "Crossing White Pocket",
+          "alt": "Two hikers cross layered White Pocket sandstone below glowing formations.",
+          "src": "assets/photos/white-pocket/white-pocket-crossing-white-pocket-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-crossing-white-pocket-2048.webp",
+          "width": 1400,
+          "height": 943,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-crossing-white-pocket-800.webp",
+              "width": 800,
+              "size_bytes": 105798
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-crossing-white-pocket-1400.webp",
+              "width": 1400,
+              "size_bytes": 347450
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-crossing-white-pocket-2048.webp",
+              "width": 2048,
+              "size_bytes": 862604
+            }
+          ],
+          "display": "landscape",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "e1909bfe4ecb797f1358940ef529d905c406d1354c41e9bacd35a9025ecb5f5c"
+        },
+        {
+          "id": "white-pocket-moonrise-over-white-pocket",
+          "title": "Moonrise over White Pocket",
+          "alt": "A full moon rises above scrub and layered sandstone under a pink-purple sky.",
+          "src": "assets/photos/white-pocket/white-pocket-moonrise-over-white-pocket-1400.webp",
+          "full": "assets/photos/white-pocket/white-pocket-moonrise-over-white-pocket-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/white-pocket/white-pocket-moonrise-over-white-pocket-800.webp",
+              "width": 800,
+              "size_bytes": 25700
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-moonrise-over-white-pocket-1400.webp",
+              "width": 1400,
+              "size_bytes": 81096
+            },
+            {
+              "src": "assets/photos/white-pocket/white-pocket-moonrise-over-white-pocket-2048.webp",
+              "width": 2047,
+              "size_bytes": 194150
+            }
+          ],
+          "display": "wide",
+          "location": "White Pocket",
+          "location_id": "white-pocket",
+          "published": true,
+          "source_sha256": "9cbd500d1e8042f0f3b8cd1566aeaa64c575f5a36764b70349f853079dcd88ab"
+        },
+        {
+          "id": "bishop-aspens-above-the-lake",
+          "title": "Aspens above the lake",
+          "alt": "A bright yellow aspen band crosses a granite mountainside above a blue lake.",
+          "src": "assets/photos/bishop/bishop-aspens-above-the-lake-1400.webp",
+          "full": "assets/photos/bishop/bishop-aspens-above-the-lake-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/bishop/bishop-aspens-above-the-lake-800.webp",
+              "width": 800,
+              "size_bytes": 148134
+            },
+            {
+              "src": "assets/photos/bishop/bishop-aspens-above-the-lake-1400.webp",
+              "width": 1400,
+              "size_bytes": 469504
+            },
+            {
+              "src": "assets/photos/bishop/bishop-aspens-above-the-lake-2048.webp",
+              "width": 2048,
+              "size_bytes": 1095834
+            }
+          ],
+          "display": "landscape",
+          "location": "Bishop",
+          "location_id": "bishop",
+          "published": true,
+          "source_sha256": "c1cd9903f489d22e9a113a5af95daebb2f08462d021b93f8de318ec744eb3fb5"
+        },
+        {
+          "id": "north-lake-autumn-beneath-the-sierra",
+          "title": "Autumn beneath the Sierra",
+          "alt": "Jagged Sierra peaks rise above a broad valley filled with yellow aspens.",
+          "src": "assets/photos/north-lake/north-lake-autumn-beneath-the-sierra-1400.webp",
+          "full": "assets/photos/north-lake/north-lake-autumn-beneath-the-sierra-2048.webp",
+          "width": 1400,
+          "height": 815,
+          "variants": [
+            {
+              "src": "assets/photos/north-lake/north-lake-autumn-beneath-the-sierra-800.webp",
+              "width": 800,
+              "size_bytes": 120472
+            },
+            {
+              "src": "assets/photos/north-lake/north-lake-autumn-beneath-the-sierra-1400.webp",
+              "width": 1400,
+              "size_bytes": 381206
+            },
+            {
+              "src": "assets/photos/north-lake/north-lake-autumn-beneath-the-sierra-2048.webp",
+              "width": 2047,
+              "size_bytes": 837682
+            }
+          ],
+          "display": "wide",
+          "location": "North Lake",
+          "location_id": "north-lake",
+          "published": true,
+          "source_sha256": "ef4e48ebb768f45b1ddf34818f6c1e30fc44ee54db0dd4dc92cae57826b1ac8c"
+        },
+        {
+          "id": "north-lake-yellow-shore",
+          "title": "Yellow shore",
+          "alt": "A blue lake sits below a mountain slope banded with yellow and orange aspens.",
+          "src": "assets/photos/north-lake/north-lake-yellow-shore-1400.webp",
+          "full": "assets/photos/north-lake/north-lake-yellow-shore-2048.webp",
+          "width": 1400,
+          "height": 851,
+          "variants": [
+            {
+              "src": "assets/photos/north-lake/north-lake-yellow-shore-800.webp",
+              "width": 800,
+              "size_bytes": 106046
+            },
+            {
+              "src": "assets/photos/north-lake/north-lake-yellow-shore-1400.webp",
+              "width": 1400,
+              "size_bytes": 365292
+            },
+            {
+              "src": "assets/photos/north-lake/north-lake-yellow-shore-2048.webp",
+              "width": 2048,
+              "size_bytes": 899574
+            }
+          ],
+          "display": "landscape",
+          "location": "North Lake",
+          "location_id": "north-lake",
+          "published": true,
+          "source_sha256": "5d4568c616c774495bd3734599de034fb412a80fcc552e1a8d1eae60d7ee1537"
+        },
+        {
+          "id": "hot-creek-geologic-site-creek-through-the-valley",
+          "title": "Creek through the valley",
+          "alt": "Hot Creek winds through a rocky high-desert valley in late light.",
+          "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-through-the-valley-1400.webp",
+          "full": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-through-the-valley-2048.webp",
+          "width": 1400,
+          "height": 1083,
+          "variants": [
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-through-the-valley-800.webp",
+              "width": 800,
+              "size_bytes": 146360
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-through-the-valley-1400.webp",
+              "width": 1400,
+              "size_bytes": 461094
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-through-the-valley-2048.webp",
+              "width": 2048,
+              "size_bytes": 1091930
+            }
+          ],
+          "display": "landscape",
+          "location": "Hot Creek Geologic site",
+          "location_id": "hot-creek-geologic-site",
+          "published": true,
+          "source_sha256": "f544d1e5657cb63837b731a93a4fac971fafd817e1bfd916d06653a2d125f0a3"
+        },
+        {
+          "id": "hot-creek-geologic-site-twin-pools",
+          "title": "Twin pools",
+          "alt": "Two blue-green geothermal pools sit beside Hot Creek.",
+          "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-twin-pools-1400.webp",
+          "full": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-twin-pools-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-twin-pools-800.webp",
+              "width": 800,
+              "size_bytes": 97680
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-twin-pools-1400.webp",
+              "width": 1400,
+              "size_bytes": 322976
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-twin-pools-2048.webp",
+              "width": 2048,
+              "size_bytes": 760018
+            }
+          ],
+          "display": "wide",
+          "location": "Hot Creek Geologic site",
+          "location_id": "hot-creek-geologic-site",
+          "published": true,
+          "source_sha256": "da82860657b7b403168c02636d242c7e7b59e3c4e57a916b3fd15188b3565241"
+        },
+        {
+          "id": "hot-creek-geologic-site-creek-to-the-sierra",
+          "title": "Creek to the Sierra",
+          "alt": "Hot Creek winds toward a large Eastern Sierra mountain.",
+          "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-to-the-sierra-1400.webp",
+          "full": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-to-the-sierra-2048.webp",
+          "width": 1400,
+          "height": 1036,
+          "variants": [
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-to-the-sierra-800.webp",
+              "width": 800,
+              "size_bytes": 175852
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-to-the-sierra-1400.webp",
+              "width": 1400,
+              "size_bytes": 562262
+            },
+            {
+              "src": "assets/photos/hot-creek-geologic-site/hot-creek-geologic-site-creek-to-the-sierra-2048.webp",
+              "width": 2048,
+              "size_bytes": 1325318
+            }
+          ],
+          "display": "landscape",
+          "location": "Hot Creek Geologic site",
+          "location_id": "hot-creek-geologic-site",
+          "published": true,
+          "source_sha256": "b896cb4ddd112f95ca21a5b7cb1d95b43c68d3ef696c8994e87819fdaa00d298"
+        },
+        {
+          "id": "reyes-point-coast-into-fog",
+          "title": "Coast into fog",
+          "alt": "A long Pacific coastline fades into dense fog.",
+          "src": "assets/photos/reyes-point/reyes-point-coast-into-fog-1400.webp",
+          "full": "assets/photos/reyes-point/reyes-point-coast-into-fog-2048.webp",
+          "width": 846,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/reyes-point/reyes-point-coast-into-fog-800.webp",
+              "width": 484,
+              "size_bytes": 35640
+            },
+            {
+              "src": "assets/photos/reyes-point/reyes-point-coast-into-fog-1400.webp",
+              "width": 846,
+              "size_bytes": 127666
+            },
+            {
+              "src": "assets/photos/reyes-point/reyes-point-coast-into-fog-2048.webp",
+              "width": 1238,
+              "size_bytes": 361180
+            }
+          ],
+          "display": "portrait",
+          "location": "Reyes Point",
+          "location_id": "reyes-point",
+          "published": true,
+          "source_sha256": "dab9b26464d84efc4dc4fdafdd65d6257ef46b603236c69ba51c23524ddc2fbf"
+        },
+        {
+          "id": "reyes-point-point-reyes-lighthouse",
+          "title": "Point Reyes Lighthouse",
+          "alt": "The Point Reyes lighthouse and access stairs sit on a rocky point above the Pacific.",
+          "src": "assets/photos/reyes-point/reyes-point-point-reyes-lighthouse-1400.webp",
+          "full": "assets/photos/reyes-point/reyes-point-point-reyes-lighthouse-2048.webp",
+          "width": 933,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/reyes-point/reyes-point-point-reyes-lighthouse-800.webp",
+              "width": 533,
+              "size_bytes": 127420
+            },
+            {
+              "src": "assets/photos/reyes-point/reyes-point-point-reyes-lighthouse-1400.webp",
+              "width": 933,
+              "size_bytes": 404566
+            },
+            {
+              "src": "assets/photos/reyes-point/reyes-point-point-reyes-lighthouse-2048.webp",
+              "width": 1365,
+              "size_bytes": 936506
+            }
+          ],
+          "display": "portrait",
+          "location": "Reyes Point",
+          "location_id": "reyes-point",
+          "published": true,
+          "source_sha256": "298f3a00353e2f78267b3e26cb0f047837b4991342570aa7862244f086626cf9"
+        },
+        {
+          "id": "san-francisco-ship-at-sunset",
+          "title": "Ship at sunset",
+          "alt": "A container ship is silhouetted beneath a large orange sunset off San Francisco.",
+          "src": "assets/photos/san-francisco/san-francisco-ship-at-sunset-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-ship-at-sunset-2048.webp",
+          "width": 1400,
+          "height": 600,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-at-sunset-800.webp",
+              "width": 800,
+              "size_bytes": 17228
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-at-sunset-1400.webp",
+              "width": 1400,
+              "size_bytes": 49396
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-at-sunset-2048.webp",
+              "width": 2048,
+              "size_bytes": 108892
+            }
+          ],
+          "display": "wide",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "88265c420c9938f26a9861b29f3cf7dbddcfd21335987a1f3256693275c481f0"
+        },
+        {
+          "id": "san-francisco-ship-in-fog",
+          "title": "Ship in fog",
+          "alt": "A single container ship sits on a distant foggy horizon in black and white.",
+          "src": "assets/photos/san-francisco/san-francisco-ship-in-fog-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-ship-in-fog-2048.webp",
+          "width": 1400,
+          "height": 923,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-in-fog-800.webp",
+              "width": 800,
+              "size_bytes": 22136
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-in-fog-1400.webp",
+              "width": 1400,
+              "size_bytes": 78696
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-ship-in-fog-2048.webp",
+              "width": 2048,
+              "size_bytes": 218002
+            }
+          ],
+          "display": "landscape",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "14fb09c6daedf1956d2339b2476c8ac1a06265bc60c648e85898727d5f33b873"
         }
       ]
     },
@@ -3547,6 +4225,192 @@
           "location_id": "torjan-point",
           "published": true,
           "source_sha256": "fc6316444f819f73999b6e2dbcd723020b283b422def1b6fcf29e48830b7f0c6"
+        },
+        {
+          "id": "page-crossing-wakes",
+          "title": "Crossing wakes",
+          "alt": "Two speedboats carve long white wakes through deep blue water.",
+          "src": "assets/photos/page/page-crossing-wakes-1400.webp",
+          "full": "assets/photos/page/page-crossing-wakes-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/page/page-crossing-wakes-800.webp",
+              "width": 480,
+              "size_bytes": 55692
+            },
+            {
+              "src": "assets/photos/page/page-crossing-wakes-1400.webp",
+              "width": 839,
+              "size_bytes": 192330
+            },
+            {
+              "src": "assets/photos/page/page-crossing-wakes-2048.webp",
+              "width": 1228,
+              "size_bytes": 495118
+            }
+          ],
+          "display": "portrait",
+          "location": "Page",
+          "location_id": "page",
+          "published": true,
+          "source_sha256": "c905bc80c8e1220da2078650a6bd539cfe77bc5ad94c61551f73af61becafc2c"
+        },
+        {
+          "id": "forest-gump-point-road-to-monument-valley",
+          "title": "Road to Monument Valley",
+          "alt": "A Volvo XC90 stands near the road to Monument Valley at sunset.",
+          "src": "assets/photos/forest-gump-point/forest-gump-point-road-to-monument-valley-1400.webp",
+          "full": "assets/photos/forest-gump-point/forest-gump-point-road-to-monument-valley-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/forest-gump-point/forest-gump-point-road-to-monument-valley-800.webp",
+              "width": 800,
+              "size_bytes": 40534
+            },
+            {
+              "src": "assets/photos/forest-gump-point/forest-gump-point-road-to-monument-valley-1400.webp",
+              "width": 1400,
+              "size_bytes": 124432
+            },
+            {
+              "src": "assets/photos/forest-gump-point/forest-gump-point-road-to-monument-valley-2048.webp",
+              "width": 2048,
+              "size_bytes": 296442
+            }
+          ],
+          "display": "landscape",
+          "location": "Forest Gump point",
+          "location_id": "forest-gump-point",
+          "published": true,
+          "source_sha256": "080694e67dc3c6ab428fe27630613df26a1061be113180e1d84b6a8d82809592"
+        },
+        {
+          "id": "san-francisco-cable-car-uphill",
+          "title": "Cable car uphill",
+          "alt": "A cable car climbs a steep San Francisco street on red tracks.",
+          "src": "assets/photos/san-francisco/san-francisco-cable-car-uphill-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-cable-car-uphill-2048.webp",
+          "width": 906,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-uphill-800.webp",
+              "width": 518,
+              "size_bytes": 108194
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-uphill-1400.webp",
+              "width": 906,
+              "size_bytes": 309908
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-uphill-2048.webp",
+              "width": 1325,
+              "size_bytes": 633042
+            }
+          ],
+          "display": "portrait",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "8689b004c7821253aab2104ce1c26bb848326ada1af291221c651f23a1ed59a8"
+        },
+        {
+          "id": "san-francisco-at-the-organ",
+          "title": "At the organ",
+          "alt": "An organist sits at a church organ beneath a reading lamp.",
+          "src": "assets/photos/san-francisco/san-francisco-at-the-organ-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-at-the-organ-2048.webp",
+          "width": 1400,
+          "height": 933,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-at-the-organ-800.webp",
+              "width": 800,
+              "size_bytes": 40696
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-at-the-organ-1400.webp",
+              "width": 1400,
+              "size_bytes": 101030
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-at-the-organ-2048.webp",
+              "width": 2048,
+              "size_bytes": 232266
+            }
+          ],
+          "display": "landscape",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "68f1cca1afb429f58e370de08061f451a25b36b3b452518039941a2648fd86da"
+        },
+        {
+          "id": "san-francisco-cable-car-to-the-bay",
+          "title": "Cable car to the Bay",
+          "alt": "A cable car descends a steep San Francisco street toward the Bay Bridge.",
+          "src": "assets/photos/san-francisco/san-francisco-cable-car-to-the-bay-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-cable-car-to-the-bay-2048.webp",
+          "width": 839,
+          "height": 1400,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-to-the-bay-800.webp",
+              "width": 480,
+              "size_bytes": 120202
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-to-the-bay-1400.webp",
+              "width": 839,
+              "size_bytes": 349646
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-cable-car-to-the-bay-2048.webp",
+              "width": 1228,
+              "size_bytes": 770618
+            }
+          ],
+          "display": "portrait",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "06578ac24eeb30d79e70a254ac20bf23d72226b40c5f4820e29d7dcd7a4f6c39"
+        },
+        {
+          "id": "san-francisco-passing-by",
+          "title": "Passing by",
+          "alt": "A seated man with bags watches as a woman passes through the frame in black and white.",
+          "src": "assets/photos/san-francisco/san-francisco-passing-by-1400.webp",
+          "full": "assets/photos/san-francisco/san-francisco-passing-by-2048.webp",
+          "width": 1400,
+          "height": 975,
+          "variants": [
+            {
+              "src": "assets/photos/san-francisco/san-francisco-passing-by-800.webp",
+              "width": 800,
+              "size_bytes": 66794
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-passing-by-1400.webp",
+              "width": 1400,
+              "size_bytes": 284552
+            },
+            {
+              "src": "assets/photos/san-francisco/san-francisco-passing-by-2048.webp",
+              "width": 2048,
+              "size_bytes": 812460
+            }
+          ],
+          "display": "landscape",
+          "location": "San Francisco",
+          "location_id": "san-francisco",
+          "published": true,
+          "source_sha256": "c0783a02fbbf79b39261421aa8054b3a3dfb88cf2c3d5919085ed725c8d68018"
         }
       ]
     }
@@ -3672,6 +4536,42 @@
     {
       "id": "antelope-canyon",
       "name": "Antelope Canyon"
+    },
+    {
+      "id": "page",
+      "name": "Page"
+    },
+    {
+      "id": "forest-gump-point",
+      "name": "Forest Gump point"
+    },
+    {
+      "id": "white-pocket",
+      "name": "White Pocket"
+    },
+    {
+      "id": "grand-canyon",
+      "name": "Grand Canyon"
+    },
+    {
+      "id": "bishop",
+      "name": "Bishop"
+    },
+    {
+      "id": "north-lake",
+      "name": "North Lake"
+    },
+    {
+      "id": "hot-creek-geologic-site",
+      "name": "Hot Creek Geologic site"
+    },
+    {
+      "id": "reyes-point",
+      "name": "Reyes Point"
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco"
     }
   ]
 }
