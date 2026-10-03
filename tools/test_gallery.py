@@ -103,6 +103,13 @@ class ModelTests(unittest.TestCase):
                 if u.fragment and dest.suffix=='.html':self.assertIn(unquote(u.fragment),Document(dest.read_text()).ids,f'{page}: missing {ref}')
                 count+=1
         print(f'Checked {count} local links and image references.')
+    def test_gallery_has_infinite_scroll_progressive_enhancement(self):
+        js=(g.ROOT/'assets/gallery.js').read_text()
+        self.assertIn('IntersectionObserver',js)
+        self.assertIn('a[rel="next"]',js)
+        self.assertIn('fetch(nextUrl',js)
+        self.assertIn('grid.appendChild(figure)',js)
+        self.assertIn('End of gallery.',js)
     def test_admin_secret_hygiene(self):
         js=(g.ROOT/'admin/admin.js').read_text();html=(g.ROOT/'admin/index.html').read_text()
         for disallowed in ('localStorage','sessionStorage','document.cookie','console.log'):
